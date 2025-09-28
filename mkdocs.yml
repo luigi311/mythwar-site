@@ -1,0 +1,28 @@
+site_name: Mythwar
+site_url: https://mythwar.luigi311.com
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: teal
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.integrate
+    - content.tabs.link
+extra_css:
+  - styles/pets.css
+markdown_extensions:
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - tables
+  - md_in_html
+plugins:
+  - macros
+  - search

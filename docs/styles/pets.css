@@ -1,0 +1,27 @@
+/* Target the table inside your <div class="pet-wrap" markdown> */
+.md-typeset .pet-wrap .md-typeset__table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;                 /* required for sticky cells */
+  font-size: .70rem;
+  line-height: 1.25;
+}
+
+/* Zebra + hover row */
+.md-typeset .pet-wrap .md-typeset__table tbody tr:nth-child(odd) {
+  background: color-mix(in oklab, var(--md-default-bg-color) 94%, black);
+}
+.md-typeset .pet-wrap .md-typeset__table tbody tr:hover {
+  background: color-mix(in oklab, var(--md-default-bg-color) 90%, black);
+}
+
+/* Make number columns line up nicely (GR column is #3) */
+.md-typeset .pet-wrap .md-typeset__table td:nth-child(3),
+.md-typeset .pet-wrap .md-typeset__table th:nth-child(3) {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Stars (if you wrap/auto-wrap them) */
+.md-typeset .stars { white-space: nowrap; }
+.md-typeset .stars .full  { color:#f5b301; }  /* ★ */
+.md-typeset .stars .empty { color:#c7c7c7; }  /* ☆ */
