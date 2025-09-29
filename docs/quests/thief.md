@@ -1,36 +1,46 @@
 # Thief
 
-> *Definition (from page):* a criminal who takes property belonging to someone else with the intention of keeping it or selling it.  
-> In Mythwar, thieves target the **Bar**—help the **Bar Waitress** deal with them.
-
-- **Activate from:** **Bar Waitress** at the **Bar**.
-- **Rewards (each round):** **Redeem Points** + **1%** chance to get a **Ghost Warrior Egg**.
-
----
-
-## Rewards (table)
-
-| Round | Encounter            | Redeem Points |
-|-----: |----------------------|--------------:|
-| 1     | **The Thief**       | **10**         | 
-| 2     | **The Thief Boss**  | **20**         | 
-| 3     | **Thief Boss’s Wife**| **40**         | 
-
+## Summary
+- **Task & Type:** NPC defense quest — battle thieves in the bar
+- **Description:** Help the **Bar Waitress** deal with waves of thieves
+- **Location:** Bar • Woodlingor
+- **Activate from:** **Bar Waitress**
+- **Difficulty:** Easy
+- **Recommended party:** Solo or small party
 
 ---
 
-## Walkthrough
+## Steps
+1. Talk to **Bar Waitress** at the Bar.  
+2. Fight the thieve
+3. Fight the thief boss
+4. Fight the thief boss’s wife
+5. Return to **Bar Waitress** for rewards. 
 
-### Round 1 — The Thief
-- Bar Waitress requests help → **Fight** the **Thief**.  
-- **Win:** +**10** Redeem Points; chance for **Ghost Warrior Egg**.
+---
 
-### Round 2 — The Thief Boss
-- After the thief begs, he **blames his boss** → **Fight** the **Boss**.  
-- **Win:** +**20** Redeem Points; chance for **Ghost Warrior Egg**. 
+## Rewards
+- Redeem Points
+- **1% chance per round** to obtain a **Ghost Warrior Egg**  
 
-### Round 3 — Thief Boss’s Wife
-- Forced to **spare** the boss; now **seek out his wife** → **Fight**.  
-- **Win:** +**40** Redeem Points; chance for **Ghost Warrior Egg**.
+| Round | Encounter           | Redeem Points |
+|------:|---------------------|--------------:|
+| 1     | The Thief           | 10 |
+| 2     | The Thief Boss      | 20 |
+| 3     | Thief Boss’s Wife   | 40 |
+
+---
+
+## Battles
+
+### 1) The Thief — Woodlingor
+
+---
+
+### 2) The Thief Boss — Woodlingor
+
+---
+
+### 3) Thief Boss’s Wife — Woodlingor
 
 ---

@@ -1,5 +1,15 @@
 # Guild
 
+## Summary
+- **Task & Type:** Multi-part questline for guild advancement
+- **Description:** A series of activities ranging from monster fights to NPC games and HQ cleanup
+- **Locations:** Demon Square • Blython • Outcast City • Woodlingor • Desert City
+- **Activate from:** **Devilman** — Demon Square (**364,253**)
+- **Difficulty:** Variable
+- **Recommended party:** Standard 4–5 (for combat parts)
+
+---
+
 ## Steps
 
 1. **Defeat Devilman** — **Demon Square (364,253)**  
@@ -41,23 +51,18 @@
 ---
 
 ## Rewards
-
-- Each quest accomplished gives **1–2 Guild EXP** and **reputation**. Guild EXP is required to level up your guild.  
-- **Player & pet EXP** (higher player level → more EXP; each round increases the EXP).  
-- **Reputation points**: **1–2** per completed round.  
-- After **all rounds**, you have a **chance** to start **Mystery Quest**. 
+- **Guild EXP & Reputation:** +1–2 each round  
+- **Player & pet EXP:** scaled by level  
+- **Reputation points:** +1–2 per round  
+- **Mystery Quest chance** after completing all rounds  
 
 ---
 
 ## Guild Level Requirements
-
-| Guild Level | Member Limit | Required Guild EXP |
-|-----------:|-------------:|-------------------:|
-| 1 | 50  | 0k   |
-| 2 | 100 | 20k  |
-| 3 | 150 | 40k  |
-| 4 | 200 | 80k  |
+| Guild Level | Member Limit | Required EXP |
+|-----------: |------------: |-------------:|
+| 1 | 50  | 0 |
+| 2 | 100 | 20k |
+| 3 | 150 | 40k |
+| 4 | 200 | 80k |
 | 5 | 250 | 160k |
-
----
-

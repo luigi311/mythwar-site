@@ -1,52 +1,75 @@
 # Drow Lord
 
-Finally reaching **lvl 91**, and looking around Mythwar you realise there are only a few options left which still give considerable experience. And the best option among them is fighting **Drow Lord**. In short, Drow Lord works similarly to the Drowcrusher quest—but there’s a twist: the monsters are **much harder** and **highly resistant to skills**. Also, **there is no limit** to how many you can fight per day. 
+## Summary
+- **Task & Type:** Advanced skill/EXP quest
+- **Description:** Stronger version of the Drowcrusher fight with much harder monsters. No daily limit.
+- **Locations:** Demon Square (Armory, Drow Lord)
+- **Activate from:** **Drow Lord** — Demon Square (after acquiring item)
+- **Difficulty:** Hard
+- **Recommended party:** Full strong party (4–5)
+
+---
+
+## Steps
+1. Buy the **+5 race/class quest item** at **Demon Square — Armory (227,432)**.  
+2. Give the item to **Drow Lord** to begin the battle.  
+3. Defeat the enemies for EXP, gems, and skill points.  
+
+### Required Race Items
+| Race / Class    | Quest Item                  |
+|-----------------|-----------------------------|
+| Male Human      | +5 Male Human Weapon        |
+| Female Human    | +5 Female Human Weapon      |
+| Male Centaur    | +5 Male Centaur Weapon      |
+| Female Centaur  | +5 Female Centaur Weapon    |
+| Male Mage       | +5 Male Mage Weapon         |
+| Female Mage     | +5 Female Mage Weapon       |
+| Male Borg       | +5 Male Borg Weapon         |
+| Female Borg     | +5 Female Borg Weapon       |
 
 ---
 
 ## Rewards
+### Player Level 90–109
+- ~400,000 EXP  
+- Chance: G9 Random Gem  
+- Pet EXP: 400,000 (if pet lvl 90–110)
 
-### Player level **90–109**
-- **~400,000+ EXP** and a chance to get a **G9 Random Gem**.  
-- **Pet:** **400,000 EXP** if the pet is **lvl 90–110**. 
-
-### Player level **110+**
-- **+30 Skill Points** to your **lowest skill** and **~50,000 EXP**.  
-- **Pet:**  
-  - **300,000 EXP** if the pet is **lvl 90–110** (when **leader lvl > 110**).  
-  - **400,000 EXP** if the pet is **lvl 90–110** (when **leader lvl 90–109**). 
-
----
-
-## Required race items
-
-Buy the **+5 quest item** for your race/class at **Demon Square — Armory (227,432)**, then **start the battle by giving the item to Drow Lord**. 
-
-| Race / Class    | Quest Item                  |
-|-----------------|-----------------------------|
-| Male Human      | +5 Male Human **Weapon**       |
-| Female Human    | +5 Female Human **Weapon**     |
-| Male Centaur    | +5 Male Centaur **Weapon**     |
-| Female Centaur  | +5 Female Centaur **Weapon**   |
-| Male Mage       | +5 Male Mage **Weapon**        |
-| Female Mage     | +5 Female Mage **Weapon**      |
-| Male Borg       | +5 Male Borg **Weapon**        |
-| Female Borg     | +5 Female Borg **Weapon**      |
+### Player Level 110+
+- ~50,000 EXP  
+- +30 Skill Points (lowest skill)  
+- Pet EXP:  
+    - 400,000 (pet lvl 90–110, leader 90–109)  
+    - 300,000 (pet lvl 90–110, leader > 110)  
 
 
 ---
 
-## Enemies
+## Battles
 
-| Monster         | HP        |
-|-----------------|-----------|
-| Father Drow     | 3,008,448 |
-| Winter Chill    | 508,448   |
-| Black Dragon    | 3,008,448 |
-| Wild Lizard     | 508,448   |
-| Jungle Lizard   | 508,448   |
-| Swamp Lizard    | 3,008,448 |
+### 1) Drow Lord Encounter — Demon Square (**—**)
+![][img-drow-lord]
 
+- **Father Drow**
+    - Estimated HP: **3,008,448**
+    - Spells used: **—**
+    - Strong against: **Skills (general resist)**
+    - Weak against: **—**
 
----
+- **Black Dragon**
+    - Estimated HP: **3,008,448**
+    - Spells used: **—**
+    - Strong against: **Skills (general resist)**
+    - Weak against: **—**
 
+- **Swamp Lizard**
+    - Estimated HP: **3,008,448**
+    - Spells used: **—**
+    - Strong against: **Skills (general resist)**
+    - Weak against: **—**
+
+- **Winter Chill / Wild Lizard / Jungle Lizard**
+    - Estimated HP: **508,448** (each)
+    - Spells used: **—**
+    - Strong against: **Skills (general resist)**
+    - Weak against: **—**

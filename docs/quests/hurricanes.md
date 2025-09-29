@@ -1,39 +1,62 @@
 # Hurricanes
 
-Periodic, timed **fighting quests** announced by system message. Unlike regular mobs, hurricane enemies are **human-type** and can be **revived by heals** during battle. **Rewards:** random **gems**, rare **AODs**, and **EXP**. 
+## Summary
+- **Task & Type:** Timed world event — progressive battle quest
+- **Description:** System-announced hurricanes spawn in fixed order. Human-type mobs revive with heals, chaos is less effective. Rewards include gems, EXP, AODs, and titles.
+- **Activate from:** System message / spawn
+- **Difficulty:** Scaling (H1–H4 easy, H5+ very hard)
+- **Recommended party:** Strong full party
 
 ---
 
-## Locations & Rewards
+## Steps
+1. Wait for **system announcement** of a hurricane spawn.  
+2. Clear hurricanes **in order** (H1 → H2 → H3 …).  
+3. Once you’ve reached a level (e.g. H10), you can replay any up to that point without redoing earlier ones.  
+4. Manage healer-type mobs early — they can revive fallen allies with **Heal IV (~266k per target)**.  
+5. Titles are awarded only to the **party leader** at H5, H10, and H14.  
 
-| # | Location       | Gem Grade | Special title          | AOD chance |
-| -:|----------------|:---------:|------------------------|:----------:|
-| 1 | Tree of Life 2 | **G2**    | —                      | x          |
-| 2 | Blython        | **G3**    | —                      | x          |
-| 3 | Flamingor      | **G4**    | —                      | x          |
-| 4 | Sunset Plains  | **G5**    | —                      | x          |
-| 5 | Devil’s Gate   | **G6**    | **Windfury Warrior**   | ✓          |
-| 6 | Outcast City   | **G7**    | —                      | ✓          |
-| 7 | Badlands       | **G8**    | —                      | ✓          |
-| 8 | Cursed Abyss   | **G9**    | —                      | ✓          |
-| 9 | Bone Desert    | **G10**   | —                      | ✓          |
-| 10| Flame Ruins    | **G11**   | **Windslayer Warrior** | ✓          |
-| 11| Ashes Pit 3    | **G11**   | —                      | ✓          |
-| 12| Demon Lair 4   | **G11**   | —                      | ✓          |
-| 13| Evil Lair 4    | **G11**   | —                      | ✓          |
-| 14| Burial 3       | **G11**   | **Lord of the Winds**  | ✓          |
+### Locations
+| # | Location       |
+|--:|----------------|
+| 1 | Tree of Life 2 |
+| 2 | Blython        |
+| 3 | Flamingor      |
+| 4 | Sunset Plains  |
+| 5 | Devil’s Gate   |
+| 6 | Outcast City   |
+| 7 | Badlands       |
+| 8 | Cursed Abyss   |
+| 9 | Bone Desert    |
+| 10| Flame Ruins    |
+| 11| Ashes Pit 3    |
+| 12| Demon Lair 4   |
+| 13| Evil Lair 4    |
+| 14| Burial 3       |
 
+---
 
-> Tip (common pattern from the guide): **H1–H4** are relatively weak for a decent party; from **H5+** expect 10 mobs per fight, heavy drainers, **Heal IV** (~266k per target), and human mobs that are very resistant to **Chaos**. 
+## Rewards
+| # | Gem Grade | Title                | AOD chance |
+|--:|:---------:|----------------------|:----------:|
+| 1 | G2        | —                    | ✗ |
+| 2 | G3        | —                    | ✗ |
+| 3 | G4        | —                    | ✗ |
+| 4 | G5        | —                    | ✗ |
+| 5 | G6        | Windfury Warrior     | ✓ |
+| 6 | G7        | —                    | ✓ |
+| 7 | G8        | —                    | ✓ |
+| 8 | G9        | —                    | ✓ |
+| 9 | G10       | —                    | ✓ |
+| 10| G11       | Windslayer Warrior   | ✓ |
+| 11| G11       | —                    | ✓ |
+| 12| G11       | —                    | ✓ |
+| 13| G11       | —                    | ✓ |
+| 14| G11       | Lord of the Winds    | ✓ |
 
 ---
 
-## How spawning and progression work
-
-1. **Timed spawns:** Each hurricane has a fixed spawn window. If one is defeated in that window, it **despawns** until the **next** cycle (similar to Spirits). 
-2. **Order:** You must clear **H1 → H2 → …** in order. If you’ve previously beaten **H10**, you can repeat **any** from **H1–H10** without redoing earlier ones. 
-3. **Human-type mobs:** When a mob “dies,” it leaves a tomb; **healers can revive** them with **Heal**, so manage healers first. 
-4. **Titles:** Only the **party leader** gets the titles for **H5**, **H10**, and **H14** (no gem for the leader on those title clears). 
-5. **Drops:** Gems drop **randomly to individuals** (not to the whole party), unlike Spirit eggs. 
-
----
+## Notes
+- **H1–H4:** manageable for decent parties.  
+- **H5+:** 10 mobs per fight, heavy drainers, human mobs, chaos-resist, strong healers.  
+- **Loot:** Gems drop to **random individuals** (not entire party).  

@@ -1,29 +1,43 @@
 # Spirits
 
-> ~ guide by Gholayat (Achernar)
+> Guide by Gholayat (Achernar)
 
-**Start:** At any **Spirit** in **Evil Lair** or **Demon Lair**.  
-**Level:** Advised per spirit (notes below are **solo** recommendations).  
-**Description:** To give your **pet resistance**, farm **crystals** from **Spirits**; **pet eggs** can also drop. These are **chance** drops, not guaranteed. **Spirits spawn every hour.** 
 
-> **Pet Shops:** Blue markers indicate **Pet Shops** in **Evil Lair** and **Demon Lair**. 
+## Summary
+- **Task & Type:** Farming quest — pet resistance and crystal farming
+- **Description:** Defeat **Spirits** in Evil Lair and Demon Lair. Drops include resistance crystals and rare pet eggs. Spawns occur hourly.
+- **Locations:** Evil Lair 1–4 • Demon Lair 1–4
+- **Activate from:** Any Spirit
+- **Difficulty:** Scaling by lair
+- **Recommended party:** Solo viable at lower lairs, party recommended later
 
 ---
 
-## Lair overview (advised level, skills, HP)
+## Steps
+1. Go to **Evil Lair** or **Demon Lair** and find a **Spirit**.  
+2. Defeat the spirit to receive a **chance** at crystals (pet resistance) or pet eggs.  
+3. Respawns occur **every hour**.  
+4. Eggs and crystals are **random drops**, not guaranteed.  
 
-|       Lair | Advised lvl (solo)                            | Skills / Notes                                                                                                                                             |                  HP |
-| ---------: | :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------: |
-| **Lair 1** | **20**                                        | Use lots of **Combo**; weak **Fire** skill; **huge −physical resist**.                                                                                     |         **218,782** |
-| **Lair 2** | **30**                                        | Rare **melee**; **Fire** ~**500–1400**; can cast **Chaos**; ~**50% melee resist**; use **mage skills/crit**.                                               |          **50,255** |
-| **Lair 3** | **50**                                        | **Hypno**, **Ice** (~**3k**), **melee** (~**800–3k**); no notable resists.                                                                                 |         **210,983** |
-| **Lair 4** | **30** *(need **90+** with Tears to walk in)* | Two spirit types: **Felsworn-like** (≈**40,255 HP**, **melee ~4k**, **Ice IV**) and **Ogrewalker-like** (≈**50,255 HP**, **melee ~4k**, **Multishot II**). | **40,255 / 50,255** |
+---
 
+## Rewards
+- **Resistance Crystals** for pets  
+- **Pet eggs** (rare chance)  
+
+---
+
+## Lair overview (solo advice)
+| Lair | Advised Lvl | Skills / Notes |      HP |
+|----:|:------------:|----------------|--------:|
+| 1 | 20 | Lots of **Combo** • weak **Fire** • **−physical resist** huge | 218,782 |
+| 2 | 30 | Rare melee • **Fire 500–1400** • casts **Chaos** • ~**50% melee resist** • use mage/crit | 50,255 |
+| 3 | 50 | **Hypno**, **Ice ~3k**, **melee 800–3k** | 210,983 |
+| 4 | 30 *(need 90+ with Tears to enter)* | Two types: **Felsworn-like** (**~40,255 HP**, **melee ~4k**, **Ice IV**) & **Ogrewalker-like** (**~50,255 HP**, **melee ~4k**, **Multishot II**) | 40,255 / 50,255 |
 
 ---
 
 ## Spirits per map
-
 
 ### Evil Lair 1  
 - Flyer  

@@ -1,90 +1,87 @@
 # Bounty
 
-> ~ adopted from luv2kill (Achernar) soulstone guide
-
 ## Summary
-
-- **Task & Type**: Defeat Monster to gain Experience  
-- **Description**: Defeat Monster from Tree of Life to Sunset Plain. There is a total of 5 Battle  
-- **Locations**: Tree of Life 3, Flamingor, Devil's Gate, Evil Lair 2, Sunset Plain
-- **Activate from**: **Bloodreaper** — Tree of Life 3 (**155,190**)  
-- **NPC's**: Blodreaper, Firetroy, Bonepoker, Eyebasher, Fistscarer  
-- **Diffculty**: Medium  
-- **Recommeded Party**: 3 Mage, 2 Borg  
-
-> This quest is meant for level 60–80. It serve as a alternative to player who do not wish to do Blyton Defender to level themselve. Also Bounty has a interesting feature that is it record how fast a group of player can finish off 1 set of Bounty. By defeating the record, it will register your party member and announce in system.
+- **Task & Type:** Battle Quest — defeat monsters across 5 battles
+- **Description:** Defeat a chain of monsters from Tree of Life to Sunset Plain. Quest records party completion times and announces record breakers.
+- **Locations:** Tree of Life 3 • Flamingor • Devil's Gate • Evil Lair 2 • Sunset Plain
+- **Activate from:** **Bloodreaper** — Tree of Life 3 (**155,190**)
+- **NPCs:** Bloodreaper, Firetroy, Bonepoker, Eyebasher, Fist Scarer
+- **Intended levels:** 60–80
+- **Difficulty:** Medium
+- **Recommended party:** 3 Mage, 2 Borg
 
 ---
 
 ## Rewards
-
-| Battle | Target      |     EXP | Skill Points (if lvl > 80) |
-| -----: | ----------- | ------: | -------------------------: |
-|      1 | Bloodreaper |  20,000 |                          2 |
-|      2 | Firetroy    |  40,000 |                          4 |
-|      3 | Bonepoker   |  50,000 |                          5 |
-|      4 | Eyebasher   |  70,000 |                          7 |
-|      5 | Fist Scarer | 120,000 |                         12 |
+| Battle | Target        | EXP     | Skill Points (lvl > 80) |
+|------: |-------------- |-------: |-----------------------:|
+| 1      | Bloodreaper   | 20,000  | 2 |
+| 2      | Firetroy      | 40,000  | 4 |
+| 3      | Bonepoker     | 50,000  | 5 |
+| 4      | Eyebasher     | 70,000  | 7 |
+| 5      | Fist Scarer   | 120,000 | 12 |
 
 ---
 
 ## Battles
 
-### 1) Bloodreaper — Tree of Life 3 (**155,190**) 
+### 1) Bloodreaper — Tree of Life 3 (**155,190**)
 ![][img-bloodreaper]
 
 - **Poison Teethor**
     - Estimated HP: **2k**
     - Spells used: **Ice I**
     - Strong against: **Melee**
-    - Weak against: **None**
+    - Weak against: **—**
+
 - **Greater Wolf**
     - Estimated HP: **3k**
-    - Spells used: **None**
-    - Strong against: **None**
-    - Weak against: **None**
+    - Spells used: **—**
+    - Strong against: **—**
+    - Weak against: **—**
 
 ---
 
-### 2) Firetroy — Flamingor (**75,360**)
+### 2) Firetroy (Fire Demon) — Flamingor (**75,360**)
 ![][img-firetroy]
 
 - **Spirit Wolf**
     - Estimated HP: **5k**
-    - Spells used: **None**
-    - Strong against: **None**
-    - Weak against: **None**
+    - Spells used: **—**
+    - Strong against: **—**
+    - Weak against: **—**
+
 - **Fallen Spirit**
     - Estimated HP: **15k**
     - Spells used: **Fire I, Hypno I**
     - Strong against: **Flash, Fire, Drain**
-    - Weak against: **None**
+    - Weak against: **—**
 
 ---
 
-### 3) Bonepoker — Devil's Gate (**46,222**)
+### 3) Bonepoker (Scarecrow) — Devil's Gate (**46,222**)
 ![][img-bonepoker]
 
 - **Bonepoker**
     - Estimated HP: **36k**
     - Spells used: **Hypno IV, Stun IV**
-    - Strong against: **None**
-    - Weak against: **None**
+    - Strong against: **—**
+    - Weak against: **—**
 
 ---
 
-### 4) Eyebasher — Evil Lair 2 (**64,110**)
+### 4) Eyebasher (Eye Kicker) — Evil Lair 2 (**64,110**)
 ![][img-eyebasher]
 
 - **Eyebasher**
     - Estimated HP: **290k**
     - Spells used: **Fire III**
-    - Strong against: **None**
-    - Weak against: **None**
+    - Strong against: **—**
+    - Weak against: **—**
 
 ---
 
-### 5) Fist Scarer — Sunset Plains (**99,195**)
+### 5) Fist Scarer (Chaotic Devil) — Sunset Plains (**99,195**)
 ![][img-fist-scarer]
 
 - **Fist Scarer**

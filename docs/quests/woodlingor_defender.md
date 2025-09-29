@@ -1,34 +1,27 @@
 # Woodlingor Defender
 
-> ~ thanks to Gholayat (Achernar)
-
-- **Required Level:** **50**
-- **Activate from:** **Defender** — *Outside Woodlingor Elders Zone*
-- **Quest Reward:** **Exp (lvl 50–60)**, **skill exp (lvl 60+)**, **exist scroll**
-
-**Description.** When you talk to **Defender**, he asks you to help defend Woodlingor by killing evil demons disguised as merchants. The quest consists of **10 rounds**, each with an increased reward. 
-
----
-
-## Opponents
-
-| Monster     | Uses                 | HP       |
-|-------------|----------------------|---------:|
-| **Bebilith** | **Frailty**           | **17,200** |
-| **Otyugh**   | **Ice**                | **57,587** |
-| **Cave Gost** | **Heal** and **Fire** | **27,931** |
-| **Yuan-ti**  | **Good Physical**      | **10,697** |
-
-**Monster info (notes on page).**  
-- **Otyugh** and **Yuan-ti** are nearly **Chaos immune**, so **Hypno** is preferred.  
-- **Yuan-ti** are extremely **fast**.
+## Summary
+- **Task & Type:** Defense quest — 10 battle rounds
+- **Description:** Defender asks you to defeat disguised demons threatening Woodlingor
+- **Location:** Outside Woodlingor Elders Zone
+- **Activate from:** **Defender**
+- **Required level:** 50+
+- **Difficulty:** Medium
+- **Recommended party:** 4–5 (Mokka max recommended)
 
 ---
 
-## Rewards by round
+## Steps
+1. Talk to **Defender** outside the Elders Zone.  
+2. Begin a chain of **10 rounds** of combat.  
+3. Each round grants increasing EXP.  
+4. After completing all 10 rounds, **1 random party member** receives an **Exist Scroll**.  
 
+---
+
+## Rewards
 | Round | EXP     |
-| ----: | -------:|
+|------:|--------:|
 | 1     | 100,000 |
 | 2     | 120,000 |
 | 3     | 140,000 |
@@ -40,8 +33,30 @@
 | 9     | 260,000 |
 | 10    | 280,000 |
 
-> **After a whole set (after round 10):** *“1 person in the party gets an exist scroll witch will give double reward.”*   
+- **After full set:** 1 player in party gets an **Exist Scroll** (double reward).  
 
-> **Tip:** *“Use more chars for more change of winning that scroll. Be atleast mokka max, and your party too! Do read carefully what shops are mentiont.”*  
+---
+
+## Battles
+
+### Woodlingor Defender Rounds
+
+- **Bebilith**
+    - Estimated HP: **17,200**
+    - Spells used: **Frailty**
+
+- **Otyugh**
+    - Estimated HP: **57,587**
+    - Spells used: **Ice**
+    - Notes: Nearly **Chaos immune** — prefer **Hypno**
+
+- **Cave Gost**
+    - Estimated HP: **27,931**
+    - Spells used: **Heal, Fire**
+
+- **Yuan-ti**
+    - Estimated HP: **10,697**
+    - Spells used: **Physical**
+    - Notes: Extremely fast; Nearly **Chaos immune** — prefer **Hypno** 
 
 ---
