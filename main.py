@@ -115,7 +115,7 @@ def define_env(env):
         return "<br>".join(f"**{s}**" for s in (skills or []))
 
     def render_kv_block(d):
-        return "<br>".join(f"{k} {v}" for k, v in (d or {}).items())
+        return "<br>".join(f"{k} **{v}**" for k, v in (d or {}).items())
 
     def stat_block(stats):
         out = []

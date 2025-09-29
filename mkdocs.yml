@@ -16,11 +16,6 @@ extra_css:
 markdown_extensions:
   - attr_list
   - def_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.superfences
-  - pymdownx.emoji
   - tables
   - md_in_html
 plugins:
