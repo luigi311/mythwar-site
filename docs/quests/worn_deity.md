@@ -42,7 +42,6 @@
 ## Battles
 
 ### 1) Prince Zenith (Mage) — Desert City (**—**)
-![][img-prince-zenith]
 
 - **Prince Zenith (Mage)**
     - Estimated HP: **—**
@@ -58,7 +57,6 @@
 ---
 
 ### 2) Borg Giant (Borg) — Outcast City (**—**)
-![][img-borg-giant]
 
 - **Borg Giant (Borg)**
     - Estimated HP: **—**
@@ -83,7 +81,6 @@
 ---
 
 ### 3) Dark Knight (Human) — Outcast City (**—**)
-![][img-dark-knight]
 
 - **Dark Knight (Male Human)**
     - Estimated HP: **—**
@@ -113,7 +110,6 @@
 ---
 
 ### 4) Worn General (Centaur) — Outcast City (**—**)
-![][img-worn-general]
 
 - **Worn General (Male Centaur)**
     - Estimated HP: **—**
@@ -137,7 +133,6 @@
 ---
 
 ### 5) Princess Agony (Human) — Outcast City (**—**)
-![][img-princess-agony]
 
 - **Princess Agony (Female Human)**
     - Estimated HP: **—**
@@ -172,9 +167,4 @@
 
 ---
 
-[img-prince-zenith]: ../assets/monsters/mage.gif
-[img-borg-giant]: ../assets/monsters/borg.gif
-[img-dark-knight]: ../assets/monsters/human.gif
-[img-worn-general]: ../assets/monsters/centaur.gif
-[img-princess-agony]: ../assets/monsters/human_female.gif
 
