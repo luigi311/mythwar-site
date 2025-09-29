@@ -13,7 +13,7 @@
 ---
 
 ## Rewards
-| Battle | Target        | EXP     | Skill Points (lvl > 80) |
+| Battle | Target        | EXP     | Skill Exp (lvl > 80) |
 |------: |-------------- |-------: |-----------------------:|
 | 1      | Bloodreaper   | 20,000  | 2 |
 | 2      | Firetroy      | 40,000  | 4 |

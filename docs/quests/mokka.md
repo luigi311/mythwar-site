@@ -14,15 +14,15 @@
 ## Steps
 1. Talk to **Disciple** in **Revive Arena** to activate the quest.  
 2. Fight battles in Revive Arena until you obtain a **Mokka Sword**.  
-3. Return the sword to **Disciple** for **100 Skill Points** to your **lowest skill**.  
+3. Return the sword to **Disciple** for **100 Skill Exp** to your **lowest skill**.  
 
 ---
 
 ## Rewards
 | Turn-in | Reward |
 |--------:|:-------|
-| Each sword | +100 Skill Points (lowest skill) |
-| Per skill cap | 3,000 Skill Points total |
+| Each sword | +100 Skill Exp (lowest skill) |
+| Per skill cap | 3,000 Skill Exp total |
 
 ---
 

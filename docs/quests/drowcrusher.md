@@ -37,13 +37,13 @@ Buy the **+5** item at **Demon Square — Armory (227,432)** and give to **Drowc
 ## Rewards
 - **Party leader (getting the skill):** **Skill III & IV** + **300,000 EXP** (character & pet).  
   If **leader lvl ≥ 60** → **Caring Feather**.
-- **Lvl 101+ players:** **+60 Skill Points** to **lowest skill** (pet gets **300,000 EXP** if **lvl 34–100**).
+- **Lvl 101+ players:** **+60 Skill Exp** to **lowest skill** (pet gets **300,000 EXP** if **lvl 34–100**).
 
-### EXP / Skill Points
+### EXP / Skill Exp
 | Player Level | Character EXP | Pet EXP | Extra |
 |------------: |--------------:|--------:|:-----|
 | 34–100 | 300,000 | 300,000 | — |
-| 101+   | —       | 300,000 (if pet 34–100) | **+60 SP** (lowest skill) |
+| 101+   | —       | 300,000 (if pet 34–100) | **+60 Skill Exp** (lowest skill) |
 
 ---
 

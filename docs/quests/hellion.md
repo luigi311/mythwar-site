@@ -20,11 +20,11 @@
 ## Rewards
 | Battle | Target        | EXP   | Extras after lvl 50 |
 |------: |---------------|------:|---------------------|
-| 1      | Howling Beast | 20,000 | Chance: 50k Mystical Fruit, +1 Skill EXP |
-| 2      | Bat Beast     | 30,000 | Chance: 50k Mystical Fruit, +3 Skill EXP |
-| 3      | Flower Witch  | 40,000 | Chance: 50k Mystical Fruit, +4 Skill EXP |
-| 4      | Flame Beast   | 50,000 | Chance: 100k Mystical Fruit, +5 Skill EXP |
-| 5      | Cave Clayman  | 70,000 | Chance: 100k Mystical Fruit, +7 Skill EXP |
+| 1      | Howling Beast | 20,000 | Chance: 50k Mystical Fruit, +1 Skill Exp |
+| 2      | Bat Beast     | 30,000 | Chance: 50k Mystical Fruit, +3 Skill Exp |
+| 3      | Flower Witch  | 40,000 | Chance: 50k Mystical Fruit, +4 Skill Exp |
+| 4      | Flame Beast   | 50,000 | Chance: 100k Mystical Fruit, +5 Skill Exp |
+| 5      | Cave Clayman  | 70,000 | Chance: 100k Mystical Fruit, +7 Skill Exp |
 
 ---
 

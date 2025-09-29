@@ -13,7 +13,7 @@
 ## Steps
 1. Buy the **+5 race/class quest item** at **Demon Square — Armory (227,432)**.  
 2. Give the item to **Drow Lord** to begin the battle.  
-3. Defeat the enemies for EXP, gems, and skill points.  
+3. Defeat the enemies for EXP, gems, and skill exp.  
 
 ### Required Race Items
 | Race / Class    | Quest Item                  |
@@ -37,7 +37,7 @@
 
 ### Player Level 110+
 - ~50,000 EXP  
-- +30 Skill Points (lowest skill)  
+- +30 Skill Exp (lowest skill)  
 - Pet EXP:  
     - 400,000 (pet lvl 90–110, leader 90–109)  
     - 300,000 (pet lvl 90–110, leader > 110)  
