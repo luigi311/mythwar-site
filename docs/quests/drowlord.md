@@ -73,3 +73,7 @@
     - Spells used: **—**
     - Strong against: **Skills (general resist)**
     - Weak against: **—**
+
+---
+
+[img-drow-lord]: ../assets/monsters/demon_dragon.gif
