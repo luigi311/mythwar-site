@@ -2,12 +2,24 @@ import yaml
 import math
 import statistics
 from pathlib import Path
+from html import escape
+
 
 def define_env(env):
-    docs_dir = Path(env.conf['docs_dir'])
+    docs_dir = Path(env.conf["docs_dir"])
+
+    # ----- Pets -----
     data_path = docs_dir / "data" / "pets.yaml"
     pets = yaml.safe_load(data_path.read_text())
     env.variables["pets"] = pets
+
+    # ----- Items -----
+    items_path = docs_dir / "data" / "items.yaml"
+    if items_path.exists():
+        items = yaml.safe_load(items_path.read_text()) or []
+    else:
+        items = []
+    env.variables["items"] = items
 
     # ---------------------------
     # Thresholds derivation
@@ -131,9 +143,67 @@ def define_env(env):
             f"| **{pet['gr']}** "
             f"| {render_skills(pet.get('skills'))} "
             f"| {stat_block(pet.get('stats'))} "
-            f"| {pet.get('source','')} "
+            f"| {pet.get('source', '')} "
             f"| {render_kv_block(pet.get('physical'))} "
             f"| {render_kv_block(pet.get('magical'))} "
             f"| {render_kv_block(pet.get('elemental'))} |"
         )
         return row.strip()
+
+    # ---------------------------
+    # Item rendering helpers
+    # ---------------------------
+    def _fmt_price(p):
+        if p is None or p == "":
+            return "—"
+        try:
+            return f"{int(p):,} gold"
+        except Exception:
+            # allow things like "Item Mall" or non-gold notes if you ever use them in price
+            return escape(str(p))
+
+    def _fmt_source(src):
+        if not src:
+            return "—"
+        if isinstance(src, (list, tuple)):
+            return "<br>".join(escape(str(s)) for s in src)
+        return escape(str(src))
+
+    @env.macro
+    def item_row(item):
+        """
+        Make one markdown table row for an item.
+        Columns: Name | Price | Description | Source
+        """
+        name = escape(item.get("name", ""))
+        price = _fmt_price(item.get("price"))
+        desc = escape(item.get("description", ""))
+        src = _fmt_source(item.get("source"))
+        return f"| **{name}** | {price} | {desc} | {src} |"
+
+    @env.macro
+    def items_table(category=None, sort_by="name"):
+        """
+        Render a full markdown table for a category (or all).
+        """
+        its = env.variables.get("items", []) or []
+        if category:
+            its = [
+                i
+                for i in its
+                if str(i.get("category", "")).lower() == str(category).lower()
+            ]
+
+        # sort robustly
+        def _key(i):
+            v = i.get(sort_by)
+            if v is None:
+                return ""
+            return str(v)
+
+        its = sorted(its, key=_key)
+        if not its:
+            return "_No items yet_"
+        header = "| Item | Price | Description | Source |\n|---|---:|---|---|"
+        rows = [item_row(i) for i in its]
+        return "\n".join([header, *rows])
