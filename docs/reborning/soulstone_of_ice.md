@@ -14,28 +14,42 @@
 
 ## Steps
 
-| Step | Action / Talk to | Location / Coordinates | Notes / Reward |
-|-----:|-------------------|--------------------------|----------------|
-| 1    | Talk to **Elder of Dawn** | Woodlingor, Elder Zone | — |
-| 2    | Go to **Blyton Bar**, talk to **Duke Clarke**; battle him | Blyton, Bar | +100,000 EXP |
-| 3    | Find **Kelina** in Flame Ruins (50,426) | Flame Ruins | She may challenge you; choice paths |
-| 4    | Return to Blyton, speak to **Duke Clarke** again | Blyton, Bar | +30,000 EXP |
-| 5    | Go again to **Flame Ruins**, talk to **Kelina** | Flame Ruins, 50,426 | Learn secret of Hades |
-| 6    | Head to **Wasteland 3**, prepare for **Lion Dragon** fight | Wasteland 3, 110,180 | +400,000 EXP + Soulstone of Ice (if you win directly) |
-| 7    | Alternate path: talk to **Lion Dragon**, then visit **Veteran Doctor** and **Woodlingor Grocerer** to get Pain Killer & Carving Knife | Blyton (342,110), Woodlingor | — |
-| 8    | Return to **Lion Dragon**, hand over items | Wasteland 3, 110,180 | +150,000 gold + 200,000 EXP + Soulstone of Ice |
-| 9    | Travel to **Ashes Pit 2**, meet **Sorceror Hades** to fight | Ashes Pit 2, 65,185 | +500,000 EXP |
-| 10   | Return to **Blyton Bar**, talk to **Duke Clarke** | Blyton, Bar | Each party member gets +200,000 gold |
-| 11   | Return to **Kelina** at Flame Ruins | Flame Ruins, 50,426 | +20,000 gold each |
-| 12   | Give **Soulstone of Ice** to **Elder of Night** | Woodlingor, Elder Zone | +10,000 EXP + Venturer title |
-| 13   | Bank the Soulstone and progress into **Soulstone of Wind** quest | — | — |
+| Step | Action / Talk to                                                                       | Location               | Notes                               |
+| ---: | -------------------------------------------------------------------------------------- | ---------------------- | ----------------------------------- |
+|    1 | Talk to **Elder of Dawn**                                                              | Woodlingor, Elder Zone | —                                   |
+|    2 | Go to **Blyton Bar**, talk to **Duke Clarke**; battle him                              | Blyton, Bar            | —                                   |
+|    3 | Find **Kelina** in Flame Ruins (50,426)                                                | Flame Ruins            | She may challenge you; choice paths |
+|    4 | Return to Blyton, speak to **Duke Clarke** again                                       | Blyton, Bar            | —                                   |
+|    5 | Go again to **Flame Ruins**, talk to **Kelina**                                        | Flame Ruins, 50,426    | Learn secret of Hades               |
+|    6 | Head to **Wasteland 3**, prepare for **Lion Dragon** fight                             | Wasteland 3, 110,180   | —                                   |
+|    7 | Talk and Fight **Lion Dragon**; receive **Soulstone of Ice** or alternative path below | Wasteland 3, 110,180   | Direct win or item-based path       |
+|   7a | Talk to **Lion Dragon**, and choose non-combat option                                  | Wasteland 3, 110,180   | —                                   |
+|   7b | Visit **Veteran Doctor** in Blyton (342,110); get **Pain Killer**                      | Blyton (342,110)       | —                                   |
+|   7c | Visit **Woodlingor Grocerer**; get **Carving Knife**                                   | Woodlingor             | —                                   |
+|   7d | Return to **Lion Dragon**, Give **Pain Killer** first then the **Carving Knife**       | Wasteland 3, 110,180   | —                                   |
+|    8 | Travel to **Ashes Pit 2**, meet **Sorceror Hades** to fight                            | Ashes Pit 2, 65,185    | —                                   |
+|    9 | Return to **Blyton Bar**, talk to **Duke Clarke**                                      | Blyton, Bar            | Each party member gets gold         |
+|   10 | Return to **Kelina** at Flame Ruins                                                    | Flame Ruins, 50,426    | —                                   |
+|   11 | Give **Soulstone of Ice** to **Elder of Night**                                        | Woodlingor, Elder Zone | —                                   |
+|   12 | Bank the Soulstone and progress into **Soulstone of Wind** quest                       | —                      | —                                   |
 
 ---
 
 ## Rewards
-- **EXP & Gold:** various along steps  
-- **Final Reward:** +10,000 EXP + Soulstone of Ice  
+- **EXP:** ~1,240,000 total  
+- **Gold:** ~220,000 total  
+- **Item:** Soulstone of Ice  
 - **Title:** Venturer  
+
+| Step | Exp Reward        | Gold Reward |
+| ---: | ----------------- | ----------- |
+|    2 | 100,000           | —           |
+|    4 | 30,000            | —           |
+|    7 | 400,000 / 200,000 | — / 150,000 |
+|    8 | 500,000           | —           |
+|    9 | —                 | 200,000     |
+|   10 | —                 | 20,000      |
+|   11 | 10,000            | —           |
 
 ---
 
@@ -43,17 +57,17 @@
 
 ### Duke Clarke — Blyton Bar
 - Optional early battle  
-- Expected to have moderate HP and give **~100,000 EXP**
+- Expected to have moderate HP and give **~100k EXP**
 
 ### Lion Dragon — Wasteland 3 (110,180)
 - Primary combat challenge  
 - Two possible branch outcomes:
-  - Direct defeat: grants **Soulstone of Ice** + 400k EXP  
-  - Using item-based path: handing Pain Killer & Carving Knife yields **150,000 gold + 200,000 EXP + Soulstone**
+    - Direct defeat: grants **Soulstone of Ice** + 400k EXP  
+    - Item route: talk → get Pain Killer + Carving Knife. Grants 150k Gold and 200k EXP
 
 ### Hades — Ashes Pit 2 (65,185)
 - Boss fight after paths meet  
-- Grants **500,000 EXP**
+- Grants **500k EXP**
 
 ---
 
