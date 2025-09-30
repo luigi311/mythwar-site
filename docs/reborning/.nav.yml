@@ -1,0 +1,11 @@
+sort:
+  sections: mixed
+
+nav:
+  - soulstone_of_light.md
+  - soulstone_of_dark.md
+  - soulstone_of_fire.md
+  - soulstone_of_ice.md
+  - soulstone_of_wind.md
+  - reborn_quest.md
+  - reborn_guide.md
