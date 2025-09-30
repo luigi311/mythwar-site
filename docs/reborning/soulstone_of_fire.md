@@ -31,7 +31,7 @@
 | 13   | Task 3: Learn where to find **Soulstone of Fire** in Desert City | — |
 | 14   | Go to **Spirit Mage** in Desert City | Desert City (193,60) |
 | 15   | Promise to help Spirit Mage; discover **Flame Devil** holds Soulstone | — |
-| 16   | Fight **Flame Devil** in **Demon Lair 3** | Demon Lair 3 (187,210) — Reward: 40k EXP + Soulstone |
+| 16   | Fight **Flame Devil** in **Demon Lair 3** | Demon Lair 3 (125,344) — Reward: 40k EXP + Soulstone |
 | 17   | Return to **Cursed Mage** with Soulstone; start final boss fight | Badland (169,375) — Reward: 60k EXP + Soulstone |
 | 18   | Bring Soulstone to **Elder of Night** to claim official reward | Woodlingor (Elder Zone) — Reward: 200k EXP + Explorer title |
 | 19   | Store Soulstone; quest chain continues to **Soulstone of Ice** | — |
@@ -48,7 +48,7 @@
 
 ## Battles
 
-### Flame Devil — Demon Lair 3 (187,210)
+### Flame Devil — Demon Lair 3 (125,344)
 
 - Notes: Must defeat Flame Devil to obtain the Soulstone of Fire.
 
