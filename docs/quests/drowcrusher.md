@@ -1,5 +1,8 @@
 # Drowcrusher
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Skill unlock fights (Skill III & IV path)
 - **Description:** Buy a race/class quest item, then start the encounter with **Drowcrusher** as part of the Skill Center progression

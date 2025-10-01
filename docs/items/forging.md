@@ -1,6 +1,9 @@
 
 # Forging
 
+# Needs to be updated/validated against osmw
+
+
 ## How to Become a Forger
 
 1. Go to **Demon Square** and talk to the **Master Forger**.  

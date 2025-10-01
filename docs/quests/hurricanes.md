@@ -1,5 +1,8 @@
 # Hurricanes
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Timed world event — progressive battle quest
 - **Description:** System-announced hurricanes spawn in fixed order. Human-type mobs revive with heals, chaos is less effective. Rewards include gems, EXP, AODs, and titles.

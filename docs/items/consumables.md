@@ -1,5 +1,8 @@
 # Consumables
 
+# Needs to be updated/validated against osmw
+
+
 ## Potions
 {{ consumables_table("Potions") }}
 

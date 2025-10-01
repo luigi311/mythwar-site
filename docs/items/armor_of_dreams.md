@@ -1,5 +1,7 @@
 # Armor of Dreams
 
+# Needs to be updated/validated against osmw
+
 
 ## Equipment
 {{ gear_index_by_set("Armor of Dream", include_empty=True) }}

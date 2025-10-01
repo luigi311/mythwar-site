@@ -1,5 +1,8 @@
 # Hellion
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Battle quest — 5 fights
 - **Description:** Defeat monsters from Tree of Life to Devil’s Gate. Gives EXP and Mystical Fruits (until level 50).

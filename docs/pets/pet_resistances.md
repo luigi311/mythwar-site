@@ -1,5 +1,8 @@
 # Raising Pets Resistance
 
+# Needs to be updated/validated against osmw
+
+
 To increase resistance for pets, you require **Magical Crystal +1 / +2 / +3 / +4 / +5**.  
 They are sold at Crystal Seller in Blyton (260, 460) or by killing Spirits in Demon Square and Desert City Pet shop. You can choose whether you would like to **accept or reject** the offered resist.
 

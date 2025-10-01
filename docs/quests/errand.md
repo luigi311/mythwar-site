@@ -1,5 +1,8 @@
 # Errand
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** NPC travel / delivery quest
 - **Description:** Introduces new players to NPCs across Woodlingor, Blython, and beyond. Choose between 5-run, 10-run, or 20-run variants.

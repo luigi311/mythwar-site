@@ -1,5 +1,8 @@
 # Reborning Pet
 
+# Needs to be updated/validated against osmw
+
+
 ## How to REBORN a Pet
 
 1. Make sure both **your character** and **the pet** meet the requirements listed in the table below.  

@@ -1,5 +1,8 @@
 # Introduction
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Starter quests — introduce Woodlingor NPCs and mechanics
 - **Description:** Three short quests from Love Angel, Brave Angel, and Stonesmith

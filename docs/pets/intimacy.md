@@ -1,5 +1,8 @@
 # Intimacy
 
+# Needs to be updated/validated against osmw
+
+
 ## How Intimacy Affects Pet Berserk, Combo, and Counter
 
 | Pet Level | Intimacy | Berserk Rate | Berserk Damage | Combo / Counter Rate | Combo / Counter Hit |

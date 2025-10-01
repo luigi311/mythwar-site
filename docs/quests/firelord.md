@@ -1,5 +1,8 @@
 # Firelord
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Treasure Quest — defeat **Firelord** and minions
 - **Description:** Complete **4 battles** in **Ashes Pit 3**. Once engaged, the four NPCs switch positions on the map. Party play is recommended. 

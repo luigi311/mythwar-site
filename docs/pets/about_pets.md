@@ -1,5 +1,8 @@
 # About Pets
 
+# Needs to be updated/validated against osmw
+
+
 ## What are pets
 
 Pets are important in MythWarOnline as they play a major role in battle.

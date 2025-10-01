@@ -1,5 +1,8 @@
 # Bounty
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Battle Quest — defeat monsters across 5 battles
 - **Description:** Defeat a chain of monsters from Tree of Life to Sunset Plain. Quest records party completion times and announces record breakers.

@@ -1,5 +1,8 @@
 # Lottery / Jackpot / Flurry
 
+# Needs to be updated/validated against osmw
+
+
 The **Jackpot of Mythwar Online** is available every **Tuesday, Thursday, and Sunday** from **10am – 12pm**.  
 To play, you must buy a ticket (similar to a scratch card) and "open" it to reveal your prize.
 

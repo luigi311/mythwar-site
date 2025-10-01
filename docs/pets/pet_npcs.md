@@ -1,5 +1,8 @@
 # Pet NPCs
 
+# Needs to be updated/validated against osmw
+
+
 ## NPCs for Pets
 
 | Locations                   |

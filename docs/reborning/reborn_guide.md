@@ -1,5 +1,7 @@
 # Reborn Guide
 
+# Needs to be updated/validated against osmw
+
 > ~ adopted from Cybourg (Achernar) reborn guide
 
 ## Key NPCs & Interactions

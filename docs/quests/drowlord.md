@@ -1,5 +1,8 @@
 # Drow Lord
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Advanced skill/EXP quest
 - **Description:** Stronger version of the Drowcrusher fight with much harder monsters. No daily limit.

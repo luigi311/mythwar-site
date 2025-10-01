@@ -1,5 +1,8 @@
 # Guild
 
+# Needs to be updated/validated against osmw
+
+
 ## Summary
 - **Task & Type:** Multi-part questline for guild advancement
 - **Description:** A series of activities ranging from monster fights to NPC games and HQ cleanup
