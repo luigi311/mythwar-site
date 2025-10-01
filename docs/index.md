@@ -5,4 +5,5 @@ This site is made to help you with [Open Source MythWar Online (osmw)](https://w
 
 ## Latest Updates
 
-- Updated crab event guide
+- Event: Crab: Updated for OSMW
+- Quest: Thief: Updated for OSMW
