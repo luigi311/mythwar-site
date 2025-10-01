@@ -1,0 +1,150 @@
+- shapeshift: Flyer
+  location: Revive Arena
+  drop: Ant Eater
+- shapeshift: Flyer
+  location: Sunset Plain
+  drop: Bloodpede
+- shapeshift: Bubble Crab
+  location: Tree of Life 1
+  drop: Capilla
+- shapeshift: Phoenix
+  location: Tree of Life 2
+  drop: Nepenthes
+- shapeshift: Phoenix
+  location: Flame Ruins
+  drop: Tree Demon
+- shapeshift: Phoenix
+  location: Burial 1
+  drop: Mudraper
+- shapeshift: Bee
+  location: Tree of Life 3
+  drop: Wolf
+- shapeshift: Bee
+  location: Outcast City
+  drop: Spirit Wolf
+- shapeshift: Bee
+  location: Badland
+  drop: Leopard Wolf
+- shapeshift: Fire Demon
+  location: Tree of Life 3
+  drop: Teethor
+- shapeshift: Fire Demon
+  location: Outcast City
+  drop: Bubble Crab
+- shapeshift: Fire Demon
+  location: Badland
+  drop: Bubble Crab
+- shapeshift: Green Capilla
+  location: Tree of Life 4
+  drop: Lizard Miner
+- shapeshift: Mosquito
+  location: Tree of Life 5
+  drop: Thorned Spider
+- shapeshift: Eyekicker
+  location: Tree of Life 6
+  drop: Ice Demon
+- shapeshift: Ice Demon
+  location: Tree of Life 7
+  drop: Snake Demon
+- shapeshift: Ice Demon
+  location: Burial 3
+  drop: Angry Wisp
+- shapeshift: Fog Spirit
+  location: Tree of Life 7
+  drop: Centuar King
+- shapeshift: Glimmer Fish
+  location: Sunset Plains
+  drop: Flyer
+- shapeshift: Glimmer Fish
+  location: Flamingor
+  drop: Fire Demon
+- shapeshift: Glimmer Fish
+  location: Flamingor
+  drop: Evil Mosquito
+- shapeshift: Glimmer Fish
+  location: Devil's Gate
+  drop: Bee
+- shapeshift: Glimmer Fish
+  location: Flame Ruins
+  drop: River Guardian
+- shapeshift: Glimmer Fish
+  location: Flame Ruins
+  drop: Flyer
+- shapeshift: Glimmer Fish
+  location: Ashes Pit 3
+  drop: Ghoulspirit
+- shapeshift: Centuar King
+  location: Flamingor
+  drop: Phoenix
+- shapeshift: Bloodpede
+  location: Devil's Gate
+  drop: Scarecrow
+- shapeshift: Bog Nightmare
+  location: Devil's Gate
+  drop: Spirit Cat
+- shapeshift: Bog Nightmare
+  location: Wasteland 2
+  drop: Ghost Warrior
+- shapeshift: Bog Nightmare
+  location: Burial 2
+  drop: Wisp
+- shapeshift: Lycosa
+  location: Cursed Abyss
+  drop: Hell Guard
+- shapeshift: Ant Eater
+  location: Cursed Abyss
+  drop: Axewalker
+- shapeshift: Guard
+  location: Flame Ruins
+  drop: Cyclop
+- shapeshift: Wolf
+  location: Badland
+  drop: Skeleton Warrior
+- shapeshift: Scarecrow
+  location: Bone Desert
+  drop: Desert Bandit
+- shapeshift: Aurora Lion
+  location: Bone Desert
+  drop: Giantslicer
+- shapeshift: Axewalker
+  location: Sewer 1
+  drop: Crazy Bandit
+- shapeshift: Mummy
+  location: Sewer 2
+  drop: Werewolf
+- shapeshift: Orgewalker
+  location: Sewer 2
+  drop: Bog Nightmare
+- shapeshift: Evil Mosquito
+  location: Sewer 3
+  drop: Lycosa
+- shapeshift: Ghoul
+  location: Sewer 3
+  drop: Orgewalker
+- shapeshift: Dark Giant
+  location: Ashes Pit 1
+  drop: Stone Giant
+- shapeshift: Teethor
+  location: Ashes Pit 2
+  drop: Hell Gardener
+- shapeshift: Skeleton Warrior
+  location: Ashes Pit 4
+  drop: Eyekicker
+- shapeshift: Hell Gardener
+  location: Wasteland 1
+  drop: Lizard Man
+- shapeshift: River Guardian
+  location: Wasteland 2
+  drop: Aurora Lion
+- shapeshift: Feral Wolf
+  location: Wasteland 3
+  drop: Dark Giant
+- shapeshift: Leopard Wolf
+  location: Burial 1
+  drop: Mummy
+- shapeshift: Thorned Spider
+  location: Burial 1
+  drop: Fog Spirit
+- shapeshift: Ghoul Spirit
+  location: Burial 4
+  drop: Feral Wolf

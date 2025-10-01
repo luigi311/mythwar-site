@@ -1,0 +1,155 @@
+- key: apple
+  name: "Apple"
+  category: "Potions"
+  price: 10
+  description: "Restores 200 HP"
+  source: "Woodlingor Herbal Shop"
+
+- key: banana
+  name: "Banana"
+  category: "Potions"
+  price: 30
+  description: "Restores 500 HP"
+  source: "Woodlingor Herbal Shop"
+
+- key: banana_shushi
+  name: "Banana Shushi"
+  category: "Potions"
+  price: 1800
+  description: "Restores 13000 HP"
+  source: "Desert City Herbal Shop"
+
+- key: big_red_potion
+  name: "Big red potion"
+  category: "Potions"
+  price: null
+  description: "Restores 60% HP"
+  source: null
+
+- key: big_blue_potion
+  name: "Big blue potion"
+  category: "Potions"
+  price: null
+  description: "Restores 50% MP"
+  source: null
+
+- key: graded_apple
+  name: "Graded Apple"
+  category: "Potions"
+  price: 200
+  description: "Restores 2000 HP"
+  source: "Blython Herbal Shop"
+
+- key: graded_banana
+  name: "Graded Banana"
+  category: "Potions"
+  price: 600
+  description: "Restores 5000 HP"
+  source: "Blython Herbal Shop"
+
+- key: graded_coconut
+  name: "Graded Coconut"
+  category: "Potions"
+  price: null
+  description: "Restores 3000 HP and MP"
+  source: "Treasure Hunting"
+
+- key: graded_lychee
+  name: "Graded Lychee"
+  category: "Potions"
+  price: 220
+  description: "Restores 1500 MP"
+  source: "Blython Herbal Shop"
+
+- key: graded_pear
+  name: "Graded Pear"
+  category: "Potions"
+  price: 1000
+  description: "Restores 4000 MP"
+  source: "Blython Herbal Shop"
+
+- key: graded_pine
+  name: "Graded Pine"
+  category: "Potions"
+  price: null
+  description: "Restores 1000 HP and MP"
+  source: "Random monster drop"
+
+- key: great_pine
+  name: "Great Pine"
+  category: "Potions"
+  price: null
+  description: "Restores 5000 HP and MP"
+  source: "Treasure Hunting"
+
+- key: claw
+  name: "Claw"
+  category: "Potions"
+  price: null
+  description: "Restores 300 HP"
+  source: "Random low-level monster drop"
+
+- key: large_blue_potion
+  name: "Large blue potion"
+  category: "Potions"
+  price: null
+  description: "Restores 70% MP"
+  source: null
+
+- key: large_red_potion
+  name: "Large red potion"
+  category: "Potions"
+  price: null
+  description: "Restores 70% HP"
+  source: null
+
+- key: battery
+  name: "Battery"
+  category: "Equipment"
+  price: 2000
+  description: "Replenishes energy of borg mercenary"
+  source:
+    - "Groceror"
+    - "Energy Seller"
+
+- key: copper_box
+  name: "Copper Box"
+  category: "Equipment"
+  price: 3000
+  description: "Treasure Box; gives a random armor"
+  source: "Mysticon"
+
+- key: golden_box
+  name: "Golden Box"
+  category: "Equipment"
+  price: 600000
+  description: "Treasure Box; gives a random armor"
+  source: "Mysticon"
+
+- key: convenience_store
+  name: "Convenience Store"
+  category: "Equipment"
+  price: null
+  description: "Use to access any NPC shop (30 charges)"
+  source: "Item Mall"
+
+- key: crystal_ball
+  name: "Crystal Ball"
+  category: "Equipment"
+  price: 25000
+  description: "Give to Priest; increases friendship by 50 between two same-sex players"
+  source: "Groceror"
+
+- key: devils_tears
+  name: "Devils Tears"
+  category: "Equipment"
+  price: 500
+  description: "Avoid monsters 10+ levels lower than you for 10 minutes"
+  source: "Groceror"
+
+- key: gem_tracker
+  name: "Gem Tracker"
+  category: "Forging"
+  price: 3000
+  description: "Used to track dragon balls"
+  source: "Groceror"

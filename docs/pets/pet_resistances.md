@@ -1,6 +1,6 @@
 # Raising Pets Resistance
 
-To increase resistance for pets, you require **CRYSTAL +1 / +2 / +3 / +4 / +5**.  
+To increase resistance for pets, you require **Magical Crystal +1 / +2 / +3 / +4 / +5**.  
 They are sold at Crystal Seller in Blyton (260, 460) or by killing Spirits in Demon Square and Desert City Pet shop. You can choose whether you would like to **accept or reject** the offered resist.
 
 - Pets can add **+1** at level 30, **+2** at level 50, **+3** at level 70.  

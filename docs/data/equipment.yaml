@@ -1,0 +1,854 @@
+- key: sword_of_flame_m_human
+  family: "Sword of Flame"
+  slot: "Weapon"
+  race: "Human"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Attack: 78  }, req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 156 }, req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 265 }, req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 374 }, req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 491 }, req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 608 }, req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 874 }, req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1170}, req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1498}, req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 1856}, req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},             req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},             req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},             req: { Level: 120, Strength: 135 }, source: null }
+
+- key: sword_of_impale_f_human
+  family: "Sword of Impale"
+  slot: "Weapon"
+  race: "Human"
+  gender: "Female"
+  tiers: 
+    - { tier: "+1",  bonus: { Attack: 78  }, req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 156 }, req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 265 }, req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 374 }, req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 491 }, req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 608 }, req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 874 }, req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1170}, req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1498}, req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 1856}, req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},             req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},             req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},             req: { Level: 120, Strength: 135 }, source: null }
+
+- key: bow_of_farsight_m_cent
+  family: "Bow of Farsight"
+  slot: "Weapon"
+  race: "Centaur"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Attack: 68  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 137 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 233 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 329 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 431 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 534 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 767 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1028},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1315},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 1630},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+- key: bow_of_demonic_f_cent
+  family: "Bow of Demonic"
+  slot: "Weapon"
+  race: "Centaur"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Attack: 68  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 137 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 233 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 329 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 431 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 534 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 767 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1028},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1315},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 1630},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+- key: staff_of_light_m_mage
+  family: "Staff of Light"
+  slot: "Weapon"
+  race: "Mage"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Attack: 32  }, req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 65  }, req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 111 }, req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 157 }, req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 206 }, req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 263 }, req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 370 }, req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: {},             req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 656 }, req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 797 }, req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+- key: staff_of_demon_f_mage
+  family: "Staff of Demon"
+  slot: "Weapon"
+  race: "Mage"
+  gender: "Female"
+  tiers: 
+    - { tier: "+1",  bonus: { Attack: 32  }, req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 65  }, req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 111 }, req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 157 }, req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 206 }, req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 263 }, req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 370 }, req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: {},             req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 656 }, req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 797 }, req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+- key: fist_of_haze_m_borg
+  family: "Fist of Haze"
+  slot: "Weapon"
+  race: "Borg"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Attack: 94  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 188 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 319 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 451 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 492 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 733 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 1053},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1410},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1805},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 2237},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+- key: fist_of_savage_f_borg
+  family: "Fist of Savage"
+  slot: "Weapon"
+  race: "Borg"
+  gender: "Female"
+  tiers: 
+    - { tier: "+1",  bonus: { Attack: 94  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Attack: 188 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Attack: 319 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Attack: 451 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Attack: 492 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Attack: 733 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Attack: 1053},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Attack: 1410},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Attack: 1805},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Attack: 2237},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},              req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120, Strength: 135 }, source: null }
+
+################
+# ARMORS
+################
+
+- key: plate_of_radiant_m_human
+  family: "Plate of Radiant"
+  slot: "Armor"
+  race: "Human"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 94  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 187 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 318 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 499 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 589 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 729 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 1047},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1403},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1795},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 2225},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: { Defense: 3261}, req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: plate_of_oceanic_f_human
+  family: "Plate of Oceanic"
+  slot: "Armor"
+  race: "Human"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 94  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 187 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 318 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 499 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 589 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 729 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 1047},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1403},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1795},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 2225},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: { Defense: 3261}, req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: mail_of_angelic_m_cent
+  family: "Mail of Angelic"
+  slot: "Armor"
+  race: "Centaur"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 82  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 164 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 279 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 394 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 512 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 640 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 918 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1230},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1574},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1952},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: mail_of_blessing_f_cent
+  family: "Mail of Blessing"
+  slot: "Armor"
+  race: "Centaur"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 82  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 164 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 279 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 394 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 512 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 640 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 918 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1230},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1574},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1952},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: robe_of_shadow_m_mage
+  family: "Robe of Shadow"
+  slot: "Armor"
+  race: "Mage"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 74  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 148 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 251 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 355 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 466 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 577 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 829 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1110},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1421},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1761},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: robe_of_thunder_f_mage
+  family: "Robe of Thunder"
+  slot: "Armor"
+  race: "Mage"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 74  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 148 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 251 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 355 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 466 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 577 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 829 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1110},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1421},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1761},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: armor_of_wrath_m_borg
+  family: "Armor of Wrath"
+  slot: "Armor"
+  race: "Borg"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 113 },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 226 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 384 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 542 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 711 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 881 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 1266},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1695},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 2170},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 2689},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: armor_of_dignity_f_borg
+  family: "Armor of Dignity"
+  slot: "Armor"
+  race: "Borg"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 113 },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 226 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 384 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 542 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 711 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 881 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 1266},  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 1695},  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 2170},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 2689},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+################
+# HELMETS
+################
+
+- key: helm_of_radiant_m_human
+  family: "Helm of Radiant"
+  slot: "Helmet"
+  race: "Human"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 47  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 96  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 160 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 226 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 296 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 367 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 526 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 705 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 902 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1119},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: { Defense: 1421},  req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: helm_of_oceanic_f_human
+  family: "Helm of Oceanic"
+  slot: "Helmet"
+  race: "Human"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 47  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 96  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 160 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 226 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 296 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 367 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 526 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 705 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 902 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1119},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: { Defense: 1421},  req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: band_of_angelic_m_cent
+  family: "Band of Angelic"
+  slot: "Helmet"
+  race: "Centaur"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 41  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 82  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 139 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 197 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 258 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 320 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 450 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 615 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 787 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 976 },  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: band_of_blessing_f_cent
+  family: "Band of Blessing"
+  slot: "Helmet"
+  race: "Centaur"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 41  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 82  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 139 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 197 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 258 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 320 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 450 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 615 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 787 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 976 },  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: helm_of_shadow_m_mage
+  family: "Helm of Shadow"
+  slot: "Helmet"
+  race: "Mage"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 37  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 74  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 126 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 178 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 233 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 289 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 414 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 555 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 710 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 881 },  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: helm_of_thunder_f_mage
+  family: "Helm of Thunder"
+  slot: "Helmet"
+  race: "Mage"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 37  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 74  },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 126 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 178 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 233 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 289 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 414 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 555 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 710 },  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 881 },  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: helm_of_wrath_m_borg
+  family: "Helm of Wrath"
+  slot: "Helmet"
+  race: "Borg"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 56  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 113 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 192 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 271 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 356 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 441 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 633 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 848 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1085},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1345},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+- key: helm_of_dignity_f_borg
+  family: "Helm of Dignity"
+  slot: "Helmet"
+  race: "Borg"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Defense: 56  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Defense: 113 },  req: { Level: 10, Strength: 10 }, source: null }
+    - { tier: "+3",  bonus: { Defense: 192 },  req: { Level: 20, Strength: 20 }, source: null }
+    - { tier: "+4",  bonus: { Defense: 271 },  req: { Level: 30, Strength: 30 }, source: null }
+    - { tier: "+5",  bonus: { Defense: 356 },  req: { Level: 40, Strength: 40 }, source: null }
+    - { tier: "+6",  bonus: { Defense: 441 },  req: { Level: 50, Strength: 50 }, source: null }
+    - { tier: "+7",  bonus: { Defense: 633 },  req: { Level: 60, Strength: 65 }, source: null }
+    - { tier: "+8",  bonus: { Defense: 848 },  req: { Level: 70, Strength: 75 }, source: null }
+    - { tier: "+9",  bonus: { Defense: 1085},  req: { Level: 80, Strength: 90 }, source: null }
+    - { tier: "+10", bonus: { Defense: 1345},  req: { Level: 90, Strength: 100 }, source: null }
+    - { tier: "+11", bonus: {},               req: { Level: 100, Strength: 115 }, source: null }
+    - { tier: "+12", bonus: {},               req: { Level: 110, Strength: 125 }, source: null }
+    - { tier: "+13", bonus: {},               req: { Level: 120, Strength: 135 }, source: null }
+
+
+################
+# SHOES
+################
+
+- key: shoe_of_radiant_m_human
+  family: "Shoe of Radiant"
+  slot: "Shoes"
+  race: "Human"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 12 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 17 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 23 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 29 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 41 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 55 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 71 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 87 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 111},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_oceanic_f_human
+  family: "Shoe of Oceanic"
+  slot: "Shoes"
+  race: "Human"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 12 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 17 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 23 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 29 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 41 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 55 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 71 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 87 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 111},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_angelic_m_cent
+  family: "Shoe of Angelic"
+  slot: "Shoes"
+  race: "Centaur"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 5  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 10 },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 16 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 23 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 30 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 38 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 54 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 73 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 95 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 115},  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 141},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_blessing_f_cent
+  family: "Shoe of Blessing"
+  slot: "Shoes"
+  race: "Centaur"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 5  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 10 },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 16 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 23 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 30 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 38 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 54 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 73 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 95 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 115},  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 141},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_shadow_m_mage
+  family: "Shoe of Shadow"
+  slot: "Shoes"
+  race: "Mage"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 13 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 19 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 25 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 32 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 45 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 60 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 76 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 95 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 119},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_thunder_f_mage
+  family: "Shoe of Thunder"
+  slot: "Shoes"
+  race: "Mage"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 13 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 19 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 25 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 32 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 45 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 60 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 76 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 95 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 119},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_wrath_m_borg
+  family: "Shoe of Wrath"
+  slot: "Shoes"
+  race: "Borg"
+  gender: "Male"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 13 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 18 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 24 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 31 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 43 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 58 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 74 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 91 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 113},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+- key: shoe_of_dignity_f_borg
+  family: "Shoe of Dignity"
+  slot: "Shoes"
+  race: "Borg"
+  gender: "Female"
+  tiers:
+    - { tier: "+1",  bonus: { Speed: 4  },  req: { Level: 1 },  source: null }
+    - { tier: "+2",  bonus: { Speed: 8  },  req: { Level: 10 }, source: null }
+    - { tier: "+3",  bonus: { Speed: 13 },  req: { Level: 20 }, source: null }
+    - { tier: "+4",  bonus: { Speed: 18 },  req: { Level: 30 }, source: null }
+    - { tier: "+5",  bonus: { Speed: 24 },  req: { Level: 40 }, source: null }
+    - { tier: "+6",  bonus: { Speed: 31 },  req: { Level: 50 }, source: null }
+    - { tier: "+7",  bonus: { Speed: 43 },  req: { Level: 60 }, source: null }
+    - { tier: "+8",  bonus: { Speed: 58 },  req: { Level: 70 }, source: null }
+    - { tier: "+9",  bonus: { Speed: 74 },  req: { Level: 80 }, source: null }
+    - { tier: "+10", bonus: { Speed: 91 },  req: { Level: 90 }, source: null }
+    - { tier: "+11", bonus: { Speed: 113},  req: { Level: 100 }, source: null }
+    - { tier: "+12", bonus: {},              req: { Level: 110 }, source: null }
+    - { tier: "+13", bonus: {},              req: { Level: 120 }, source: null }
+
+################
+# BANGLES
+################
+
+- key: bangles_of_devil
+  family: "Bangles of Devil"
+  slot: "Bangle"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { MaxHP: 200  }, req: {}, source: null }
+    - { tier: "+3", bonus: { MaxHP: 720  }, req: {}, source: null }
+    - { tier: "+6", bonus: { MaxHP: 1920 }, req: {}, source: null }
+    - { tier: "+9", bonus: { MaxHP: 3484 }, req: {}, source: null }
+
+- key: bangle_of_magic
+  family: "Bangle of Magic"
+  slot: "Bangle"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { MaxMP: 200  }, req: {}, source: null }
+    - { tier: "+3", bonus: { MaxMP: 720  }, req: {}, source: null }
+    - { tier: "+6", bonus: { MaxMP: 1920 }, req: {}, source: null }
+    - { tier: "+9", bonus: { MaxMP: 3484 }, req: {}, source: null }
+
+- key: bangle_of_bowen
+  family: "Bangle of Bowen"
+  slot: "Bangle"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { MaxHP: 100, MaxMP: 100 }, req: {}, source: null }
+    - { tier: "+3", bonus: { MaxHP: 360, MaxMP: 360 }, req: {}, source: null }
+    - { tier: "+6", bonus: { MaxHP: 960, MaxMP: 960 }, req: {}, source: null }
+    - { tier: "+9", bonus: { MaxHP: 1742, MaxMP: 1742 }, req: {}, source: null }
+
+################
+# NECKLACES
+################
+
+- key: necklace_of_demon
+  family: "Necklace of Demon"
+  slot: "Necklace"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { MaxHP: 2000 }, req: {}, source: null }
+    - { tier: "+2", bonus: { MaxHP: 3000 }, req: {}, source: null }
+    - { tier: "+3", bonus: { MaxHP: 4000 }, req: {}, source: null }
+
+- key: necklace_of_dream
+  family: "Necklace of Dream"
+  slot: "Necklace"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { MaxMP: 2150 }, req: {}, source: null }
+    - { tier: "+2", bonus: { MaxMP: 4300 }, req: {}, source: null }
+    - { tier: "+3", bonus: { MaxMP: 6450 }, req: {}, source: null }
+
+- key: necklace_of_spirit
+  family: "Necklace of Spirit"
+  slot: "Necklace"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { Attack: 480 }, req: {}, source: null }
+    - { tier: "+2", bonus: { Attack: 960 }, req: {}, source: null }
+    - { tier: "+3", bonus: { Attack: 1440 }, req: {}, source: null }
+
+- key: necklace_of_tiger
+  family: "Necklace of Tiger"
+  slot: "Necklace"
+  race: null
+  gender: "None"
+  tiers:
+    - { tier: "+1", bonus: { Speed: 21 }, req: {}, source: null }
+    - { tier: "+2", bonus: { Speed: 42 }, req: {}, source: null }
+    - { tier: "+3", bonus: { Speed: 64 }, req: {}, source: null }
+  
+################
+# Armor of Dreams AOD
+################
+
+- key: aod_elven_alacrity_boots
+  family: "Elven Alacrity Boots"
+  set: "Armor of Dream"
+  slot: "Shoes"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { Speed: 140 }, req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { Speed: 170 }, req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { Speed: 200 }, req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { Speed: 270 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { Speed: 350 }, req: { Strength: 100 }, source: null }
+
+- key: aod_ordain_warden
+  family: "Ordain Warden"
+  set: "Armor of Dream"
+  slot: "Shoes"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Stun Resist": 5, "Chaos Resist": 5, "Hypno Resist": 5 }, req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Stun Resist": 10, "Chaos Resist": 10, "Hypno Resist": 10 }, req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Stun Resist": 15, "Chaos Resist": 15, "Hypno Resist": 15 }, req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Stun Resist": 20, "Chaos Resist": 20, "Hypno Resist": 20 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Stun Resist": 25, "Chaos Resist": 25, "Hypno Resist": 25 }, req: { Strength: 100 }, source: null }
+
+- key: aod_heavenly_armour_dodge
+  family: "Heavenly Armour (Dodge)"
+  set: "Armor of Dream"
+  slot: "Armor"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Dodge %": 25 },  req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Dodge %": 50 },  req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Dodge %": 75 },  req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Dodge %": 100 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Dodge %": 125 }, req: { Strength: 100 }, source: null }
+
+- key: aod_heavenly_armour_physical_reflect
+  family: "Heavenly Armour (Physical Reflect)"
+  set: "Armor of Dream"
+  slot: "Armor"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Physical Reflect %": 25 },  req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Physical Reflect %": 50 },  req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Physical Reflect %": 75 },  req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Physical Reflect %": 100 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Physical Reflect %": 125 }, req: { Strength: 100 }, source: null }
+
+- key: aod_heavenly_armour_magic_reflect
+  family: "Heavenly Armour (Magic Reflect)"
+  set: "Armor of Dream"
+  slot: "Armor"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Magic Reflect %": 25 },  req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Magic Reflect %": 50 },  req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Magic Reflect %": 75 },  req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Magic Reflect %": 100 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Magic Reflect %": 125 }, req: { Strength: 100 }, source: null }
+
+- key: aod_diadem_of_serenity
+  family: "Diadem of Serenity"
+  set: "Armor of Dream"
+  slot: "Helmet"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Magic Resist (per type)": 8, "Resist Types": 2 },  req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Magic Resist (per type)": 16, "Resist Types": 2 }, req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Magic Resist (per type)": 24, "Resist Types": 2 }, req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Magic Resist (per type)": 32, "Resist Types": 2 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Magic Resist (per type)": 40, "Resist Types": 2 }, req: { Strength: 100 }, source: null }
+
+- key: aod_draconic_necklace
+  family: "Draconic Necklace"
+  set: "Armor of Dream"
+  slot: "Necklace"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { MaxHP: 8000  },  req: { Level: 15 }, source: null }
+    - { tier: "+2", bonus: { MaxHP: 12000 }, req: { Level: 15 }, source: null }
+    - { tier: "+3", bonus: { MaxHP: 16000 }, req: { Level: 15 }, source: null }
+    - { tier: "+4", bonus: { MaxHP: 20000 }, req: { Level: 15 }, source: null }
+    - { tier: "+5", bonus: { MaxHP: 24000 }, req: { Level: 15 }, source: null }
+
+- key: aod_fierys_heart
+  family: "Fiery's Heart"
+  set: "Armor of Dream"
+  slot: "Necklace"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Drain Resist %": 6  }, req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Drain Resist %": 12 }, req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Drain Resist %": 18 }, req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Drain Resist %": 24 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Drain Resist %": 30 }, req: { Strength: 100 }, source: null }
+
+- key: aod_asura_charm
+  family: "Asura Charm"
+  set: "Armor of Dream"
+  slot: "Necklace"
+  race: null
+  gender: null
+  tiers:
+    - { tier: "+1", bonus: { "Death Resist": 15, "Poison Resist": 15, "Frailty Resist": 15 }, req: { Strength: 100 }, source: null }
+    - { tier: "+2", bonus: { "Death Resist": 30, "Poison Resist": 30, "Frailty Resist": 30 }, req: { Strength: 100 }, source: null }
+    - { tier: "+3", bonus: { "Death Resist": 45, "Poison Resist": 45, "Frailty Resist": 45 }, req: { Strength: 100 }, source: null }
+    - { tier: "+4", bonus: { "Death Resist": 60, "Poison Resist": 60, "Frailty Resist": 60 }, req: { Strength: 100 }, source: null }
+    - { tier: "+5", bonus: { "Death Resist": 75, "Poison Resist": 75, "Frailty Resist": 75 }, req: { Strength: 100 }, source: null }

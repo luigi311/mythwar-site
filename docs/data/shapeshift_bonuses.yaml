@@ -1,0 +1,1158 @@
+- name: Ant Eater
+  tiers:
+    - level: 1
+      effects: ["HP +7%"]
+    - level: 2
+      effects: ["HP +7%", "Melee Resist +10"]
+    - level: 3
+      effects: ["HP +7%", "Chaos Resist +10"]
+    - level: 4
+      effects: ["HP +7%", "SPD +1%", "Melee Resist +10", "Chaos Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +7%",
+          "ATK +1%",
+          "SPD +1%",
+          "Melee Resist +10",
+          "Chaos Resist +10",
+          "Chaos +8",
+        ]
+
+- name: Aurora Lion
+  tiers:
+    - level: 1
+      effects: ["HP +10%"]
+    - level: 2
+      effects: ["HP +10%", "Drain Resist +10"]
+    - level: 3
+      effects: ["HP +10%", "Melee Resist +10"]
+    - level: 4
+      effects: ["HP +10%", "ATK +8%", "Drain Resist +10", "Melee Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +10%",
+          "ATK +8%",
+          "SPD +2%",
+          "Drain Resist +10",
+          "Melee Resist +10",
+          "Heal Other +8",
+        ]
+
+- name: Axewalker
+  tiers:
+    - level: 1
+      effects: ["ATK +4%"]
+    - level: 2
+      effects: ["ATK +4%", "Critical Rate +10", "Critical Damage +10"]
+    - level: 3
+      effects: ["ATK +4%", "HIT Rate +10"]
+    - level: 4
+      effects:
+        [
+          "HP +3%",
+          "ATK +4%",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "HIT Rate +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "INT +2%",
+          "ATK +4%",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "HIT Rate +10",
+          "Fire +8",
+        ]
+
+- name: Bee
+  tiers:
+    - level: 1
+      effects: ["ATK +8%"]
+    - level: 2
+      effects: ["ATK +8%", "Melee Resist +10"]
+    - level: 3
+      effects: ["ATK +8%", "Stun Resist +10"]
+    - level: 4
+      effects: ["ATK +8%", "SPD +4%", "Melee Resist +10", "Stun Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "ATK +8%",
+          "SPD +4%",
+          "Melee Resist +10",
+          "Stun Resist +10",
+          "Stun +8",
+        ]
+
+- name: Big Crab
+  tiers:
+    - level: 1
+      effects: ["HP +5%"]
+    - level: 2
+      effects: ["HP +5%", "Melee Reflect +10", "Melee Reflect Damage +10"]
+    - level: 3
+      effects: ["HP +5%", "Stun Resist +10"]
+    - level: 4
+      effects:
+        [
+          "HP +5%",
+          "INT +2%",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+          "Stun Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "INT +2%",
+          "SPD +2%",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+          "Stun Resist +10",
+          "Stun +8",
+        ]
+
+- name: Bloodpede
+  tiers:
+    - level: 1
+      effects: ["ATK +3%"]
+    - level: 2
+      effects: ["ATK +3%", "Frailty Resist +10"]
+    - level: 3
+      effects: ["ATK +3%", "Frailty Resist +10"]
+    - level: 4
+      effects: ["INT +1%", "ATK +3%", "Frailty Resist +10", "Poison Resist +10"]
+    - level: 5
+      effects:
+        [
+          "INT +1%",
+          "ATK +3%",
+          "SPD +3%",
+          "Frailty Resist +10",
+          "Poison Resist +10",
+          "Poison +8",
+        ]
+
+- name: Bog Nightmare
+  tiers:
+    - level: 1
+      effects: ["INT +7%"]
+    - level: 2
+      effects: ["INT +7%", "Stun Resist +10"]
+    - level: 3
+      effects: ["INT +7%", "Hypnotize Resist +10"]
+    - level: 4
+      effects: ["HP +5%", "INT +7%", "Stun Resist +10", "Hypnotize Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "INT +7%",
+          "SPD +2%",
+          "Stun Resist +10",
+          "Hypnotize Resist +10",
+          "Stun +8",
+        ]
+
+- name: Capilla
+  tiers:
+    - level: 1
+      effects: ["INT +1%"]
+    - level: 2
+      effects: ["INT +1%", "Dodge Rate +10"]
+    - level: 3
+      effects: ["INT +1%", "Melee Reflect +10", "Melee Reflect Damage +10"]
+    - level: 4
+      effects:
+        [
+          "INT +1%",
+          "SPD +1%",
+          "Dodge Rate +10",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +2%",
+          "SPD +2%",
+          "Dodge Rate +10",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+          "Heal Other +8",
+        ]
+
+- name: Centaur King
+  tiers:
+    - level: 1
+      effects: ["INT +8%"]
+    - level: 2
+      effects: ["INT +8%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 3
+      effects: ["INT +8%", "Drain Resist +10"]
+    - level: 4
+      effects:
+        [
+          "HP +5%",
+          "INT +8%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Drain Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "INT +8%",
+          "SPD +4%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Drain Resist +10",
+          "Heal Other +8",
+        ]
+
+- name: Crazy Bandit
+  tiers:
+    - level: 1
+      effects: ["HP +2%"]
+    - level: 2
+      effects: ["HP +2%", "Frailty Resist +10"]
+    - level: 3
+      effects: ["HP +2%", "Chaos Resist +10"]
+    - level: 4
+      effects: ["HP +2%", "INT +2%", "Frailty Resist +10", "Chaos Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +2%",
+          "INT +2%",
+          "SPD +2%",
+          "Frailty Resist +10",
+          "Chaos Resist +10",
+          "Chaos +8",
+        ]
+
+- name: Cyclops
+  tiers:
+    - level: 1
+      effects: ["ATK +9%"]
+    - level: 2
+      effects: ["ATK +9%", "Berserk Rate +10", "Berserk Damage +10"]
+    - level: 3
+      effects: ["ATK +9%", "Combo Rate +10"]
+    - level: 4
+      effects:
+        [
+          "HP +7%",
+          "ATK +9%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +7%",
+          "ATK +9%",
+          "SPD +1%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+          "Fire +8",
+        ]
+
+- name: Dark Giant
+  tiers:
+    - level: 1
+      effects: ["HP +13%"]
+    - level: 2
+      effects: ["HP +13%", "Melee Resist +10"]
+    - level: 3
+      effects: ["HP +13%", "Stun Resist +10"]
+    - level: 4
+      effects: ["HP +13%", "ATK +5%", "Melee Resist +10", "Stun Resist +10"]
+    - level: 5
+      effects:
+        ["HP +14%", "ATK +6%", "Melee Resist +10", "Stun Resist +10", "Stun +8"]
+
+- name: Demonpunisher
+  tiers:
+    - level: 1
+      effects: ["INT +10%"]
+    - level: 2
+      effects: ["INT +10%", "Chaos Resist +10"]
+    - level: 3
+      effects: ["INT +10%", "Melee Resist +10"]
+    - level: 4
+      effects: ["INT +10%", "SPD +3%", "Chaos Resist +10", "Melee Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +10%",
+          "SPD +3%",
+          "Chaos Resist +10",
+          "Melee Resist +10",
+          "Chaos +8",
+        ]
+
+- name: Desert Bandit
+  tiers:
+    - level: 1
+      effects: ["HP +5%"]
+    - level: 2
+      effects: ["HP +5%", "Flash Resist +10"]
+    - level: 3
+      effects: ["HP +5%", "Fire Resist +10"]
+    - level: 4
+      effects: ["HP +5%", "INT +1%", "Flash Resist +10", "Fire Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "INT +1%",
+          "SPD +1%",
+          "Flash Resist +10",
+          "Fire Resist +10",
+          "Flash +8",
+        ]
+
+- name: Earth Wolf
+  tiers:
+    - level: 1
+      effects: ["ATK +5%"]
+    - level: 2
+      effects: ["ATK +5%", "Combo Rate +10"]
+    - level: 3
+      effects: ["ATK +5%", "Pierce Rate +10", "Pierce Damage +10"]
+    - level: 4
+      effects:
+        [
+          "ATK +5%",
+          "SPD +5%",
+          "Combo Rate +10",
+          "Pierce Rate +10",
+          "Pierce Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "ATK +5%",
+          "SPD +5%",
+          "Combo Rate +10",
+          "Pierce Rate +10",
+          "Pierce Damage +10",
+          "Death +8",
+        ]
+
+- name: Eye Basher
+  tiers:
+    - level: 1
+      effects: ["HP +10%"]
+    - level: 2
+      effects: ["HP +10%", "Poison Resist +10"]
+    - level: 3
+      effects: ["HP +10%", "Frailty Resist +10"]
+    - level: 4
+      effects: ["HP +10%", "ATK +5%", "Poison Resist +10", "Frailty Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +10%",
+          "INT +1%",
+          "ATK +5%",
+          "Poison Resist +10",
+          "Frailty Resist +10",
+          "Frailty +8",
+        ]
+
+- name: Feral Wolf
+  tiers:
+    - level: 1
+      effects: ["HP +9%"]
+    - level: 2
+      effects: ["HP +9%", "Critical Rate +10", "Critical Damage +10"]
+    - level: 3
+      effects: ["HP +9%", "Melee Resist +10"]
+    - level: 4
+      effects:
+        [
+          "HP +9%",
+          "ATK +9%",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "Melee Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +9%",
+          "ATK +9%",
+          "SPD +5%",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "Melee Resist +10",
+          "Fire +8",
+        ]
+
+- name: Fire Demon
+  tiers:
+    - level: 1
+      effects: ["INT +9%"]
+    - level: 2
+      effects: ["INT +9%", "Fire Resist +10"]
+    - level: 3
+      effects: ["INT +9%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 4
+      effects:
+        [
+          "INT +9%",
+          "ATK +6%",
+          "Fire Resist +10",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +9%",
+          "ATK +6%",
+          "SPD +2%",
+          "Fire Resist +10",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Fire +8",
+        ]
+
+- name: Flyer
+  tiers:
+    - level: 1
+      effects: ["SPD +10%"]
+    - level: 2
+      effects: ["SPD +10%", "Evil Resist +10"]
+    - level: 3
+      effects: ["SPD +10%", "Ice Resist +10"]
+    - level: 4
+      effects: ["INT +1%", "SPD +10%", "Evil Resist +10", "Ice Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +1%",
+          "SPD +10%",
+          "Evil Resist +10",
+          "Ice Resist +10",
+          "Ice +8",
+        ]
+
+- name: Fog Spirit
+  tiers:
+    - level: 1
+      effects: ["INT +10%"]
+    - level: 2
+      effects: ["INT +10%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 3
+      effects: ["INT +10%", "Frailty Resist +10"]
+    - level: 4
+      effects:
+        [
+          "INT +10%",
+          "SPD +5%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Frailty Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +10%",
+          "SPD +5%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Frailty Resist +10",
+          "Chaos +8",
+        ]
+
+- name: Ghost Warrior
+  tiers:
+    - level: 1
+      effects: ["ATK +14%"]
+    - level: 2
+      effects: ["ATK +14%", "Berserk Rate +10", "Berserk Damage +10"]
+    - level: 3
+      effects: ["ATK +14%", "Combo Rate +10"]
+    - level: 4
+      effects:
+        [
+          "HP +2%",
+          "ATK +14%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +2%",
+          "ATK +14%",
+          "SPD +1%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+          "Drain +8",
+        ]
+
+- name: Ghoul
+  tiers:
+    - level: 1
+      effects: ["INT +11%"]
+    - level: 2
+      effects: ["INT +11%", "Stun Resist +10"]
+    - level: 3
+      effects: ["INT +11%", "Hypnotize Resist +10"]
+    - level: 4
+      effects:
+        ["INT +11%", "SPD +5%", "Stun Resist +10", "Hypnotize Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +11%",
+          "SPD +5%",
+          "Stun Resist +10",
+          "Hypnotize Resist +10",
+          "Stun +8",
+        ]
+
+- name: Giant Slicer
+  tiers:
+    - level: 1
+      effects: ["HP +7%"]
+    - level: 2
+      effects: ["HP +7%", "Evil Resist +10"]
+    - level: 3
+      effects: ["HP +7%", "Ice Resist +10"]
+    - level: 4
+      effects: ["HP +7%", "INT +6%", "Evil Resist +10", "Ice Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +7%",
+          "INT +6%",
+          "SPD +2%",
+          "Evil Resist +10",
+          "Ice Resist +10",
+          "Ice +8",
+        ]
+
+- name: Glimmer Fish
+  tiers:
+    - level: 1
+      effects: ["SPD +5%"]
+    - level: 2
+      effects: ["SPD +5%", "HIT Rate +10"]
+    - level: 3
+      effects: ["SPD +5%", "Dodge Rate +10"]
+    - level: 4
+      effects: ["HP +3%", "SPD +5%", "HIT Rate +10", "Dodge Rate +10"]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "INT +1%",
+          "SPD +5%",
+          "HIT Rate +10",
+          "Dodge Rate +10",
+          "Hypnotize +8",
+        ]
+
+- name: Ghoulspirit
+  tiers:
+    - level: 1
+      effects: ["SPD +11%"]
+    - level: 2
+      effects: ["SPD +11%", "Berserk Rate +10"]
+    - level: 3
+      effects: ["SPD +11%", "Critical Rate +10", "Critical Damage +10"]
+    - level: 4
+      effects:
+        [
+          "ATK +7%",
+          "SPD +11%",
+          "Berserk Rate +10",
+          "Critical Rate +10",
+          "Critical Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +6%",
+          "ATK +7%",
+          "SPD +11%",
+          "Berserk Rate +10",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "Evil +8",
+        ]
+
+- name: Guard
+  tiers:
+    - level: 1
+      effects: ["HP +6%"]
+    - level: 2
+      effects: ["HP +6%", "Pierce +10", "Pierce Damage +10"]
+    - level: 3
+      effects: ["HP +6%", "Death Resist +10"]
+    - level: 4
+      effects:
+        [
+          "HP +6%",
+          "SPD +2%",
+          "Pierce +10",
+          "Pierce Damage +10",
+          "Death Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +6%",
+          "INT +1%",
+          "SPD +2%",
+          "Break Phy Rate +10",
+          "Break Phy Damage +10",
+          "Death Resist +10",
+          "Frailty +8",
+        ]
+
+- name: Hell Cat
+  tiers:
+    - level: 1
+      effects: ["SPD +13%"]
+    - level: 2
+      effects: ["SPD +13%", "Flash Resist +10"]
+    - level: 3
+      effects: ["SPD +13%", "Fire Resist +10"]
+    - level: 4
+      effects: ["ATK +8%", "SPD +13%", "Flash Resist +10", "Fire Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "ATK +8%",
+          "SPD +13%",
+          "Flash Resist +10",
+          "Fire Resist +10",
+          "Fire +8",
+        ]
+
+- name: Ice Demon
+  tiers:
+    - level: 1
+      effects: ["INT +8%"]
+    - level: 2
+      effects: ["INT +8%", "Drain Resist +10"]
+    - level: 3
+      effects: ["INT +8%", "Melee Resist +10"]
+    - level: 4
+      effects: ["HP +3%", "INT +8%", "Drain Resist +10", "Melee Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "INT +8%",
+          "SPD +2%",
+          "Drain Resist +10",
+          "Melee Resist +10",
+          "Drain +8",
+        ]
+
+- name: Leopard Wolf
+  tiers:
+    - level: 1
+      effects: ["ATK +4%"]
+    - level: 2
+      effects: ["ATK +4%", "HIT +10"]
+    - level: 3
+      effects: ["ATK +4%", "Berserk Rate +10", "Berserk Damage +10"]
+    - level: 4
+      effects:
+        [
+          "ATK +4%",
+          "SPD +2%",
+          "HIT +10",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "ATK +4%",
+          "SPD +2%",
+          "HIT +10",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Drain +8",
+        ]
+
+- name: Lizard Miner
+  tiers:
+    - level: 1
+      effects: ["SPD +2%"]
+    - level: 2
+      effects: ["SPD +2%", "Dodge Rate +10"]
+    - level: 3
+      effects: ["SPD +2%", "Stun Resist +10"]
+    - level: 4
+      effects: ["HP +1%", "SPD +2%", "Dodge Rate +10", "Stun Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +2%",
+          "ATK +2%",
+          "SPD +2%",
+          "Dodge Rate +10",
+          "Stun Resist +10",
+          "Ice +8",
+        ]
+
+- name: Lizardman
+  tiers:
+    - level: 1
+      effects: ["INT +2%"]
+    - level: 2
+      effects: ["INT +2%", "Ice Resist +10"]
+    - level: 3
+      effects: ["INT +2%", "Evil Resist +10"]
+    - level: 4
+      effects: ["INT +2%", "SPD +1%", "Ice Resist +10", "Evil Resist +10"]
+    - level: 5
+      effects:
+        [
+          "INT +3%",
+          "SPD +2%",
+          "Ice Resist +10",
+          "Evil Resist +10",
+          "Hypnotize +8",
+        ]
+
+- name: Lycosa
+  tiers:
+    - level: 1
+      effects: ["INT +4%"]
+    - level: 2
+      effects: ["INT +4%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 3
+      effects: ["INT +4%", "Death Resist +10"]
+    - level: 4
+      effects:
+        [
+          "INT +4%",
+          "SPD +3%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Death Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +4%",
+          "ATK +2%",
+          "SPD +3%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Death Resist +10",
+          "Evil +8",
+        ]
+
+- name: Mosquito
+  tiers:
+    - level: 1
+      effects: ["SPD +12%"]
+    - level: 2
+      effects: ["SPD +12%", "Poison Resist +10"]
+    - level: 3
+      effects: ["SPD +12%", "Chaos Resist +10"]
+    - level: 4
+      effects: ["ATK +1%", "SPD +12%", "Poison Resist +10", "Chaos Resist +10"]
+    - level: 5
+      effects:
+        [
+          "INT +1%",
+          "ATK +1%",
+          "SPD +12%",
+          "Poison Resist +10",
+          "Chaos Resist +10",
+          "Chaos +8",
+        ]
+
+- name: Mudraper
+  tiers:
+    - level: 1
+      effects: ["HP +9%"]
+    - level: 2
+      effects: ["HP +9%", "Fire Resist +10"]
+    - level: 3
+      effects: ["HP +9%", "Evil Resist +10"]
+    - level: 4
+      effects: ["HP +9%", "INT +4%", "Fire Resist +10", "Evil Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +9%",
+          "INT +4%",
+          "ATK +1%",
+          "Fire Resist +10",
+          "Evil Resist +10",
+          "Ice +8",
+        ]
+
+- name: Mummy
+  tiers:
+    - level: 1
+      effects: ["HP +7%"]
+    - level: 2
+      effects: ["HP +7%", "Drain Resist +10"]
+    - level: 3
+      effects: ["HP +7%", "Critical Rate Resist +10"]
+    - level: 4
+      effects:
+        ["HP +7%", "ATK +3%", "Drain Resist +10", "Critical Rate Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +7%",
+          "ATK +4%",
+          "Drain Resist +10",
+          "Critical Rate Resist +10",
+          "Death +8",
+        ]
+
+- name: Nepenthes
+  tiers:
+    - level: 1
+      effects: ["INT +3%"]
+    - level: 2
+      effects: ["INT +3%", "Counter Rate +10"]
+    - level: 3
+      effects: ["INT +3%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 4
+      effects:
+        [
+          "INT +3%",
+          "ATK +5%",
+          "Counter Rate +10",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +3%",
+          "ATK +1%",
+          "SPD +3%",
+          "Counter Rate +10",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Frailty +8",
+        ]
+
+- name: Ogrewalker
+  tiers:
+    - level: 1
+      effects: ["ATK +12%"]
+    - level: 2
+      effects: ["ATK +12%", "Critical Rate +10", "Critical Damage +10"]
+    - level: 3
+      effects: ["ATK +12%", "HIT Rate +10"]
+    - level: 4
+      effects:
+        [
+          "HP +5%",
+          "ATK +12%",
+          "HIT Rate +10",
+          "Critical Rate +10",
+          "Critical Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +5%",
+          "ATK +12%",
+          "SPD +1%",
+          "HIT Rate +10",
+          "Critical Rate +10",
+          "Critical Damage +10",
+          "Drain +8",
+        ]
+
+- name: Phoenix
+  tiers:
+    - level: 1
+      effects: ["INT +11%"]
+    - level: 2
+      effects: ["INT +11%", "Magic Reflect +10", "Magic Reflect Damage +10"]
+    - level: 3
+      effects: ["INT +11%", "Chaos Resist +10"]
+    - level: 4
+      effects:
+        [
+          "INT +11%",
+          "SPD +7%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Chaos Resist +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "INT +12%",
+          "SPD +8%",
+          "Magic Reflect +10",
+          "Magic Reflect Damage +10",
+          "Chaos Resist +10",
+          "Chaos +8",
+        ]
+
+- name: River Guardian
+  tiers:
+    - level: 1
+      effects: ["ATK +11%"]
+    - level: 2
+      effects: ["ATK +11%", "Combo Rate +10"]
+    - level: 3
+      effects: ["ATK +11%", "Flash Resist +10"]
+    - level: 4
+      effects: ["ATK +11%", "SPD +4%", "Combo Rate +10", "Flash Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +2%",
+          "ATK +11%",
+          "SPD +4%",
+          "Combo Rate +10",
+          "Flash Resist +10",
+          "Flash +8",
+        ]
+
+- name: Scarecrow
+  tiers:
+    - level: 1
+      effects: ["ATK +3%"]
+    - level: 2
+      effects: ["ATK +3%", "Combo Rate +10"]
+    - level: 3
+      effects: ["ATK +3%", "Fire Resist +10"]
+    - level: 4
+      effects: ["ATK +3%", "SPD +2%", "Combo Rate +10", "Fire Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "ATK +3%",
+          "SPD +2%",
+          "Combo Rate +10",
+          "Fire Resist +10",
+          "Drain +8",
+        ]
+
+- name: Skeletal
+  tiers:
+    - level: 1
+      effects: ["ATK +8%"]
+    - level: 2
+      effects: ["ATK +8%", "Berserk Rate +10", "Berserk Damage +10"]
+    - level: 3
+      effects: ["ATK +8%", "Combo Rate +10"]
+    - level: 4
+      effects:
+        [
+          "HP +1%",
+          "ATK +8%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "SPD +9%",
+          "Berserk Rate +10",
+          "Berserk Damage +10",
+          "Combo Rate +10",
+          "Evil +8",
+        ]
+
+- name: Snake Demon
+  tiers:
+    - level: 1
+      effects: ["INT +12%"]
+    - level: 2
+      effects: ["INT +12%", "Dodge Rate +10"]
+    - level: 3
+      effects: ["INT +12%", "Drain Resist +10"]
+    - level: 4
+      effects: ["INT +12%", "SPD +4%", "Dodge Rate +10", "Drain Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +12%",
+          "SPD +4%",
+          "Dodge Rate +10",
+          "Drain Resist +10",
+          "Heal Other +8",
+        ]
+
+- name: Stone Giant
+  tiers:
+    - level: 1
+      effects: ["HP +11%"]
+    - level: 2
+      effects: ["HP +11%", "Melee Resist +10"]
+    - level: 3
+      effects: ["HP +11%", "Melee Reflect +10", "Melee Reflect Damage +10"]
+    - level: 4
+      effects:
+        [
+          "HP +11%",
+          "ATK +3%",
+          "Melee Resist +10",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +11%",
+          "ATK +5%",
+          "Melee Resist +10",
+          "Melee Reflect +10",
+          "Melee Reflect Damage +10",
+          "Stun +8",
+        ]
+
+- name: Teethor
+  tiers:
+    - level: 1
+      effects: ["INT +6%"]
+    - level: 2
+      effects: ["INT +6%", "Ice Resist +10"]
+    - level: 3
+      effects: ["INT +6%", "Evil Resist +10"]
+    - level: 4
+      effects: ["INT +6%", "SPD +3%", "Ice Resist +10", "Evil Resist +10"]
+    - level: 5
+      effects:
+        ["INT +6%", "SPD +5%", "Ice Resist +10", "Evil Resist +10", "Ice +8"]
+
+- name: Thorned Spider
+  tiers:
+    - level: 1
+      effects: ["INT +3%"]
+    - level: 2
+      effects: ["INT +3%", "Dodge Rate +10"]
+    - level: 3
+      effects: ["INT +3%", "Hypnotize Resist +10"]
+    - level: 4
+      effects: ["INT +3%", "SPD +3%", "Dodge Rate +10", "Hypnotize Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +1%",
+          "INT +3%",
+          "SPD +3%",
+          "Dodge Rate +10",
+          "Hypnotize Resist +10",
+          "Hypnotize +8",
+        ]
+
+- name: Tree Demon
+  tiers:
+    - level: 1
+      effects: ["INT +9%"]
+    - level: 2
+      effects: ["INT +9%", "Death Resist +10"]
+    - level: 3
+      effects: ["INT +9%", "Frailty Resist +10"]
+    - level: 4
+      effects: ["HP +3%", "INT +9%", "Death Resist +10", "Frailty Resist +10"]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "INT +9%",
+          "SPD +1%",
+          "Death Resist +10",
+          "Frailty Resist +10",
+          "Flash +8",
+        ]
+
+- name: Werewolf
+  tiers:
+    - level: 1
+      effects: ["HP +3%"]
+    - level: 2
+      effects: ["HP +3%", "Counter Attack Rate +10"]
+    - level: 3
+      effects: ["HP +3%", "Pierce +10", "Pierce Damage +10"]
+    - level: 4
+      effects:
+        [
+          "HP +3%",
+          "ATK +6%",
+          "Counter Attack Rate +10",
+          "Pierce +10",
+          "Pierce Damage +10",
+        ]
+    - level: 5
+      effects:
+        [
+          "HP +3%",
+          "ATK +6%",
+          "SPD +1%",
+          "Counter Attack Rate +10",
+          "Pierce +10",
+          "Pierce Damage +10",
+          "Evil +8",
+        ]
+
+- name: Withered Guard
+  tiers:
+    - level: 1
+      effects: ["INT +2%"]
+    - level: 2
+      effects: ["INT +2%", "Flash Resist +10"]
+    - level: 3
+      effects: ["INT +2%", "Poison Resist +10"]
+    - level: 4
+      effects: ["INT +2%", "SPD +1%", "Flash Resist +10", "Poison Resist +10"]
+    - level: 5
+      effects:
+        [
+          "INT +3%",
+          "SPD +2%",
+          "Flash Resist +10",
+          "Poison Resist +10",
+          "Hypnotize +8",
+        ]
+
+# Flat (non-tier) entries from the bottom and constellations
+- name: Aquarius
+  flat: ["30 stun", "+10 hyp", "+10% atk", "+15% hp"]
+
+- name: Capricornus
+  flat: ["20 phys resist", "+20 chaos", "+8% speed", "+15% atk"]
+
+- name: Pisces
+  flat: ["+12% mp", "+12% speed", "+30 frailty resist", "+10 hypno resist"]

@@ -5,7 +5,7 @@ This site is made to help you with MythWar Online, it contains guides, tools and
 
 ## Latest Updates
 
-- Add items
+- Add items pages
 - Add more pet pages
 - Add reborning guides
 - Add all pets

@@ -75,16 +75,20 @@ Each time your pet levels, you get 4 stat points. Use the **+** / **−** icons 
 
 ## Items for Pet Usage
 
-| Item                               | Purpose                                                    | Affects added Resistance? | Affects Growth Rate? | Resets Dragon Eyes / Bones? | Affects Intimacy? |
-| ---------------------------------- | ---------------------------------------------------------- | ------------------------- | -------------------- | --------------------------- | ----------------- |
-| **Stone of Moon**                  | Reset pet stats while retaining its current level          | Yes                       | Yes                  | Yes                         | No                |
-| **Stone of Curses**                | Reset resistance added via crystals to initial values      | Yes                       | No                   | No                          | No                |
-| **Stone of Dream**                 | Reset pet level to 1 (often used for resetting GR)         | Yes                       | Yes                  | Yes                         | Yes               |
-| **Loyalty Stone**                  | Restore pet loyalty to 100                                 | No                        | No                   | No                          | No                |
-| **Mystical Fruits**                | Increase pet experience                                    | No                        | No                   | No                          | No                |
-| **Crystal +1 / +2 / +3 / +4 / +5** | Increase pet resistance (at certain levels / after reborn) | No                        | No                   | No                          | No                |
-| **Dragon Eyes**                    | Increase pet’s GR by 0.1 (only one may be used per pet)    | No                        | Yes                  | No                          | No                |
-| **Dragon Bones**                   | Increase pet’s GR by 0.01 (up to 4 may be used)            | No                        | Yes                  | No                          | No                |
+| Item                 | Purpose                                                 | Affects added Resistance? | Affects Growth Rate? | Resets Dragon Eyes / Bones? | Affects Intimacy? | Source                                                   |
+| -------------------- | ------------------------------------------------------- | ------------------------- | -------------------- | --------------------------- | ----------------- | -------------------------------------------------------- |
+| **Stone of Moon**    | Reset pet stats while retaining its current level       | Yes                       | Yes                  | Yes                         | No                | Events / Item Mall / Lost Space                          |
+| **Stone of Curses**  | Reset resistance added via crystals to initial values   | Yes                       | No                   | No                          | No                | Item Mall                                                |
+| **Stone of Dream**   | Reset pet level to 1 (often used for resetting GR)      | Yes                       | Yes                  | Yes                         | Yes               | Item Mall                                                |
+| **Stone of Loyalty** | Restore pet loyalty to 100                              | No                        | No                   | No                          | No                | Groceror                                                 |
+| **Mystical Fruits**  | Increase pet experience                                 | No                        | No                   | No                          | No                | Battle Chests / Hellion Quest / Nelson Quest / Guild War |
+| **Magic Crystal +1** | Increase level 30 pet resistance                        | No                        | No                   | No                          | No                | Spirit / Crystal Seller                                  |
+| **Magic Crystal +2** | Increase level 50 pet resistance                        | No                        | No                   | No                          | No                | Spirit / Crystal Seller                                  |
+| **Magic Crystal +3** | Increase level 70 pet resistance                        | No                        | No                   | No                          | No                | Spirit / Crystal Seller                                  |
+| **Magic Crystal +4** | Increase level 1-50 pet resistance                      | No                        | No                   | No                          | No                | Spirit / Crystal Seller                                  |
+| **Magic Crystal +5** | Increase level 1-70 pet resistance                      | No                        | No                   | No                          | No                | Spirit / Crystal Seller                                  |
+| **Dragon Eyes**      | Increase pet’s GR by 0.1 (only one may be used per pet) | No                        | Yes                  | No                          | No                | Item Mall / Events                                       |
+| **Dragon Bones**     | Increase pet’s GR by 0.01 (up to 4 may be used)         | No                        | Yes                  | No                          | No                | Item Mall / Events                                       |
 
 > **Note**: When a pet hits max GR, it may sparkle. Occasionally, pets 0.01 below max GR may also sparkle (e.g. Aurora Lion) — but upon relog, this effect may disappear (except for some that stay shiny, e.g. Bloodpede).
 
