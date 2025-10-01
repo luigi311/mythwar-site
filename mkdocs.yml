@@ -22,3 +22,6 @@ plugins:
   - macros
   - search
   - awesome-nav
+extra:
+  version:
+    provider: mike
