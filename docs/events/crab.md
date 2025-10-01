@@ -1,6 +1,6 @@
 # Crab
 
-Every Monday, Wednesday at 7 pm and Friday at 3 pm, the **Crab Pit (Woodlingor)** event opens. Players can enter through the Crab Pit NPC to participate in the event.
+Every **Wednesday at 6 PM EST**, **Friday at 3 PM EST**, and **Sunday at 5 PM EST**, the **Crab Pit (Woodlingor 455,554)** event opens and lasts for an hour. Players can enter through the Crab Pit NPC to participate in the event.
 
 Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged for Experience, Gold, or Ores.
 
@@ -10,20 +10,18 @@ Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged fo
 
 ### Part A: Roll Dice
 
-- For a total of 3 rounds  
-- Each round players will roll a dice that ranges from **1 to 33**.  
-- The player with the highest roll earns the right to catch crabs, announced by the system.  
-- There can be *outrolls*—other players may beat your roll and take the spot.
+- Each players will roll a dice that ranges from **1 to 99**.  
+- If you roll above the threshold of **60**, you get to catch crabs.
+- If you roll below the threshold, you will have to wait 30 seconds before you can roll again.
 - The system will announce: *“Go catch the crabs in the Crab Pit!”* when it’s your turn.
 
 
 ---
-
 ### Part B: Catching Crabs
 
-- During your turn, crabs will spawn around the Crab Pit.  
-- Run and **click the real crabs** to catch them.  
-- Beware: **fake crabs** are planted to trick you.  
+- crabs will continuously spawn around the Crab Pit.  
+- For 90 seconds **click the real crabs** to catch them.  
+- Beware: **fake crabs** are planted to trick you and waste time.  
 
 ---
 
@@ -31,21 +29,19 @@ Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged fo
 
 | Number of Crabs Caught | Redeem Points Earned |
 |---------------------------|----------------------|
-| Crab × 1 | 500 RP |
-| Crab × 2 | 1,000 RP |
-| Crab × 3 | 1,500 RP |
-| Crab × 4 | 2,000 RP |
-| Crab × 5 | 2,500 RP |
-| Crab × 6 | 3,000 RP |
-| Crab × 7 | 3,500 RP |
-| Crab × 8 | 4,000 RP |
-| Crab × 9 | 4,500 RP |
-| Crab × 10 | 5,000 RP |
-| Crab × 11 | 5,500 RP |
-| Crab × 12 | 6,000 RP |
-| Crab × 13 | 6,500 RP |
-| … | … (continues +500 RP per crab) |
+| Crab × 1 | 100 RP |
+| Crab × 2 | 100 RP |
+| Crab × 3 | 100 RP |
+| Crab × 4 | 100 RP |
+| Crab × 5 | 100 RP |
+| Crab × 6 | 300 RP |
+| Crab × 7 | 300 RP |
+| Crab × 8 | 300 RP |
+| Crab × 9 | 300 RP |
+| Crab × 10 | 300 RP |
+| … | 300 RP |
 
-> Note: Rewards are cumulative so catching 5 crabs gives you 7,500 RP total.
+
+> Catching 5 crabs gives you 500 RP total and 15 crabs gives you 3,500 RP total.
 
 ---

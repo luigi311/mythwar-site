@@ -1,13 +1,8 @@
 ## Welcome on this site
 
-This site is made to help you with MythWar Online, it contains guides, tools and other useful stuff. Most information is gathered from [thunderized mirror](https://thunderized.luigi311.com) and the webarchive.
+This site is made to help you with [Open Source MythWar Online (osmw)](https://www.osmw.net), it contains guides, tools and other useful stuff. Most information is gathered from [thunderized mirror](https://thunderized.luigi311.com) and is being updated to match the new systems and values used by osmw.
 
 
 ## Latest Updates
 
-- Add events
-- Add items pages
-- Add more pet pages
-- Add reborning guides
-- Add all pets
-- Add thunderized quests
+- Updated crab event guide
