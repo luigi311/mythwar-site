@@ -1,6 +1,6 @@
 # Shapeshift Potion
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 > ~ adopted from p0rnst4r (Missouri) Shapeshifting guide

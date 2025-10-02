@@ -1,6 +1,6 @@
 # All Pets
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 <div class="pet-wrap" markdown>

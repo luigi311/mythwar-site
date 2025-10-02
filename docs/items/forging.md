@@ -1,7 +1,7 @@
 
 # Forging
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 ## How to Become a Forger

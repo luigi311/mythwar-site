@@ -1,6 +1,6 @@
 # Equipment
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 Below is an index of equipment families by slot and race/gender. Click a family to see its tier table.

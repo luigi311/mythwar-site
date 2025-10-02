@@ -1,6 +1,6 @@
 # Pet NPCs
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 ## NPCs for Pets

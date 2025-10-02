@@ -1,6 +1,6 @@
 # Reborning Pet
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 ## How to REBORN a Pet

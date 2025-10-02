@@ -1,6 +1,6 @@
 # Intimacy
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 ## How Intimacy Affects Pet Berserk, Combo, and Counter

@@ -1,6 +1,6 @@
 # Gems
 
-# Needs to be updated/validated against osmw
+## Needs to be updated/validated against osmw
 
 
 Ever see a player taking just **1 damage** from a monster while you're taking hundreds or thousands? Their secret is **gems**. Gems boost **resistance** (or other stats) depending on the type and how they are used.
