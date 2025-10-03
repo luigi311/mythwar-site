@@ -3,15 +3,25 @@ site_url: https://mythwar.luigi311.com
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: indigo
-    accent: teal
+    # Palette toggle for light mode
+    - scheme: thunderized
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tabs
     - toc.integrate
     - content.tabs.link
 extra_css:
+  - styles/extra.css
   - styles/pets.css
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
