@@ -72,7 +72,7 @@ jobs:
           git switch main
           uv run mike deploy main latest --branch gh-pages
           uv run mike set-default latest  --branch gh-pages
-          uv run mike retitle main "OSMW (current)" --branch gh-pages
+          uv run mike retitle main "OSMW" --branch gh-pages
 
       - name: Build & publish LEGACY (version "legacy")
         run: |
