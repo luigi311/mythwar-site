@@ -1,0 +1,142 @@
+[data-md-color-scheme="thunderized"] {
+  /* palette */
+  --mw-bg: #15486f;
+  --mw-panel-top: #1f5c8b;
+  --mw-panel-bot: #174b71;
+  --mw-panel-edge: #0e3655;
+  --mw-on-bg: #e7edf0;
+  --mw-muted: #cfd9df;
+
+  --mw-header-top: #3a86c4;
+  --mw-header-mid: #215f90;
+  --mw-header-bot: #143c5e;
+
+  --mw-sidebar: #c9d2c9;
+  --mw-sidebar-edge: #aeb7ae;
+  --mw-sidebar-text: #0c2a3f;
+
+  --mw-link: #3ac1ff;
+  --mw-link-hover: #63d1ff;
+  --mw-green: #2a7a3a;
+  --mw-green-hover: #38994d;
+
+  --mw-code-bg: #0f3756;
+  --mw-code-fg: #f2f7f9;
+
+  /* map to Material */
+  --md-default-bg-color: var(--mw-bg);
+  --md-default-fg-color: var(--mw-on-bg);
+  --md-default-fg-color--light: var(--mw-muted);
+  --md-typeset-color: var(--mw-on-bg);
+  --md-primary-fg-color: var(--mw-header-bot);
+  --md-accent-fg-color: var(--mw-link);
+  --md-code-bg-color: var(--mw-code-bg);
+  --md-code-fg-color: var(--mw-code-fg);
+  --md-typeset-a-color: var(--mw-link);
+}
+
+/* surfaces */
+[data-md-color-scheme="thunderized"] :is(.md-main, .md-content) { background: var(--mw-bg); }
+[data-md-color-scheme="thunderized"] .md-content__inner{
+  background: linear-gradient(to bottom, var(--mw-panel-top), var(--mw-panel-bot));
+  border: 1px solid var(--mw-panel-edge);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 1px 0 rgba(0,0,0,.35);
+  padding: 1.25rem;
+}
+
+/* header + tabs */
+[data-md-color-scheme="thunderized"] .md-header{
+  background: linear-gradient(to bottom, var(--mw-header-top), var(--mw-header-mid) 35%, var(--mw-header-bot));
+  color: var(--mw-on-bg);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,.25), inset 0 -2px 0 rgba(0,0,0,.35);
+}
+[data-md-color-scheme="thunderized"] .md-tabs{
+  background: linear-gradient(to bottom, var(--mw-header-mid), var(--mw-header-bot));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+/* search */
+[data-md-color-scheme="thunderized"] .md-search__form{
+  background: rgba(230,236,239,.92);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0,0,0,.25);
+}
+[data-md-color-scheme="thunderized"] .md-search__input{ color:#082236; }
+[data-md-color-scheme="thunderized"] .md-search__input::placeholder {
+  color: #082236 !important;  /* muted navy-gray placeholder */
+}
+[data-md-color-scheme="thunderized"] .md-search__icon {
+  color: #082236 !important; /* darker search icon */
+}
+
+
+/* sidebar surface (cover every wrapper just once) */
+[data-md-color-scheme="thunderized"]
+:is(.md-sidebar--primary, .md-sidebar--secondary, .md-sidebar__inner, .md-sidebar__scrollwrap, .md-nav, .md-nav__list, .md-nav__container){
+  background: var(--mw-sidebar) !important;
+}
+[data-md-color-scheme="thunderized"] .md-sidebar--primary{
+  border-right: 1px solid var(--mw-sidebar-edge);
+  box-shadow: inset -1px 0 0 #fff;
+}
+
+/* sidebar text (Mythwar green) */
+[data-md-color-scheme="thunderized"]
+:is(.md-sidebar--primary, .md-sidebar--secondary) .md-nav__link{
+  color: var(--mw-green);
+}
+[data-md-color-scheme="thunderized"]
+:is(.md-sidebar--primary, .md-sidebar--secondary) .md-nav__link:hover{
+  color: var(--mw-green-hover);
+}
+
+/* active state — ONLY the <a>, never the label */
+[data-md-color-scheme="thunderized"] a.md-nav__link--active{
+  background: linear-gradient(to bottom, #eef3ee, #cdd7cd) !important;
+  border-left: 6px solid var(--mw-header-top) !important;
+  border-right: 1px solid var(--mw-sidebar-edge) !important;
+  box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0,0,0,.12) !important;
+  color: #082236 !important;
+  margin-left: -6px;                  /* align with border */
+  padding-left: calc(1rem + 6px);
+}
+/* kill styling on labels even if they get --active */
+[data-md-color-scheme="thunderized"] label.md-nav__link--active{
+  background:none !important; border:0 !important; box-shadow:none !important; color:var(--mw-green) !important;
+}
+
+/* nuke all built-in sidebar titles/boxes */
+[data-md-color-scheme="thunderized"] .md-nav__title,
+[data-md-color-scheme="thunderized"] .md-nav__title::after{
+  display:none !important; content:none !important;
+}
+[data-md-color-scheme="thunderized"] .md-sidebar__inner{ padding-top:.25rem; }
+
+/* typography/links */
+[data-md-color-scheme="thunderized"] .md-typeset :is(h1,h2,h3){ color:#f0f6f9; text-shadow:0 1px 0 rgba(0,0,0,.3); }
+[data-md-color-scheme="thunderized"] .md-typeset a{ color:var(--mw-link); text-decoration:underline; }
+[data-md-color-scheme="thunderized"] .md-typeset a:hover{ color:var(--mw-link-hover); }
+[data-md-color-scheme="thunderized"] .md-typeset a[href^="#"]:not(.headerlink){ color:var(--mw-green); }
+
+/* code + footer */
+[data-md-color-scheme="thunderized"] .md-typeset :is(pre code, code){
+  background: var(--mw-code-bg); color: var(--mw-code-fg);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+}
+[data-md-color-scheme="thunderized"] .md-footer{
+  background: linear-gradient(to bottom, var(--mw-header-top), var(--mw-header-bot));
+  color: var(--mw-on-bg);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 -1px 0 rgba(0,0,0,.25);
+}
+
+/* Remove the “box” on parent section labels (e.g., Events/Items) */
+[data-md-color-scheme="thunderized"] .md-sidebar--primary
+.md-nav__item--active.md-nav__item--nested > .md-nav__link,
+[data-md-color-scheme="thunderized"] .md-sidebar--primary
+.md-nav__item--active.md-nav__item--section > .md-nav__link {
+  background: none !important;
+  box-shadow: none !important;
+  color: #1f1f1f !important; /* keep Mythwar green */
+}
