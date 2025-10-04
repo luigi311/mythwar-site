@@ -13,14 +13,14 @@
 ## Steps
 1. Talk to **Disciple** in **Revive Arena** to activate the quest.  
 2. Fight battles in Revive Arena until you obtain a **Mokka Sword (40% chance)**.  
-3. Return the sword to **Disciple** for **100 Skill Exp** to a **random skill below 3k exp**.  
+3. Return the sword to **Disciple** for **100 Skill Exp** to the **lowest skill**.  
 
 ---
 
 ## Rewards
 | Turn-in | Reward |
 |--------:|:-------|
-| Each sword | +100 Skill Exp (random skill) |
+| Each sword | +100 Skill Exp (lowest skill) |
 | Per skill cap | 3,000 Skill Exp total |
 
 ---
