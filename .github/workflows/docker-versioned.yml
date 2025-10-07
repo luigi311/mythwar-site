@@ -1,4 +1,4 @@
-name: Docker (versioned docs)
+name: Docker-Versioned
 
 on:
   push:
@@ -71,13 +71,14 @@ jobs:
           git switch main
           uv run mike deploy main latest --branch gh-pages
           uv run mike set-default latest  --branch gh-pages
-          uv run mike retitle main "OSMW (current)" --branch gh-pages
+          uv run mike retitle main "OSMW" --branch gh-pages
 
       - name: Build & publish LEGACY (version "legacy")
         run: |
           git switch legacy
           uv run mike deploy legacy --branch gh-pages
           uv run mike retitle legacy "Legacy" --branch gh-pages
+          git switch main   # back to main
 
       - name: Sync pages worktree to latest gh-pages
         run: |
