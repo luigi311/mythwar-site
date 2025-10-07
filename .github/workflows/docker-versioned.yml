@@ -45,8 +45,7 @@ jobs:
           tags: |
             type=ref,event=branch           # :main or :legacy
             type=sha                        # :sha-<commit>
-            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
-            type=raw,value=legacy,enable=${{ github.ref == 'refs/heads/legacy' }}
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/legacy' }}
 
       # Build versioned docs with mike into ./pages
       - name: Install uv
