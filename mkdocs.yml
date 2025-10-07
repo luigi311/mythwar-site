@@ -2,6 +2,7 @@ site_name: Mythwar
 site_url: https://mythwar.luigi311.com
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - scheme: thunderized
@@ -20,6 +21,14 @@ theme:
     - navigation.tabs
     - toc.integrate
     - content.tabs.link
+    - search.highlight
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/luigi311/mythwar-site
+      name: GitHub Repo
+  version:
+    provider: mike
 extra_css:
   - styles/extra.css
   - styles/pets.css
@@ -35,6 +44,3 @@ plugins:
   - macros
   - search
   - awesome-nav
-extra:
-  version:
-    provider: mike
