@@ -142,8 +142,10 @@ def define_env(env):
         stars = sum(1 for t in thresholds if v >= t)
         return "☆" if stars == 0 else "★" * stars
 
-    def render_skills(skills):
-        return "<br>".join(f"**{s}**" for s in (skills or []))
+    def render_lists(items):
+        if isinstance(items, str):
+            return "**" + escape(items) + "**"
+        return "<br>".join(f"**{s}**" for s in (items or []))
 
     def render_kv_block(d):
         return "<br>".join(f"{k} **{v}**" for k, v in (d or {}).items())
@@ -160,9 +162,9 @@ def define_env(env):
             f"| **{pet['name']}** <img src='{pet['image']}'/> "
             f"| {pet['species']} "
             f"| **{pet['gr']}** "
-            f"| {render_skills(pet.get('skills'))} "
+            f"| {render_lists(pet.get('skills'))} "
             f"| {stat_block(pet.get('stats'))} "
-            f"| {pet.get('source', '')} "
+            f"| {render_lists(pet.get('source'))} "
             f"| {render_kv_block(pet.get('physical'))} "
             f"| {render_kv_block(pet.get('magical'))} "
             f"| {render_kv_block(pet.get('elemental'))} |"

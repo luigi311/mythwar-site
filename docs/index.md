@@ -5,5 +5,6 @@ This site is made to help you with [Open Source MythWar Online (osmw)](https://w
 
 ## Latest Updates
 
+- Pets: Update pet stats for OSMW
 - Event: Crab: Updated for OSMW
 - Quest: Thief: Updated for OSMW
