@@ -14,23 +14,23 @@
 
 ## Steps
 
-| Step | Action / Talk to                                                        | Location                              |
-| ---: | ----------------------------------------------------------------------- | ------------------------------------- |
-|    1 | Talk to **Elder of Dawn**                                               | Elder Zone                            |
-|    2 | Talk to **Elder of Sight**                                              | Elder Zone                            |
-|    3 | Get quest from **Elder of Night**                                       | Elder Zone                            |
-|    4 | Get info from **Barkeeper** (pay him 150 gold)                          | Woodlingor Bar                        |
-|    5 | Barkeeper mentions **Drunkard Fenny**                                   | Woodlingor (540,795)                  |
-|    6 | Fenny requests **Wintermelon Wine**                                     | Woodlingor (540,795)                  |
-|    7 | Buy **Wintermelon Wine** from Barkeeper (1000 gold)                     | Woodlingor Bar                        |
-|    8 | Give wine to **Fenny** via “Give” function                              | Woodlingor (540,795)                  |
-|    9 | Gamble with **Gambler John** — info or fight                            | Woodlingor (234,127)                  |
-|   10 | Gambler John reveals stone lost to **Deserter**                         | —                                     |
-|   11 | Find **Deserter** and prepare for boss battle                           | Tree of Life 2 (191,52)               |
-|   12 | Defeat **Deserter**                                                     | —                                     |
-|   13 | Use Soulstone                                                           | —                                     |
-|   14 | Return Soulstone to **Elder of Night** to claim reward                  | Elder Zone                            |
-|   15 | Store Soulstone in bank; quest chain continues to **Soulstone of Dark** | —                                     |
+| Step | Action / Talk to                                                        | Location                 |
+| ---: | ----------------------------------------------------------------------- | ------------------------ |
+|    1 | Talk to **Elder of Dawn**                                               | Elder Zone               |
+|    2 | Talk to **Elder of Sight**                                              | Elder Zone               |
+|    3 | Get quest from **Elder of Night**                                       | Elder Zone               |
+|    4 | Get info from **Barkeeper** (pay him 150 gold)                          | Woodlingor Bar           |
+|    5 | Barkeeper mentions **Drunkard Fenny**                                   | Woodlingor (540,795)     |
+|    6 | Fenny requests **Wintermelon Wine**                                     | Woodlingor (540,795)     |
+|    7 | Buy **Wintermelon Wine** from Barkeeper (1000 gold)                     | Woodlingor Bar           |
+|    8 | Give wine to **Fenny** via “Give” function                              | Woodlingor (540,795)     |
+|    9 | Gamble with **Gambler John** — info or fight                            | Woodlingor (234,127)     |
+|   10 | Gambler John reveals stone lost to **Deserter**                         | —                        |
+|   11 | Find **Deserter** and prepare for boss battle                           | Tree of Life 2 (211,196) |
+|   12 | Defeat **Deserter**                                                     | —                        |
+|   13 | Use Soulstone                                                           | —                        |
+|   14 | Return Soulstone to **Elder of Night** to claim reward                  | Elder Zone               |
+|   15 | Store Soulstone in bank; quest chain continues to **Soulstone of Dark** | —                        |
 
 > **Note:** If you lose the gamble, you'll have to acquire a **Mushroom Spore** to retry or fight John directly. Win gives 3,000 EXP.
 
@@ -66,7 +66,7 @@
 
 - Notes: Optional fight. Grants **+3k EXP** if you choose to battle instead of talking.
 
-### 2) Deserter — Tree of Life 2 (191,52)
+### 2) Deserter — Tree of Life 2 (211,196)
 
 - Notes: Required boss.
 

@@ -29,7 +29,7 @@
 |   11 | Give Phantasm to Tree Elder in exchange for **Book of the Ancients**                       | Woodlingor (Elder Zone) |
 |   12 | Return to **Cursed Mage** with Book                                                        | Badland (169,375)       |
 |   13 | Task 3: Learn where to find **Soulstone of Fire** in Desert City                           | —                       |
-|   14 | Go to **Spirit Mage** in Desert City                                                       | Desert City (193,60)    |
+|   14 | Go to **Spirit Mage** in Desert City                                                       | Desert City (185,49)    |
 |   15 | Promise to help Spirit Mage; discover **Flame Devil** holds Soulstone                      | —                       |
 |   16 | Fight **Flame Devil** in **Demon Lair 3**                                                  | Demon Lair 3 (125,344)  |
 |   17 | Return to **Cursed Mage** with Soulstone; start final boss fight                           | Badland (169,375)       |

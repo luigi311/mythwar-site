@@ -22,9 +22,9 @@
 | Step | Action / Talk to                                  | Location / Coordinates  | Notes                                                  |
 | ---: | ------------------------------------------------- | ----------------------- | ------------------------------------------------------ |
 |    1 | Talk to **Elder of Faith**                        | Woodlingor Trading Zone | Activate the Reborn quest                              |
-|    2 | Talk to **Dark Priest**                           | Burial 4 (47,43)        | He gives instructions                                  |
+|    2 | Talk to **Dark Priest**                           | Burial 4 (37,37)        | He gives instructions                                  |
 |    3 | Battle random monsters at **Burial 4**            | Burial 4                | Recover the **Lost Key**                               |
-|    4 | Return Lost Key to **Dark Priest** to begin fight | Burial 4 (47,43)        | He becomes the boss fight                              |
+|    4 | Return Lost Key to **Dark Priest** to begin fight | Burial 4 (37,37)        | He becomes the boss fight                              |
 |    5 | Win the battle to receive **Deity’s Blood**       | Burial 4                | Key reward for reborn                                  |
 |    6 | Speak to **Elder of Faith** again                 | Woodlingor Trading Zone | He combines 5 Soulstones + Deity’s Blood into a potion |
 |    7 | Prepare to reborn, or store potion till readiness | —                       | Potion must be banked if not ready                     |
@@ -46,7 +46,7 @@
 
 ## Battles
 
-### 1) Dark Priest (Deity Boss) — Burial 4 (47,43)
+### 1) Dark Priest (Deity Boss) — Burial 4 (37,37)
 - Battle begins after you hand the Lost Key to Dark Priest  
 - Defeat him to obtain **Deity’s Blood** and unlock the final reborn step  
 
