@@ -823,10 +823,10 @@ evilWolf:
   species: "Special"
   statRates:
     growthRate: { min: 1.169, max: 1.199 }
-    sta: { min: null, max: null }
-    int: { min: null, max: null }
-    str: { min: null, max: null }
-    agi: { min: null, max: null }
+    sta: { min: 129, max: 129 }
+    int: { min: 97, max: 97 }
+    str: { min: 76, max: 76 }
+    agi: { min: 82, max: 82 }
   build:
     sta: 4
     int: 2
@@ -847,10 +847,10 @@ eyekicker:
   species: "Human"
   statRates:
     growthRate: { min: 1.205, max: 1.225 }
-    sta: { min: null, max: null }
-    int: { min: null, max: null }
-    str: { min: null, max: null }
-    agi: { min: null, max: null }
+    sta: { min: 137, max: 137 }
+    int: { min: 98, max: 98 }
+    str: { min: 31, max: 31 }
+    agi: { min: 36, max: 36 }
   build:
     sta: 5
     int: 1
@@ -1611,7 +1611,6 @@ ironFang:
     meleeResist: 50
     chaosResist: 20
 
-
 killerBee:
   name: "Killer Bee"
   image: "../../assets/monsters/killer_bee.gif"
@@ -1792,7 +1791,6 @@ madOrgewalker:
     chaosResist: 7
     stunResist: 7
     hypnotizeResist: 7
-
 
 mosquito:
   name: "Mosquito"
@@ -2415,7 +2413,6 @@ thornSpider:
     dodgeRate: 5
     meleeResist: 10
     chaosResist: 30
-
 
 treeDemon:
   name: "Tree Demon"
