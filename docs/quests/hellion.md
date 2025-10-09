@@ -1,11 +1,9 @@
 # Hellion
 
-## Needs to be updated/validated against osmw
-
 
 ## Summary
 - **Task & Type:** Battle quest — 5 fights
-- **Description:** Defeat monsters from Tree of Life to Devil’s Gate. Gives EXP and Mystical Fruits (until level 50).
+- **Description:** Defeat monsters from Tree of Life to Devil’s Gate. Gives EXP or Skill EXP.
 - **Locations:** Tree of Life 1 • Revive Arena • Flamingor • Devil’s Gate
 - **Activate from:** **Howling Beast** — Tree of Life 1 (**122,189**)
 - **Difficulty:** Medium
@@ -21,13 +19,15 @@
 ---
 
 ## Rewards
-| Battle | Target        | EXP   | Extras after lvl 50 |
-|------: |---------------|------:|---------------------|
-| 1      | Howling Beast | 20,000 | Chance: 50k Mystical Fruit, +1 Skill Exp |
-| 2      | Bat Beast     | 30,000 | Chance: 50k Mystical Fruit, +3 Skill Exp |
-| 3      | Flower Witch  | 40,000 | Chance: 50k Mystical Fruit, +4 Skill Exp |
-| 4      | Flame Beast   | 50,000 | Chance: 100k Mystical Fruit, +5 Skill Exp |
-| 5      | Cave Clayman  | 70,000 | Chance: 100k Mystical Fruit, +7 Skill Exp |
+|     Battle | Target        | Level 30-50  | Level 51+    |
+| ---------: | ------------- | ------------ | ------------ |
+|          1 | Howling Beast | 90,000 Exp   | +3 Skill Exp |
+|          2 | Bat Beast     | 60,000 Exp   | +4 Skill Exp |
+|          3 | Flower Witch  | 90,000 Exp   | +5 Skill Exp |
+|          4 | Flame Beast   | 112,500 Exp  | +6 Skill Exp |
+|          5 | Cave Clayman  | 135,000 Exp  | +7 Skill Exp |
+| Completion |               | 600,000 Exp  | +8 Skill Exp |
+| Record Run |               | 200,000 Gold | 200,000 Gold |
 
 ---
 
