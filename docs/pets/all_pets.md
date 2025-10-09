@@ -1,6 +1,6 @@
 # All Pets
 
-## Needs to be updated/validated against osmw
+## Stats have been updated to reflect OSMW, still missing sources
 
 
 <div class="pet-wrap" markdown>

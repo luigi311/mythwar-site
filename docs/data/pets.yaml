@@ -1,2775 +1,2521 @@
-- key: ant_eater
+# game-server/Data/PetTemplates.ts
+# game-server/Updater/Data/Items/PetEggData.ts
+# game-server/Data/ItemPools.ts
+# game-server/GameActions/Actions/Game/ContributionExchangeExecutable.ts
+# game-server/Data/QuestFightTemplates.ts
+# game-server/Updater/Data/Items/EggMap.ts
+
+antEater:
   name: "Ant Eater"
   image: "../../assets/monsters/ant_eater.gif"
   species: "Special"
-  gr: "1.149–1.179"
-  skills: ["Frailty I", "Frailty II", "Frailty III", "Frailty IV"]
-  stats: { Sta: 145, Int: 52, Str: 18, Agi: 69 }
-  source: "Newbie Quest"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 30
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    Melee reflect: "0% (0)"
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 20, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.149, max: 1.179 }
+    sta: { min: 145, max: 145 }
+    int: { min: 52, max: 52 }
+    str: { min: 18, max: 18 }
+    agi: { min: 69, max: 69 }
+  build:
+    sta: 4
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 30
+    deathResist: 20
 
-- key: aquarius
+aquarius:
   name: "Aquarius"
   image: "../../assets/monsters/aquarius.gif"
   species: "Flying"
-  gr: "1.250"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats: { Sta: null, Int: null, Str: null, Agi: null }
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 10
-    Defense: 0
-    Melee: 0
-    Pierce: "5% (5)"
-    Berserk: "0% (0)"
-    Critical: "5% (10)"
-    Combo: "10% (2)"
-    Counter: "0% (0)"
-    Melee reflect: "0% (0)"
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 10, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 30, Hypnotize: 10, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.25, max: 1.25 }
+    sta: { min: 145, max: 145 }
+    int: { min: 52, max: 52 }
+    str: { min: 18, max: 18 }
+    agi: { min: 69, max: 69 }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 1
+  skills: ["IceI", "IceII", "IceIII", "IceIV"]
+  sources: []
+  resist:
+    dodgeRate: 10
+    pierce: 5
+    pierceDamage: 5
+    criticalRate: 5
+    criticalDamage: 10
+    comboRate: 10
+    comboHit: 2
+    drainResist: 10
+    stunResist: 30
+    hypnotizeResist: 10
 
-- key: aurora_lion
+auroraLion:
   name: "Aurora Lion"
   image: "../../assets/monsters/aurora_lion.gif"
   species: "Special"
-  gr: "1.170–1.200"
-  skills: ["Multishot I", "Multishot II", "Multishot III", "Multishot IV"]
-  stats: { Sta: 158, Int: 56, Str: 28, Agi: 66 }
-  source: "Contribution Points, Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 32,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 32, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.17, max: 1.2 }
+    sta: { min: 158, max: 158 }
+    int: { min: 56, max: 56 }
+    str: { min: 28, max: 28 }
+    agi: { min: 66, max: 66 }
+  build:
+    sta: 4
+    int: 1
+    str: 4
+    agi: 3
+  skills: ["MultiShotI", "MultiShotII", "MultiShotIII", "MultiShotIV"]
+  sources:
+    - "Contribution Points"
+  resist:
+    dodgeRate: 5
+    meleeResist: 32
+    deathResist: 32
 
-- key: axewalker
+axewalker:
   name: "Axewalker"
   image: "../../assets/monsters/axewalker.gif"
   species: "Undead"
-  gr: "1.123–1.153"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 102, Int: 133, Str: 24, Agi: 52 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 18,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 3, Flash: 3, Ice: 3, Fire: 3, Drain: 3, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 3, Poison: 3, Chaos: 3, Stun: 3, Hypnotize: 3, Frailty: 3 }
+  statRates:
+    growthRate: { min: 1.123, max: 1.153 }
+    sta: { min: 102, max: 102 }
+    int: { min: 133, max: 133 }
+    str: { min: 24, max: 24 }
+    agi: { min: 52, max: 52 }
+  build:
+    sta: 3
+    int: 2
+    str: 2
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    deathResist: 3
+    evilResist: 3
+    flashResist: 3
+    iceResist: 3
+    fireResist: 3
+    drainResist: 3
+    poisonResist: 3
+    chaosResist: 3
+    stunResist: 3
+    hypnotizeResist: 3
+    frailtyResist: 3
 
-- key: bee
+bee:
   name: "Bee"
   image: "../../assets/monsters/bee.gif"
   species: "Flying"
-  gr: "1.131–1.161"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 112, Int: 76, Str: 29, Agi: 116 }
-  source: "Spirits in Demon Lair 1"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 21,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 10, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 10, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 10 }
+  statRates:
+    growthRate: { min: 1.131, max: 1.161 }
+    sta: { min: 112, max: 112 }
+    int: { min: 76, max: 76 }
+    str: { min: 29, max: 29 }
+    agi: { min: 116, max: 116 }
+  build:
+    sta: 3
+    int: 1
+    str: 4
+    agi: 4
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources:
+    - "Spirits in Demon Lair 1"
+    - "Mage Skills II Quest"
+  resist:
+    dodgeRate: 5
+    meleeResist: 21
+    drainResist: 10
+    deathResist: 10
+    frailtyResist: 10
 
-- key: berserker
+berserker:
   name: "Berserker"
   image: "../../assets/monsters/berserker.gif"
   species: "Special"
-  gr: "1.600"
-  skills: ["Speed I", "Speed II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 129, Int: 97, Str: 176, Agi: 82 }
-  source: "Events"
-  physical:
-    {
-      Hit: 160,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 30,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 30, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.6, max: 1.6 }
+    sta: { min: 129, max: 129 }
+    int: { min: 97, max: 97 }
+    str: { min: 136, max: 136 }
+    agi: { min: 82, max: 82 }
+  build:
+    sta: 4
+    int: 2
+    str: 6
+    agi: 3
+  skills: ["SpeedI", "SpeedII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    hitRate: 160
+    dodgeRate: 5
+    meleeResist: 30
+    chaosResist: 30
 
-- key: big_crab
+bigCrab:
   name: "Big Crab"
   image: "../../assets/monsters/big_crab.gif"
   species: "Special"
-  gr: "1.139–1.181"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 125, Int: 112, Str: 18, Agi: 76 }
-  source: "Normal Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 14,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 5, Flash: 5, Ice: 5, Fire: 5, Drain: 5, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 5, Stun: 5, Hypnotize: 5, Frailty: 5 }
+  statRates:
+    growthRate: { min: 1.139, max: 1.181 }
+    sta: { min: 145, max: 145 }
+    int: { min: 112, max: 112 }
+    str: { min: 18, max: 18 }
+    agi: { min: 76, max: 76 }
+  build:
+    sta: 4
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources:
+    - "Whammy Egg (Common)"
+  resist:
+    dodgeRate: 5
+    meleeResist: 14
+    evilResist: 5
+    flashResist: 5
+    iceResist: 5
+    fireResist: 5
+    drainResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
 
-- key: big_foot
+bigFoot:
   name: "Big Foot"
   image: "../../assets/monsters/big_foot.gif"
   species: "Undead"
-  gr: "1.199–1.219"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 178, Int: 38, Str: 27, Agi: 13 }
-  source: "Lucky Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 32,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 12, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 12, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.199, max: 1.219 }
+    sta: { min: 278, max: 278 }
+    int: { min: 38, max: 38 }
+    str: { min: 27, max: 27 }
+    agi: { min: 13, max: 13 }
+  build:
+    sta: 6
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources:
+    - "Pink/Unique Whammy Egg (Rare)"
+  resist:
+    dodgeRate: 5
+    meleeResist: 32
+    drainResist: 12
+    deathResist: 12
 
-- key: bloodpede
+bloodpede:
   name: "Bloodpede"
   image: "../../assets/monsters/bloodpede.gif"
   species: "Special"
-  gr: "1.153–1.183"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats: { Sta: 86, Int: 95, Str: 25, Agi: 103 }
-  source: "Newbie Quest"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 35, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 20 }
+  statRates:
+    growthRate: { min: 1.153, max: 1.183 }
+    sta: { min: 86, max: 86 }
+    int: { min: 95, max: 95 }
+    str: { min: 25, max: 25 }
+    agi: { min: 103, max: 103 }
+  build:
+    sta: 1
+    int: 1
+    str: 4
+    agi: 4
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources:
+    - "Newbie Quest"
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    poisonResist: 35
+    frailtyResist: 20
 
-- key: bog_nightmare
+bloodpedeComp:
+  name: "Bloodpede"
+  image: "../../assets/monsters/bloodpede.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.200, max: 1.200 }
+    sta: { min: 86, max: 86 }
+    int: { min: 95, max: 95 }
+    str: { min: 25, max: 25 }
+    agi: { min: 103, max: 103 }
+  build:
+    sta: 1
+    int: 1
+    str: 4
+    agi: 4
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    poisonResist: 35
+    frailtyResist: 20
+
+bogNightmare:
   name: "Bog Nightmare"
   image: "../../assets/monsters/bog_nightmare.gif"
   species: "Dragon"
-  gr: "1.171–1.193"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 132, Int: 288, Str: 23, Agi: 82 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 6,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 6, Flash: 6, Ice: 6, Fire: 6, Drain: 6, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 6, Poison: 6, Chaos: 6, Stun: 6, Hypnotize: 6, Frailty: 6 }
+  statRates:
+    growthRate: { min: 1.171, max: 1.193 }
+    sta: { min: 132, max: 132 }
+    int: { min: 288, max: 288 }
+    str: { min: 23, max: 23 }
+    agi: { min: 82, max: 82 }
+  build:
+    sta: 4
+    int: 4
+    str: 3
+    agi: 3
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 6
+    evilResist: 6
+    flashResist: 6
+    iceResist: 6
+    fireResist: 6
+    drainResist: 6
+    chaosResist: 6
+    stunResist: 6
+    hypnotizeResist: 6
+    frailtyResist: 6
+    poisonResist: 6
+    deathResist: 6
 
-- key: capilla
+capilla:
   name: "Capilla"
   image: "../../assets/monsters/capilla.gif"
   species: "Undead"
-  gr: "1.184–1.213"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 86, Int: 238, Str: 18, Agi: 34 }
-  source: "Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 9,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 12, Stun: 12, Hypnotize: 12, Frailty: 12 }
+  statRates:
+    growthRate: { min: 1.184, max: 1.213 }
+    sta: { min: 86, max: 86 }
+    int: { min: 238, max: 238 }
+    str: { min: 18, max: 18 }
+    agi: { min: 34, max: 34 }
+  build:
+    sta: 1
+    int: 3
+    str: 1
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 9
+    chaosResist: 12
+    stunResist: 12
+    hypnotizeResist: 12
+    frailtyResist: 12
 
-- key: capricornus
+capricornus:
   name: "Capricornus"
   image: "../../assets/monsters/capricornus.gif"
   species: "Demon"
-  gr: "1.250"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: null, Int: null, Str: null, Agi: null }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 10,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "5% (5)",
-      Berserk: "10% (10)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "15% (5)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 10, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 20, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.25, max: 1.25 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 1
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 10
+    meleeResist: 20
+    pierce: 5
+    pierceDamage: 5
+    berserkRate: 10
+    berserkDamage: 10
+    counterAttackRate: 15
+    counterAttackDamage: 5
+    drainResist: 10
+    chaosResist: 20
 
-- key: centaur_king
+centaurKing:
   name: "Centaur King"
   image: "../../assets/monsters/centaur_king.gif"
   species: "Human"
-  gr: "1.205–1.225"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 124, Int: 355, Str: 24, Agi: 115 }
-  source: "Normal Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 15,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 15, Ice: 15, Fire: 15, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.205, max: 1.225 }
+    sta: { min: 124, max: 124 }
+    int: { min: 355, max: 355 }
+    str: { min: 84, max: 84 }
+    agi: { min: 145, max: 145 }
+  build:
+    sta: 3
+    int: 4
+    str: 2
+    agi: 4
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 15
+    flashResist: 15
+    iceResist: 15
+    fireResist: 15
 
-- key: chaos_devil
+chaosDevil:
   name: "Chaos Devil"
   image: "../../assets/monsters/chaos_devil.gif"
   species: "Demon"
-  gr: "1.300"
-  skills: ["Fire I", "Ice II", "Evil III", "Flash IV"]
-  stats: { Sta: 176, Int: 449, Str: 23, Agi: 11 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 5,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 35,
-      Flash: 35,
-      Ice: 35,
-      Fire: 35,
-      Drain: 5,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 5, Poison: 5, Chaos: 5, Stun: 5, Hypnotize: 5, Frailty: 5 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 176, max: 176 }
+    int: { min: 449, max: 449 }
+    str: { min: 23, max: 23 }
+    agi: { min: 11, max: 11 }
+  build:
+    sta: 4
+    int: 5
+    str: 2
+    agi: 1
+  skills: ["FireI", "IceII", "EvilIII", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 5
+    evilResist: 35
+    flashResist: 35
+    iceResist: 35
+    fireResist: 35
+    drainResist: 5
+    deathResist: 5
+    poisonResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
 
-- key: chaos_wisp
+chaosWisp:
   name: "Chaos Wisp"
   image: "../../assets/monsters/chaos_wisp.gif"
   species: "Special"
-  gr: "1.600"
-  skills: ["Ice II", "Evil II", "Ice IV", "Flash IV"]
-  stats: { Sta: 145, Int: 833, Str: 22, Agi: 42 }
-  source: "Events"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 0,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 20,
-      Flash: 20,
-      Ice: 20,
-      Fire: 20,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.6, max: 1.6 }
+    sta: { min: 145, max: 145 }
+    int: { min: 633, max: 633 }
+    str: { min: 22, max: 22 }
+    agi: { min: 42, max: 42 }
+  build:
+    sta: 4
+    int: 6
+    str: 3
+    agi: 2
+  skills: ["IceII", "EvilII", "IceIV", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    evilResist: 20
+    flashResist: 20
+    iceResist: 20
+    fireResist: 20
 
-- key: chaotic_devil
+chaoticDevil:
   name: "Chaotic Devil"
   image: "../../assets/monsters/chaotic_devil.gif"
   species: "Demon"
-  gr: "1.300"
-  skills: ["Blizzard I", "Speed II", "Blizzard III", "Speed IV"]
-  stats: { Sta: 175, Int: 286, Str: 44, Agi: 11 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 35,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 5, Flash: 5, Ice: 5, Fire: 5, Drain: 5, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 5, Poison: 5, Chaos: 5, Stun: 5, Hypnotize: 5, Frailty: 5 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 175, max: 175 }
+    int: { min: 286, max: 286 }
+    str: { min: 44, max: 44 }
+    agi: { min: 11, max: 11 }
+  build:
+    sta: 4
+    int: 4
+    str: 3
+    agi: 1
+  skills: ["BlizzardI", "SpeedII", "BlizzardIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 35
+    evilResist: 5
+    flashResist: 5
+    iceResist: 5
+    fireResist: 5
+    drainResist: 5
+    deathResist: 5
+    poisonResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
 
-- key: chinchilla_fire
+chinchillaFire:
   name: "Chinchilla"
   image: "../../assets/monsters/chinchilla_orange.gif"
   species: "Dragon"
-  gr: "1.258–1.290"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: 330, Int: 120, Str: 34, Agi: 66 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 15,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 15, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 30, Stun: 10, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.258, max: 1.29 }
+    sta: { min: 330, max: 330 }
+    int: { min: 120, max: 120 }
+    str: { min: 34, max: 34 }
+    agi: { min: 66, max: 66 }
+  build:
+    sta: 2
+    int: 2
+    str: 2
+    agi: 2
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 15
+    meleeResist: 10
+    drainResist: 15
+    chaosResist: 30
+    stunResist: 10
 
-- key: chinchilla_ice
+chinchillaIce:
   name: "Chinchilla"
   image: "../../assets/monsters/chinchilla_blue.gif"
   species: "Dragon"
-  gr: "1.258–1.290"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats: { Sta: 330, Int: 120, Str: 34, Agi: 66 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 15,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 15, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 10, Stun: 30, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.258, max: 1.29 }
+    sta: { min: 330, max: 330 }
+    int: { min: 120, max: 120 }
+    str: { min: 34, max: 34 }
+    agi: { min: 66, max: 66 }
+  build:
+    sta: 2
+    int: 2
+    str: 2
+    agi: 2
+  skills: ["BlizzardI", "BlizzardII", "BlizzardIII", "BlizzardIV"]
+  sources: []
+  resist:
+    dodgeRate: 15
+    meleeResist: 10
+    drainResist: 15
+    chaosResist: 10
+    stunResist: 30
 
-- key: crazy_bandit
+crazyBandit:
   name: "Crazy Bandit"
   image: "../../assets/monsters/crazy_bandit.gif"
   species: "Human"
-  gr: "1.131–1.161"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 101, Int: 117, Str: 19, Agi: 73 }
-  source: "Spirits in Evil Lair 2"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 17,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 13, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 13, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 13 }
+  statRates:
+    growthRate: { min: 1.131, max: 1.161 }
+    sta: { min: 101, max: 101 }
+    int: { min: 117, max: 117 }
+    str: { min: 19, max: 19 }
+    agi: { min: 73, max: 73 }
+  build:
+    sta: 3
+    int: 2
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 17
+    drainResist: 13
+    poisonResist: 13
+    fireResist: 13
 
-- key: cyclops
+cyclops:
   name: "Cyclops"
   image: "../../assets/monsters/cyclops.gif"
   species: "Human"
-  gr: "1.158–1.188"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 137, Int: 98, Str: 31, Agi: 36 }
-  source: "Normal Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 25,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 25, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.158, max: 1.188 }
+    sta: { min: 137, max: 137 }
+    int: { min: 98, max: 98 }
+    str: { min: 81, max: 81 }
+    agi: { min: 26, max: 26 }
+  build:
+    sta: 4
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 25
+    chaosResist: 25
 
-- key: dark_dream
+darkDream:
   name: "Dark Dream"
   image: "../../assets/monsters/dark_dream.gif"
   species: "Flying"
-  gr: "1.600"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats: { Sta: 113, Int: 81, Str: 45, Agi: 402 }
-  source: "Events"
-  physical:
-    {
-      Hit: 120,
-      Dodge: 40,
-      Defense: 0,
-      Melee: 30,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 30, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.6, max: 1.6 }
+    sta: { min: 113, max: 113 }
+    int: { min: 81, max: 81 }
+    str: { min: 45, max: 45 }
+    agi: { min: 402, max: 402 }
+  build:
+    sta: 3
+    int: 1
+    str: 5
+    agi: 6
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    hitRate: 120
+    dodgeRate: 40
+    meleeResist: 30
 
-- key: dark_giant
+darkGiant:
   name: "Dark Giant"
   image: "../../assets/monsters/dark_giant.gif"
   species: "Undead"
-  gr: "1.199–1.219"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 178, Int: 38, Str: 27, Agi: 13 }
-  source: "Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 32,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 12, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 12, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.199, max: 1.219 }
+    sta: { min: 178, max: 178 }
+    int: { min: 38, max: 38 }
+    str: { min: 27, max: 27 }
+    agi: { min: 13, max: 13 }
+  build:
+    sta: 5
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 32
+    drainResist: 12
+    deathResist: 12
 
-- key: demon_dragon
+demonDragon:
   name: "Demon Dragon"
   image: "../../assets/monsters/demon_dragon.gif"
   species: "Dragon"
-  gr: "1.300"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 175, Int: 286, Str: 39, Agi: 81 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 40,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 40, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 175, max: 175 }
+    int: { min: 286, max: 286 }
+    str: { min: 39, max: 39 }
+    agi: { min: 81, max: 81 }
+  build:
+    sta: 4
+    int: 4
+    str: 2
+    agi: 4
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 40
+    stunResist: 40
 
-- key: demonpunisher
-  name: "Demonpunisher"
-  image: "../../assets/monsters/demonpunisher.gif"
+demonPunisher:
+  name: "Demon Punisher"
+  image: "../../assets/monsters/demon_punisher.gif"
   species: "Demon"
-  gr: "1.205–1.225"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 97, Int: 429, Str: 17, Agi: 120 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 14,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 12,
-      Flash: 12,
-      Ice: 12,
-      Fire: 12,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.205, max: 1.225 }
+    sta: { min: 97, max: 97 }
+    int: { min: 429, max: 429 }
+    str: { min: 17, max: 17 }
+    agi: { min: 120, max: 120 }
+  build:
+    sta: 2
+    int: 5
+    str: 1
+    agi: 4
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 14
+    evilResist: 12
+    flashResist: 12
+    iceResist: 12
+    fireResist: 12
 
-- key: desert_bandit
+desertBandit:
   name: "Desert Bandit"
   image: "../../assets/monsters/desert_bandit.gif"
   species: "Human"
-  gr: "1.129–1.159"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 118, Int: 70, Str: 18, Agi: 67 }
-  source: "Spirits in Evil Lair 4, Demon Lair 4"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 12, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 12, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 12, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.129, max: 1.159 }
+    sta: { min: 118, max: 118 }
+    int: { min: 70, max: 70 }
+    str: { min: 18, max: 18 }
+    agi: { min: 67, max: 67 }
+  build:
+    sta: 3
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    drainResist: 12
+    deathResist: 12
+    hypnotizeResist: 12
 
-- key: dream_dragon
+dreamDragon:
   name: "Dream Dragon"
   image: "../../assets/monsters/dream_dragon.gif"
   species: "Special"
-  gr: "1.250–1.300"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 98, Int: 176, Str: 13, Agi: 344 }
-  source: "Item Mall"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 0,
-      Defense: 0,
-      Melee: 0,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 10,
-      Flash: 10,
-      Ice: 10,
-      Fire: 10,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 20, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.5, max: 1.5 }
+    sta: { min: 98, max: 98 }
+    int: { min: 176, max: 176 }
+    str: { min: 13, max: 13 }
+    agi: { min: 344, max: 344 }
+  build:
+    sta: 2
+    int: 3
+    str: 1
+    agi: 5
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    evilResist: 10
+    flashResist: 10
+    iceResist: 10
+    fireResist: 10
+    chaosResist: 20
 
-- key: dream_flyer
+dreamFlyer:
   name: "Dream Flyer"
   image: "../../assets/monsters/dream_flyer.gif"
   species: "Special"
-  gr: "1.250–1.300"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 132, Int: 184, Str: 106, Agi: 100 }
-  source: "Item Mall"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 0,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "10% (5)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 10,
-      Flash: 10,
-      Ice: 10,
-      Fire: 10,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.5, max: 1.5 }
+    sta: { min: 132, max: 132 }
+    int: { min: 184, max: 184 }
+    str: { min: 106, max: 106 }
+    agi: { min: 100, max: 100 }
+  build:
+    sta: 3
+    int: 4
+    str: 2
+    agi: 2
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    meleeResist: 20
+    pierce: 10
+    pierceDamage: 10
+    evilResist: 10
+    flashResist: 10
+    iceResist: 10
+    fireResist: 10
 
-- key: earth_wolf
+earthWolf:
   name: "Earth Wolf"
   image: "../../assets/monsters/earth_wolf.gif"
   species: "Special"
-  gr: "1.166–1.196"
-  skills: ["Flash I", "Flash II", "Flash III", "Flash IV"]
-  stats: { Sta: 96, Int: 69, Str: 26, Agi: 144 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 19, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 19, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.166, max: 1.196 }
+    sta: { min: 96, max: 96 }
+    int: { min: 69, max: 69 }
+    str: { min: 26, max: 26 }
+    agi: { min: 144, max: 144 }
+  build:
+    sta: 2
+    int: 1
+    str: 4
+    agi: 4
+  skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    drainResist: 19
+    stunResist: 19
 
-- key: evil_fire_demo
-  name: "Evil Fire Demo"
-  image: "../../assets/monsters/evil_fire_demo.gif"
+evilFireDemon:
+  name: "Evil Fire Demon"
+  image: "../../assets/monsters/evil_fire_demon.gif"
   species: "Flying"
-  gr: "1.188–1.218"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: 102, Int: 368, Str: 28, Agi: 78 }
-  source: "Lucky Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 12, Flash: 12, Ice: 0, Fire: 20, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.188, max: 1.218 }
+    sta: { min: 102, max: 102 }
+    int: { min: 368, max: 368 }
+    str: { min: 28, max: 28 }
+    agi: { min: 78, max: 78 }
+  build:
+    sta: 2
+    int: 4
+    str: 4
+    agi: 2
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    evilResist: 12
+    flashResist: 12
+    fireResist: 20
 
-- key: evil_mudraper
+evilMudraper:
   name: "Evil Mudraper"
   image: "../../assets/monsters/evil_mudraper.gif"
   species: "Demon"
-  gr: "1.142–1.173"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats: { Sta: 158, Int: 212, Str: 19, Agi: 39 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 15, Poison: 0, Chaos: 11, Stun: 11, Hypnotize: 11, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.142, max: 1.173 }
+    sta: { min: 158, max: 158 }
+    int: { min: 212, max: 212 }
+    str: { min: 19, max: 19 }
+    agi: { min: 39, max: 39 }
+  build:
+    sta: 5
+    int: 3
+    str: 1
+    agi: 1
+  skills: []
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    deathResist: 15
+    chaosResist: 11
+    stunResist: 11
+    hypnotizeResist: 11
 
-- key: evil_skeletal
+evilSkeletal:
   name: "Evil Skeletal"
   image: "../../assets/monsters/evil_skeletal.gif"
   species: "Undead"
-  gr: "1.131–1.160"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 90, Int: 59, Str: 29, Agi: 42 }
-  source: "Lucky Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 15, Flash: 0, Ice: 15, Fire: 15, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 9, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.131, max: 1.16 }
+    sta: { min: 90, max: 90 }
+    int: { min: 59, max: 59 }
+    str: { min: 29, max: 29 }
+    agi: { min: 42, max: 42 }
+  build:
+    sta: 2
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 15
+    iceResist: 15
+    fireResist: 15
+    deathResist: 9
 
-- key: evil_wolf
+evilWolf:
   name: "Evil Wolf"
   image: "../../assets/monsters/evil_wolf.gif"
   species: "Special"
-  gr: "1.169–1.199"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: null, Int: null, Str: null, Agi: null }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 28,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 10, Stun: 10, Hypnotize: 10, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.169, max: 1.199 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 4
+    int: 2
+    str: 6
+    agi: 3
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 28
+    chaosResist: 10
+    stunResist: 10
+    hypnotizeResist: 10
 
-- key: eyekicker
+eyekicker:
   name: "Eyekicker"
   image: "../../assets/monsters/eyekicker.gif"
   species: "Human"
-  gr: "1.205–1.225"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: null, Int: null, Str: null, Agi: null }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 22,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 14, Poison: 14, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.205, max: 1.225 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 5
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 22
+    deathResist: 14
+    poisonResist: 14
 
-- key: felsworn
+felsworn:
   name: "Felsworn"
   image: "../../assets/monsters/felsworn.gif"
   species: "Flying"
-  gr: "1.300"
-  skills: ["Speed I", "Speed II", "Speed III", "Speed IV"]
-  stats: { Sta: 130, Int: 286, Str: 36, Agi: 301 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 7,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 7, Flash: 7, Ice: 7, Fire: 7, Drain: 7, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 7, Poison: 7, Chaos: 7, Stun: 7, Hypnotize: 7, Frailty: 7 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 286, max: 286 }
+    str: { min: 36, max: 36 }
+    agi: { min: 301, max: 301 }
+  build:
+    sta: 3
+    int: 3
+    str: 3
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 7
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    deathResist: 7
+    drainResist: 7
+    poisonResist: 7
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+    frailtyResist: 7
 
-- key: feral_wolf
+feralWolf:
   name: "Feral Wolf"
   image: "../../assets/monsters/feral_wolf.gif"
   species: "Special"
-  gr: "1.169–1.199"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 156, Int: 66, Str: 31, Agi: 149 }
-  source: "Fantastic Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 28,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 10, Stun: 10, Hypnotize: 10, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.169, max: 1.199 }
+    sta: { min: 156, max: 156 }
+    int: { min: 66, max: 66 }
+    str: { min: 81, max: 81 }
+    agi: { min: 149, max: 149 }
+  build:
+    sta: 5
+    int: 1
+    str: 4
+    agi: 5
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 28
+    stunResist: 10
+    hypnotizeResist: 10
+    chaosResist: 10
 
-- key: fire_demon
+fireDemon:
   name: "Fire Demon"
   image: "../../assets/monsters/fire_demon.gif"
   species: "Flying"
-  gr: "1.188–1.218"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: 102, Int: 368, Str: 28, Agi: 78 }
-  source: "Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 12, Flash: 12, Ice: 0, Fire: 20, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.188, max: 1.218 }
+    sta: { min: 102, max: 102 }
+    int: { min: 368, max: 368 }
+    str: { min: 28, max: 28 }
+    agi: { min: 78, max: 78 }
+  build:
+    sta: 2
+    int: 4
+    str: 4
+    agi: 2
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    evilResist: 12
+    flashResist: 12
+    fireResist: 20
 
-- key: flame_phoenix
+flamePhoenix:
   name: "Flame Phoenix"
   image: "../../assets/monsters/flame_phoenix.gif"
   species: "Demon"
-  gr: "1.800"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: 252, Int: 109, Str: 34, Agi: 611 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+  statRates:
+    growthRate: { min: 1.8, max: 1.8 }
+    sta: { min: 252, max: 252 }
+    int: { min: 109, max: 109 }
+    str: { min: 34, max: 34 }
+    agi: { min: 611, max: 611 }
+  build:
+    sta: 5
+    int: 5
+    str: 3
+    agi: 6
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
 
-- key: flyer
-  name: "Flyer"
-  image: "../../assets/monsters/flyer.gif"
-  species: "Flying"
-  gr: "1.123–1.153"
-  skills: ["Speed I", "Speed II", "Speed III", "Speed IV"]
-  stats: { Sta: 90, Int: 99, Str: 17, Agi: 256 }
-  source: "Spirits in Evil Lair 1"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 15, Flash: 0, Ice: 15, Fire: 0, Drain: 12, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
+flurryCrazyBandit:
+  name: "Crazy Bandit"
+  image: "../../assets/monsters/crazy_bandit.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.300, max: 1.300 }
+    sta: { min: 101, max: 101 }
+    int: { min: 117, max: 117 }
+    str: { min: 19, max: 19 }
+    agi: { min: 73, max: 73 }
+  build:
+    sta: 3
+    int: 2
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 17
+    drainResist: 13
+    poisonResist: 13
+    fireResist: 13
 
-- key: fog_spirit
-  name: "Fog Spirit"
-  image: "../../assets/monsters/fog_spirit.gif"
-  species: "Undead"
-  gr: "1.155–1.185"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 86, Int: 399, Str: 16, Agi: 152 }
-  source: "Normal Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 15, Flash: 0, Ice: 15, Fire: 15, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 15, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: ghastly_dragon
-  name: "Ghastly Dragon"
-  image: "../../assets/monsters/ghastly_dragon.gif"
-  species: "Dragon"
-  gr: "1.300"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 130, Int: 449, Str: 28, Agi: 41 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 20,
-      Flash: 20,
-      Ice: 20,
-      Fire: 20,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: ghost_warrior
+flurryGhostWarrior:
   name: "Ghost Warrior"
   image: "../../assets/monsters/ghost_warrior.gif"
   species: "Demon"
-  gr: "1.170–1.200"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 93, Int: 43, Str: 50, Agi: 55 }
-  source: "Thief Quest"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 25,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 5, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 5, Poison: 0, Chaos: 10, Stun: 0, Hypnotize: 0, Frailty: 5 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 93, max: 93 }
+    int: { min: 43, max: 43 }
+    str: { min: 115, max: 115 }
+    agi: { min: 55, max: 55 }
+  build:
+    sta: 2
+    int: 1
+    str: 5
+    agi: 2
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 25
+    drainResist: 5
+    deathResist: 5
+    frailtyResist: 5
 
-- key: ghoul
-  name: "Ghoul"
-  image: "../../assets/monsters/ghoul.gif"
-  species: "Demon"
-  gr: "1.205–1.225"
-  skills: ["Fire I", "Fire II", "Fire III", "Fire IV"]
-  stats: { Sta: 96, Int: 465, Str: 17, Agi: 134 }
-  source: "Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 7,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 20, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 20, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: ghoulspirit
-  name: "Ghoulspirit"
-  image: "../../assets/monsters/ghoulspirit.gif"
-  species: "Flying"
-  gr: "1.201–1.221"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 98, Int: 274, Str: 30, Agi: 265 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 20,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 7, Flash: 7, Ice: 7, Fire: 7, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 10 }
-
-- key: giantslicer
-  name: "Giantslicer"
-  image: "../../assets/monsters/giantslicer.gif"
-  species: "Undead"
-  gr: "1.166–1.199"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 148, Int: 268, Str: 21, Agi: 90 }
-  source: "Fantastic Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 15, Flash: 4, Ice: 4, Fire: 4, Drain: 3, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 3, Chaos: 3, Stun: 3, Hypnotize: 3, Frailty: 3 }
-
-- key: glimmer_fish
-  name: "Glimmer Fish"
-  image: "../../assets/monsters/glimmer_fish.gif"
-  species: "Flying"
-  gr: "1.144–1.174"
-  skills: ["Frailty I", "Frailty II", "Frailty III", "Frailty IV"]
-  stats: { Sta: 94, Int: 161, Str: 18, Agi: 145 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 12,
-      Flash: 12,
-      Ice: 12,
-      Fire: 12,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: glitter_tiger
-  name: "Glitter Tiger"
-  image: "../../assets/monsters/glitter_tiger.gif"
-  species: "Flying"
-  gr: "1.800"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats: { Sta: 270, Int: 124, Str: 162, Agi: 101 }
-  source: "—"
-  physical:
-    {
-      Hit: null,
-      Dodge: null,
-      Defense: 0,
-      Melee: null,
-      Pierce: "0% (0)",
-      Berserk: "10% (5)",
-      Critical: "0% (0)",
-      Combo: "10% (3)",
-      Counter: "10% (3)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: greater_wolf
-  name: "Greater Wolf"
-  image: "../../assets/monsters/greater_wolf.gif"
-  species: "Special"
-  gr: "1.300"
-  skills: ["Blizzard I", "Blizzard II", "Blizzard III", "Blizzard IV"]
-  stats: { Sta: 130, Int: 286, Str: 49, Agi: 141 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 35,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 4, Flash: 4, Ice: 4, Fire: 4, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 15, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 10 }
-
-- key: guard
+flurryGuard:
   name: "Guard"
   image: "../../assets/monsters/guard.gif"
   species: "Undead"
-  gr: "1.123–1.153"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 115, Int: 128, Str: 19, Agi: 65 }
-  source: "Spirits in Evil Lair 2"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 18,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 3, Flash: 3, Ice: 3, Fire: 3, Drain: 3, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 3, Poison: 3, Chaos: 3, Stun: 3, Hypnotize: 3, Frailty: 3 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 115, max: 115 }
+    int: { min: 128, max: 128 }
+    str: { min: 19, max: 19 }
+    agi: { min: 65, max: 65 }
+  build:
+    sta: 3
+    int: 2
+    str: 2
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    evilResist: 3
+    flashResist: 3
+    iceResist: 3
+    fireResist: 3
+    deathResist: 3
+    poisonResist: 3
+    chaosResist: 3
+    stunResist: 3
+    hypnotizeResist: 3
+    frailtyResist: 3
+    drainResist: 3
 
-- key: hell_cat
-  name: "Hell Cat"
-  image: "../../assets/monsters/hell_cat.gif"
-  species: "Demon"
-  gr: "1.156–1.187"
-  skills: ["Speed I", "Speed II", "Speed III", "Speed IV"]
-  stats: { Sta: 99, Int: 81, Str: 29, Agi: 309 }
-  source: "Fantastic Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 18,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 35, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: hell_gardener
-  name: "Hell Gardener"
-  image: "../../assets/monsters/hell_gardener.gif"
-  species: "Undead"
-  gr: "1.400"
-  skills: ["Speed I", "Speed II", "Enhance I", "Enhance II"]
-  stats: { Sta: 161, Int: 309, Str: 48, Agi: 101 }
-  source: "Contribution Points"
-  physical:
-    {
-      Hit: 120,
-      Dodge: 10,
-      Defense: 0,
-      Melee: 25,
-      Pierce: "0% (0)",
-      Berserk: "5% (10)",
-      Critical: "0% (0)",
-      Combo: "5% (2)",
-      Counter: "5% (2)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 8, Flash: 8, Ice: 8, Fire: 8, Drain: 8, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 8, Poison: 5, Chaos: 5, Stun: 5, Hypnotize: 5, Frailty: 5 }
-
-- key: hell_pheonix
-  name: "Hell Pheonix"
-  image: "../../assets/monsters/hell_pheonix.gif"
-  species: "Dragon"
-  gr: "1.178–1.201"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 83, Int: 456, Str: 19, Agi: 197 }
-  source: "Lucky Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 12,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 11, Flash: 0, Ice: 0, Fire: 20, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 12, Frailty: 0 }
-
-- key: hell_protector
-  name: "Hell Protector"
-  image: "../../assets/monsters/hell_protector.gif"
-  species: "Undead"
-  gr: "1.300"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 130, Int: 286, Str: 39, Agi: 201 }
-  source: "Super Power Pack"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 8,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 8, Flash: 8, Ice: 8, Fire: 8, Drain: 8, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 8, Poison: 8, Chaos: 8, Stun: 8, Hypnotize: 8, Frailty: 8 }
-
-- key: holy_dragon
-  name: "Holy Dragon"
-  image: "../../assets/monsters/holy_dragon.gif"
-  species: "Undead"
-  gr: "1.600"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 257, Int: 41, Str: 29, Agi: 3 }
-  source: "Events"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 10,
-      Flash: 10,
-      Ice: 10,
-      Fire: 10,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 10, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: howling_beast
-  name: "Howling Beast"
-  image: "../../assets/monsters/howling_beast.gif"
-  species: "Special"
-  gr: "1.500"
-  skills: ["Speed I", "Speed II", "Enhance I", "Enhance II"]
-  stats: { Sta: 218, Int: 597, Str: 87, Agi: 102 }
-  source: "—"
-  physical:
-    {
-      Hit: 120,
-      Dodge: 10,
-      Defense: 0,
-      Melee: 25,
-      Pierce: "0% (0)",
-      Berserk: "10% (10)",
-      Critical: "0% (0)",
-      Combo: "10% (2)",
-      Counter: "10% (3)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 8, Flash: 8, Ice: 8, Fire: 8, Drain: 8, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 8, Poison: 5, Chaos: 5, Stun: 5, Hypnotize: 5, Frailty: 5 }
-
-- key: ice_demon
-  name: "Ice Demon"
-  image: "../../assets/monsters/ice_demon.gif"
-  species: "Dragon"
-  gr: "1.169–1.194"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 110, Int: 339, Str: 18, Agi: 81 }
-  source: "Normal Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 0,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    {
-      Evil: 18,
-      Flash: 18,
-      Ice: 18,
-      Fire: 18,
-      Drain: 0,
-      Magic reflect: "0% (0)",
-    }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: killer_bee
-  name: "Killer Bee"
-  image: "../../assets/monsters/killer_bee.gif"
+flurryFlyer:
+  name: "Flyer"
+  image: "../../assets/monsters/flyer.gif"
   species: "Flying"
-  gr: "1.131–1.161"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats: { Sta: 112, Int: 76, Str: 29, Agi: 116 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 21,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 10, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 10, Poison: 0, Chaos: 0, Stun: 0, Hypnotize: 0, Frailty: 10 }
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 90, max: 90 }
+    int: { min: 99, max: 99 }
+    str: { min: 17, max: 17 }
+    agi: { min: 256, max: 256 }
+  build:
+    sta: 2
+    int: 1
+    str: 1
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 15
+    iceResist: 15
+    drainResist: 12
 
-- key: leopard_wolf
-  name: "Leopard Wolf"
-  image: "../../assets/monsters/leopard_wolf.gif"
-  species: "Special"
-  gr: "1.166–1.196"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 94, Int: 94, Str: 24, Agi: 95 }
-  source: "Fantastic Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 19,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 19, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 19, Stun: 0, Hypnotize: 0, Frailty: 0 }
-
-- key: lizard_bandit
-  name: "Lizard Bandit"
-  image: "../../assets/monsters/lizard_bandit.gif"
-  species: "Human"
-  gr: "1.134–1.164"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 88, Int: 112, Str: 18, Agi: 62 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 7,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 7, Flash: 7, Ice: 7, Fire: 7, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 20, Hypnotize: 0, Frailty: 0 }
-
-- key: lizard_man
-  name: "Lizard Man"
-  image: "../../assets/monsters/lizard_man.gif"
-  species: "Human"
-  gr: "1.134–1.164"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 88, Int: 112, Str: 18, Agi: 62 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 7,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 7, Flash: 7, Ice: 7, Fire: 7, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 0, Stun: 20, Hypnotize: 0, Frailty: 0 }
-
-- key: lizard_miner
-  name: "Lizard Miner"
-  image: "../../assets/monsters/lizard_miner.gif"
-  species: "Human"
-  gr: "1.132–1.162"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 85, Int: 53, Str: 18, Agi: 80 }
-  source: "Spirits in Evil Lair 4, Demon Lair 4"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 6,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 6, Flash: 6, Ice: 6, Fire: 6, Drain: 6, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 6, Poison: 6, Chaos: 6, Stun: 6, Hypnotize: 6, Frailty: 6 }
-
-- key: lycosa
-  name: "Lycosa"
-  image: "../../assets/monsters/lycosa.gif"
-  species: "Special"
-  gr: "1.162–1.190"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats: { Sta: 88, Int: 192, Str: 22, Agi: 94 }
-  source: "Fantastic Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 8,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 14, Chaos: 14, Stun: 14, Hypnotize: 14, Frailty: 0 }
-
-- key: mad_ogrewalker
-  name: "Mad Ogrewalker"
-  image: "../../assets/monsters/mad_ogrewalker.gif"
-  species: "Human"
-  gr: "1.164–1.194"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats: { Sta: 123, Int: 48, Str: 42, Agi: 60 }
-  source: "—"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 18,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 13, Chaos: 7, Stun: 7, Hypnotize: 7, Frailty: 0 }
-
-- key: mosquito
-  name: "Mosquito"
-  image: "../../assets/monsters/mosquito.gif"
-  species: "Flying"
-  gr: "1.205"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats: { Sta: 87, Int: 61, Str: 17, Agi: 292 }
-  source: "Peculiar Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 14,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 0, Poison: 0, Chaos: 16, Stun: 16, Hypnotize: 16, Frailty: 0 }
-
-- key: mudraper
-  name: "Mudraper"
-  image: "../../assets/monsters/mudraper.gif"
-  species: "Demon"
-  gr: "1.142–1.173"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats: { Sta: 158, Int: 212, Str: 19, Agi: 39 }
-  source: "Spirits in Demon Lair 3"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 15, Poison: 0, Chaos: 11, Stun: 11, Hypnotize: 11, Frailty: 0 }
-
-- key: mudraper_lucky
-  name: "Mudraper"
-  image: "../../assets/monsters/mudraper.gif"
-  species: "Demon"
-  gr: "1.300"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats: { Sta: null, Int: null, Str: null, Agi: null }
-  source: "Lucky Whammy Egg"
-  physical:
-    {
-      Hit: 100,
-      Dodge: 5,
-      Defense: 0,
-      Melee: 10,
-      Pierce: "0% (0)",
-      Berserk: "0% (0)",
-      Critical: "0% (0)",
-      Combo: "0% (0)",
-      Counter: "0% (0)",
-      Melee reflect: "0% (0)",
-    }
-  magical:
-    { Evil: 0, Flash: 0, Ice: 0, Fire: 0, Drain: 0, Magic reflect: "0% (0)" }
-  elemental:
-    { Death: 15, Poison: 0, Chaos: 11, Stun: 11, Hypnotize: 11, Frailty: 0 }
-
-- key: mummy
-  name: "Mummy"
-  image: "../../assets/monsters/mummy.gif"
-  species: "Undead"
-  gr: "1.148–1.178"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats:
-    Sta: 136
-    Int: 36
-    Str: 27
-    Agi: 20
-  source: "Fantastic Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 30
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 30
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: nepenthes
-  name: "Nepenthes"
-  image: "../../assets/monsters/nepenthes.gif"
-  species: "Demon"
-  gr: "1.144–1.174"
-  skills: ["Poison I", "Frailty II", "Poison III", "Frailty IV"]
-  stats:
-    Sta: 95
-    Int: 147
-    Str: 19
-    Agi: 100
-  source: "Spirits in Demon Lair 2"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 6
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 7
-    Flash: 7
-    Ice: 7
-    Fire: 7
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 7
-    Poison: 0
-    Chaos: 7
-    Stun: 0
-    Hypnotize: 7
-    Frailty: 0
-
-- key: ocean_loong
-  name: "Ocean Loong"
-  image: "../../assets/monsters/ocean_loong.gif"
-  species: "Dragon"
-  gr: "1.800"
-  skills: ["Flash I", "Flash II", "Flash III", "Flash IV"]
-  stats:
-    Sta: 108
-    Int: 1476
-    Str: 26
-    Agi: 31
-  source: "—"
-  physical:
-    Hit: "?"
-    Dodge: "?"
-    Defense: 0
-    Melee: "?"
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: ogrewalker
-  name: "Ogrewalker"
-  image: "../../assets/monsters/ogrewalker.gif"
-  species: "Human"
-  gr: "1.164–1.194"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 123
-    Int: 48
-    Str: 42
-    Agi: 60
-  source: "Normal & Lucky Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 18
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 13
-    Chaos: 7
-    Stun: 7
-    Hypnotize: 7
-    Frailty: 0
-
-- key: pheonix
-  name: "Pheonix"
-  image: "../../assets/monsters/pheonix.gif"
-  species: "Dragon"
-  gr: "1.178–1.201"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 83
-    Int: 456
-    Str: 19
-    Agi: 197
-  source: "Peculiar Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 12
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 11
-    Flash: 0
-    Ice: 0
-    Fire: 20
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 12
-    Frailty: 0
-
-- key: pisces
-  name: "Pisces"
-  image: "../../assets/monsters/pisces.gif"
-  species: "Special"
-  gr: "1.250"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: null
-    Int: null
-    Str: null
-    Agi: null
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 10
-    Defense: 0
-    Melee: 0
-    Pierce: "5% (5)"
-    Berserk: "0% (0)"
-    Critical: "5% (10)"
-    Combo: "10% (2)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 10
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 10
-    Frailty: 30
-
-- key: river_beast
-  name: "River Beast"
-  image: "../../assets/monsters/river_beast.gif"
-  species: "Flying"
-  gr: "1.300"
-  skills: ["Protect I", "Protect II", "Protect III", "Protect IV"]
-  stats:
-    Sta: 175
-    Int: 287
-    Str: 44
-    Agi: 101
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 45
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 4
-    Flash: 4
-    Ice: 4
-    Fire: 4
-    Drain: 4
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 4
-    Poison: 4
-    Chaos: 4
-    Stun: 4
-    Hypnotize: 4
-    Frailty: 4
-
-- key: river_guardian
-  name: "River Guardian"
-  image: "../../assets/monsters/river_guardian.gif"
-  species: "Flying"
-  gr: "1.205–1.225"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats:
-    Sta: 104
-    Int: 177
-    Str: 36
-    Agi: 129
-  source: "Peculiar Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 5
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 5
-    Flash: 5
-    Ice: 5
-    Fire: 5
-    Drain: 5
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 5
-    Poison: 5
-    Chaos: 5
-    Stun: 5
-    Hypnotize: 5
-    Frailty: 5
-
-- key: sand_giant
-  name: "Sand Giant"
-  image: "../../assets/monsters/sand_giant.gif"
-  species: "Human"
-  gr: "1.300"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 188
-    Int: 156
-    Str: 39
-    Agi: 2
-  source: "Lucky Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 60
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 25
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: santa_claus
-  name: "Santa Claus"
-  image: "../../assets/monsters/santa_claus.gif"
-  species: "Human"
-  gr: "1.170–1.300"
-  skills: ["Heal I", "Heal II", "Heal III", "Heal IV"]
-  stats:
-    Sta: 113
-    Int: 167
-    Str: 18
-    Agi: 53
-  source: "X-Mas Event"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 30
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: santa_princess
-  name: "Santa Princess"
-  image: "../../assets/monsters/santa_princess.gif"
-  species: "Human"
-  gr: "1.170–1.300"
-  skills: ["Un-Stun I", "Un-Stun II", "Un-Stun III", "Un-Stun IV"]
-  stats:
-    Sta: 105
-    Int: 90
-    Str: 23
-    Agi: 21
-  source: "X-Mas Event"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 0
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 10
-    Stun: 30
-    Hypnotize: 0
-    Frailty: 0
-
-- key: scarecrow
-  name: "Scarecrow"
-  image: "../../assets/monsters/scarecrow.gif"
-  species: "Undead"
-  gr: "1.141–1.172"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 91
-    Int: 59
-    Str: 23
-    Agi: 77
-  source: "Spirits in Evil Lair 3"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 9
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 11
-    Flash: 11
-    Ice: 11
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 15
-    Hypnotize: 0
-    Frailty: 0
-
-- key: skeletal
-  name: "Skeletal"
-  image: "../../assets/monsters/skeletal.gif"
-  species: "Undead"
-  gr: "1.131–1.160"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats:
-    Sta: 90
-    Int: 59
-    Str: 29
-    Agi: 42
-  source: "Spirits in Evil Lair 1"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 12
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 15
-    Flash: 0
-    Ice: 15
-    Fire: 15
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 9
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: snake_demon
-  name: "Snake Demon"
-  image: "../../assets/monsters/snake_demon.gif"
-  species: "Demon"
-  gr: "1.139–1.169"
-  skills: ["Flash I", "Flash II", "Flash III", "Flash IV"]
-  stats:
-    Sta: 89
-    Int: 483
-    Str: 16
-    Agi: 129
-  source: "Normal Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 9
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 14
-    Flash: 0
-    Ice: 14
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 15
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: snow_bear
-  name: "Snow Bear"
-  image: "../../assets/monsters/snow_bear.gif"
-  species: "Human"
-  gr: "1.170–1.300"
-  skills:
-    ["Purge-Chaos I", "Purge-Chaos II", "Purge-Chaos III", "Purge-Chaos IV"]
-  stats:
-    Sta: 126
-    Int: 77
-    Str: 27
-    Agi: 21
-  source: "X-Mas Event"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 0
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 30
-    Stun: 10
-    Hypnotize: 0
-    Frailty: 0
-
-- key: snow_wolf
-  name: "Snow Wolf"
-  image: "../../assets/monsters/snow_wolf.gif"
-  species: "Special"
-  gr: "1.300"
-  skills: ["Blizzard I", "Blizzard II", "Blizzard III", "Blizzard IV"]
-  stats:
-    Sta: 130
-    Int: 286
-    Str: 39
-    Agi: 201
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 20
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 10
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 10
-    Chaos: 10
-    Stun: 10
-    Hypnotize: 10
-    Frailty: 10
-
-- key: snowie
-  name: "Snowie"
-  image: "../../assets/monsters/snowie.gif"
-  species: "Human"
-  gr: "1.170–1.300"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats:
-    Sta: 101
-    Int: 135
-    Str: 23
-    Agi: 112
-  source: "X-Mas Event"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 20
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 40
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 30
-
-- key: spirit_cat
-  name: "Spirit Cat"
-  image: "../../assets/monsters/spirit_cat.gif"
-  species: "Demon"
-  gr: "1.300"
-  skills: ["Poison I", "Poison II", "Poison III", "Poison IV"]
-  stats:
-    Sta: null
-    Int: null
-    Str: null
-    Agi: null
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 18
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 35
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: stone_ghost
-  name: "Stone Ghost"
-  image: "../../assets/monsters/stone_ghost.gif"
-  species: "Flying"
-  gr: "1.300"
-  skills: ["Speed I", "Speed II", "Speed III", "Speed IV"]
-  stats:
-    Sta: 130
-    Int: 287
-    Str: 36
-    Agi: 301
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 7
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 7
-    Flash: 7
-    Ice: 7
-    Fire: 7
-    Drain: 7
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 7
-    Poison: 7
-    Chaos: 7
-    Stun: 7
-    Hypnotize: 7
-    Frailty: 7
-
-- key: stone_giant
-  name: "Stone Giant"
-  image: "../../assets/monsters/stone_giant.gif"
-  species: "Human"
-  gr: "1.191–1.221"
-  skills: ["Enhance I", "Enhance II", "Enhance III", "Enhance IV"]
-  stats:
-    Sta: 167
-    Int: 43
-    Str: 24
-    Agi: 15
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 30
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 15
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 14
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: stone_tortoise
-  name: "Stone Tortoise"
-  image: "../../assets/monsters/stone_tortoise.gif"
-  species: "Undead"
-  gr: "1.800"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats:
-    Sta: 571
-    Int: 73
-    Str: 28
-    Agi: 2
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 30
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: teethor
-  name: "Teethor"
-  image: "../../assets/monsters/teethor.gif"
-  species: "Special"
-  gr: "1.158–1.182"
-  skills: ["Ice I", "Ice II", "Ice III", "Ice IV"]
-  stats:
-    Sta: 85
-    Int: 224
-    Str: 16
-    Agi: 115
-  source: "Normal Whammy Egg"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 12
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 12
-    Flash: 12
-    Ice: 12
-    Fire: 12
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: thorned_spider
-  name: "Thorned Spider"
-  image: "../../assets/monsters/thorned_spider.gif"
-  species: "Special"
-  gr: "1.300"
-  skills: ["Frailty I", "Frailty II", "Frailty III", "Frailty IV"]
-  stats:
-    Sta: null
-    Int: null
-    Str: null
-    Agi: null
-  source: "Contribution Points"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 10
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 30
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: tree_demon
-  name: "Tree Demon"
-  image: "../../assets/monsters/tree_demon.gif"
-  species: "Demon"
-  gr: "1.128–1.158"
-  skills: ["Flash I", "Flash II", "Flash III", "Flash IV"]
-  stats:
-    Sta: 105
-    Int: 359
-    Str: 17
-    Agi: 62
-  source: "Spirits in Demon Lair 1"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 14
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 20
-    Flash: 0
-    Ice: 20
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
-
-- key: werewolf
+flurryWerewolf:
   name: "Werewolf"
   image: "../../assets/monsters/werewolf.gif"
   species: "Human"
-  gr: "1.138–1.169"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 105
-    Int: 54
-    Str: 26
-    Agi: 75
-  source: "Spirits in Demon Lair 2"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 15
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 0
-    Flash: 0
-    Ice: 0
-    Fire: 0
-    Drain: 7
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 7
-    Chaos: 7
-    Stun: 7
-    Hypnotize: 7
-    Frailty: 7
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 105, max: 105 }
+    int: { min: 54, max: 54 }
+    str: { min: 26, max: 26 }
+    agi: { min: 75, max: 75 }
+  build:
+    sta: 3
+    int: 1
+    str: 4
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 15
+    drainResist: 7
+    poisonResist: 7
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+    frailtyResist: 7
 
-- key: wicked_spirit
+flyer:
+  name: "Flyer"
+  image: "../../assets/monsters/flyer.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.123, max: 1.153 }
+    sta: { min: 90, max: 90 }
+    int: { min: 99, max: 99 }
+    str: { min: 17, max: 17 }
+    agi: { min: 256, max: 256 }
+  build:
+    sta: 2
+    int: 1
+    str: 1
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 15
+    iceResist: 15
+    drainResist: 12
+
+fogSpirit:
+  name: "Fog Spirit"
+  image: "../../assets/monsters/fog_spirit.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.155, max: 1.185 }
+    sta: { min: 86, max: 86 }
+    int: { min: 399, max: 399 }
+    str: { min: 16, max: 16 }
+    agi: { min: 152, max: 152 }
+  build:
+    sta: 1
+    int: 5
+    str: 1
+    agi: 5
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    evilResist: 15
+    iceResist: 15
+    fireResist: 15
+    deathResist: 15
+
+ghastlyDragon:
+  name: "Ghastly Dragon"
+  image: "../../assets/monsters/ghastly_dragon.gif"
+  species: "Dragon"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 449, max: 449 }
+    str: { min: 28, max: 28 }
+    agi: { min: 41, max: 41 }
+  build:
+    sta: 3
+    int: 5
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    evilResist: 20
+    flashResist: 20
+    iceResist: 20
+    fireResist: 20
+
+ghostWarrior:
+  name: "Ghost Warrior"
+  image: "../../assets/monsters/ghost_warrior.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.17, max: 1.2 }
+    sta: { min: 93, max: 93 }
+    int: { min: 43, max: 43 }
+    str: { min: 115, max: 115 }
+    agi: { min: 55, max: 55 }
+  build:
+    sta: 2
+    int: 1
+    str: 5
+    agi: 2
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 25
+    drainResist: 5
+    deathResist: 5
+    frailtyResist: 5
+
+ghoul:
+  name: "Ghoul"
+  image: "../../assets/monsters/ghoul.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.205, max: 1.225 }
+    sta: { min: 96, max: 96 }
+    int: { min: 465, max: 465 }
+    str: { min: 17, max: 17 }
+    agi: { min: 134, max: 134 }
+  build:
+    sta: 2
+    int: 5
+    str: 1
+    agi: 4
+  skills: ["FireI", "FireII", "FireIII", "FireIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 7
+    drainResist: 20
+    chaosResist: 20
+
+ghoulspirit:
+  name: "Ghoulspirit"
+  image: "../../assets/monsters/ghoulspirit.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.201, max: 1.221 }
+    sta: { min: 98, max: 98 }
+    int: { min: 274, max: 274 }
+    str: { min: 30, max: 30 }
+    agi: { min: 265, max: 265 }
+  build:
+    sta: 2
+    int: 4
+    str: 4
+    agi: 5
+  skills: ["ProtectI", "ProtectIII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    frailtyResist: 10
+
+giantslicer:
+  name: "Giantslicer"
+  image: "../../assets/monsters/giantslicer.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.166, max: 1.199 }
+    sta: { min: 148, max: 148 }
+    int: { min: 468, max: 468 }
+    str: { min: 21, max: 21 }
+    agi: { min: 90, max: 90 }
+  build:
+    sta: 4
+    int: 4
+    str: 2
+    agi: 3
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 15
+    flashResist: 4
+    iceResist: 4
+    fireResist: 4
+    poisonResist: 3
+    chaosResist: 3
+    stunResist: 3
+    hypnotizeResist: 3
+    frailtyResist: 3
+    drainResist: 3
+
+glimmerFish:
+  name: "Glimmer Fish"
+  image: "../../assets/monsters/glimmer_fish.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.144, max: 1.174 }
+    sta: { min: 94, max: 94 }
+    int: { min: 161, max: 161 }
+    str: { min: 18, max: 18 }
+    agi: { min: 145, max: 145 }
+  build:
+    sta: 1
+    int: 2
+    str: 1
+    agi: 3
+  skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    evilResist: 12
+    flashResist: 12
+    iceResist: 12
+    fireResist: 12
+
+glitterTiger:
+  name: "Glitter Tiger"
+  image: "../../assets/monsters/glitter_tiger.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.8, max: 1.8 }
+    sta: { min: 270, max: 270 }
+    int: { min: 124, max: 124 }
+    str: { min: 152, max: 152 }
+    agi: { min: 101, max: 101 }
+  build:
+    sta: 5
+    int: 5
+    str: 5
+    agi: 5
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    hitRate: 140
+    dodgeRate: 20
+    berserkRate: 10
+    berserkDamage: 10
+    comboRate: 10
+    comboHit: 3
+    counterAttackDamage: 10
+    counterAttackRate: 10
+
+greaterWolf:
+  name: "Greater Wolf"
+  image: "../../assets/monsters/greater_wolf.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 286, max: 286 }
+    str: { min: 49, max: 49 }
+    agi: { min: 141, max: 141 }
+  build:
+    sta: 3
+    int: 3
+    str: 5
+    agi: 5
+  skills: ["BlizzardI", "BlizzardII", "BlizzardIII", "BlizzardIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 35
+    evilResist: 4
+    flashResist: 4
+    iceResist: 4
+    fireResist: 4
+    deathResist: 15
+    frailtyResist: 10
+
+guard:
+  name: "Guard"
+  image: "../../assets/monsters/guard.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.123, max: 1.153 }
+    sta: { min: 115, max: 115 }
+    int: { min: 128, max: 128 }
+    str: { min: 19, max: 19 }
+    agi: { min: 65, max: 65 }
+  build:
+    sta: 3
+    int: 2
+    str: 2
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    evilResist: 3
+    flashResist: 3
+    iceResist: 3
+    fireResist: 3
+    deathResist: 3
+    poisonResist: 3
+    chaosResist: 3
+    stunResist: 3
+    hypnotizeResist: 3
+    frailtyResist: 3
+    drainResist: 3
+
+hellCat:
+  name: "Hell Cat"
+  image: "../../assets/monsters/hell_cat.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.156, max: 1.187 }
+    sta: { min: 99, max: 99 }
+    int: { min: 81, max: 81 }
+    str: { min: 29, max: 29 }
+    agi: { min: 209, max: 209 }
+  build:
+    sta: 2
+    int: 1
+    str: 4
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    chaosResist: 35
+
+hellGardener:
+  name: "Hell Gardener"
+  image: "../../assets/monsters/hell_gardener.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.4, max: 1.4 }
+    sta: { min: 161, max: 161 }
+    int: { min: 309, max: 309 }
+    str: { min: 48, max: 48 }
+    agi: { min: 101, max: 101 }
+  build:
+    sta: 4
+    int: 4
+    str: 5
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "EnhanceI", "EnhanceII"]
+  sources: []
+  resist:
+    hitRate: 120
+    dodgeRate: 10
+    meleeResist: 25
+    berserkRate: 5
+    berserkDamage: 10
+    comboRate: 5
+    comboHit: 2
+    counterAttackRate: 5
+    counterAttackDamage: 10
+    evilResist: 8
+    flashResist: 8
+    iceResist: 8
+    fireResist: 8
+    deathResist: 8
+    drainResist: 8
+    poisonResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
+
+hellPhoenix:
+  name: "Hell Pheonix"
+  image: "../../assets/monsters/hell_pheonix.gif"
+  species: "Dragon"
+  statRates:
+    growthRate: { min: 1.178, max: 1.201 }
+    sta: { min: 83, max: 83 }
+    int: { min: 456, max: 456 }
+    str: { min: 19, max: 19 }
+    agi: { min: 197, max: 197 }
+  build:
+    sta: 3
+    int: 5
+    str: 1
+    agi: 5
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    fireResist: 20
+    hypnotizeResist: 12
+
+hellProtector:
+  name: "Hell Protector"
+  image: "../../assets/monsters/hell_protector.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 286, max: 286 }
+    str: { min: 39, max: 39 }
+    agi: { min: 201, max: 201 }
+  build:
+    sta: 3
+    int: 3
+    str: 5
+    agi: 5
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 8
+    evilResist: 8
+    flashResist: 8
+    iceResist: 8
+    fireResist: 8
+    deathResist: 8
+    drainResist: 8
+    poisonResist: 8
+    chaosResist: 8
+    stunResist: 8
+    hypnotizeResist: 8
+    frailtyResist: 8
+
+holyDragon:
+  name: "Holy Dragon"
+  image: "../../assets/monsters/holy_dragon.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.6, max: 1.6 }
+    sta: { min: 287, max: 287 }
+    int: { min: 41, max: 41 }
+    str: { min: 29, max: 29 }
+    agi: { min: 3, max: 3 }
+  build:
+    sta: 6
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    evilResist: 10
+    flashResist: 10
+    iceResist: 10
+    fireResist: 10
+    chaosResist: 10
+
+howlingBeast:
+  name: "Howling Beast"
+  image: "../../assets/monsters/howling_beast.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.5, max: 1.5 }
+    sta: { min: 218, max: 218 }
+    int: { min: 597, max: 597 }
+    str: { min: 137, max: 137 }
+    agi: { min: 102, max: 102 }
+  build:
+    sta: 5
+    int: 5
+    str: 5
+    agi: 4
+  skills: ["SpeedI", "SpeedII", "EnhanceI", "EnhanceII"]
+  sources: []
+  resist:
+    dodgeRate: 10
+    meleeResist: 25
+    berserkRate: 10
+    berserkDamage: 10
+    comboRate: 10
+    comboHit: 3
+    counterAttackRate: 10
+    counterAttackDamage: 10
+    evilResist: 8
+    flashResist: 8
+    iceResist: 8
+    fireResist: 8
+    deathResist: 8
+    drainResist: 8
+    poisonResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
+
+iceDemon:
+  name: "Ice Demon"
+  image: "../../assets/monsters/ice_demon.gif"
+  species: "Dragon"
+  statRates:
+    growthRate: { min: 1.169, max: 1.194 }
+    sta: { min: 110, max: 110 }
+    int: { min: 539, max: 539 }
+    str: { min: 18, max: 18 }
+    agi: { min: 81, max: 81 }
+  build:
+    sta: 3
+    int: 4
+    str: 1
+    agi: 3
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    evilResist: 18
+    flashResist: 18
+    iceResist: 18
+    fireResist: 18
+
+ironFang:
+  name: "Iron Fang"
+  image:
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.349, max: 1.379 }
+    sta: { min: 645, max: 645 }
+    int: { min: 152, max: 152 }
+    str: { min: 18, max: 18 }
+    agi: { min: 269, max: 269 }
+  build:
+    sta: 4
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["DrainI", "DrainII", "DrainIII", "DrainIV"]
+  sources: []
+  resist:
+    dodgeRate: 35
+    meleeResist: 50
+    chaosResist: 20
+
+
+killerBee:
+  name: "Killer Bee"
+  image: "../../assets/monsters/killer_bee.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.131, max: 1.161 }
+    sta: { min: 112, max: 112 }
+    int: { min: 76, max: 76 }
+    str: { min: 29, max: 29 }
+    agi: { min: 116, max: 116 }
+  build:
+    sta: 3
+    int: 1
+    str: 4
+    agi: 4
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 21
+    drainResist: 10
+    deathResist: 10
+    frailtyResist: 10
+
+leopardWolf:
+  name: "Leopard Wolf"
+  image: "../../assets/monsters/leopard_wolf.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.166, max: 1.196 }
+    sta: { min: 94, max: 94 }
+    int: { min: 94, max: 94 }
+    str: { min: 24, max: 24 }
+    agi: { min: 95, max: 95 }
+  build:
+    sta: 2
+    int: 1
+    str: 3
+    agi: 3
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 19
+    drainResist: 19
+    chaosResist: 19
+
+lizardBandit:
+  name: "Lizard Bandit"
+  image: "../../assets/monsters/lizard_bandit.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.134, max: 1.164 }
+    sta: { min: 88, max: 88 }
+    int: { min: 112, max: 112 }
+    str: { min: 18, max: 18 }
+    agi: { min: 62, max: 62 }
+  build:
+    sta: 1
+    int: 2
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 7
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    stunResist: 20
+
+lizardMan:
+  name: "Lizard Man"
+  image: "../../assets/monsters/lizard_man.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.134, max: 1.164 }
+    sta: { min: 88, max: 88 }
+    int: { min: 112, max: 112 }
+    str: { min: 18, max: 18 }
+    agi: { min: 62, max: 62 }
+  build:
+    sta: 1
+    int: 2
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 7
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    stunResist: 20
+
+lizardMiner:
+  name: "Lizard Miner"
+  image: "../../assets/monsters/lizard_miner.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.132, max: 1.162 }
+    sta: { min: 85, max: 85 }
+    int: { min: 53, max: 53 }
+    str: { min: 18, max: 18 }
+    agi: { min: 80, max: 80 }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 6
+    evilResist: 6
+    flashResist: 6
+    iceResist: 6
+    fireResist: 6
+    deathResist: 6
+    drainResist: 6
+    poisonResist: 6
+    chaosResist: 6
+    stunResist: 6
+    hypnotizeResist: 6
+    frailtyResist: 6
+
+lycosa:
+  name: "Lycosa"
+  image: "../../assets/monsters/lycosa.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.162, max: 1.19 }
+    sta: { min: 88, max: 88 }
+    int: { min: 192, max: 192 }
+    str: { min: 22, max: 22 }
+    agi: { min: 124, max: 124 }
+  build:
+    sta: 4
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 8
+    poisonResist: 14
+    chaosResist: 14
+    stunResist: 14
+    hypnotizeResist: 14
+
+madOrgewalker:
+  name: "Mad Ogrewalker"
+  image: "../../assets/monsters/mad_ogrewalker.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.164, max: 1.194 }
+    sta: { min: 123, max: 123 }
+    int: { min: 48, max: 48 }
+    str: { min: 92, max: 92 }
+    agi: { min: 72, max: 72 }
+  build:
+    sta: 3
+    int: 1
+    str: 5
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    poisonResist: 7
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+
+
+mosquito:
+  name: "Mosquito"
+  image: "../../assets/monsters/mosquito.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.205, max: 1.205 }
+    sta: { min: 87, max: 87 }
+    int: { min: 61, max: 61 }
+    str: { min: 17, max: 17 }
+    agi: { min: 292, max: 292 }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 5
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 14
+    chaosResist: 16
+    stunResist: 16
+    hypnotizeResist: 16
+
+mudraper:
+  name: "Mudraper"
+  image: "../../assets/monsters/mudraper.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.142, max: 1.173 }
+    sta: { min: 158, max: 158 }
+    int: { min: 212, max: 212 }
+    str: { min: 19, max: 19 }
+    agi: { min: 39, max: 39 }
+  build:
+    sta: 5
+    int: 3
+    str: 1
+    agi: 1
+  skills: ["IceI", "IceII", "IceIII", "IceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    deathResist: 15
+    chaosResist: 11
+    stunResist: 11
+    hypnotizeResist: 11
+
+mummy:
+  name: "Mummy"
+  image: "../../assets/monsters/mummy.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.148, max: 1.178 }
+    sta: { min: 186, max: 186 }
+    int: { min: 36, max: 36 }
+    str: { min: 27, max: 27 }
+    agi: { min: 20, max: 20 }
+  build:
+    sta: 4
+    int: 2
+    str: 4
+    agi: 1
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 30
+    deathResist: 30
+
+nepenthes:
+  name: "Nepenthes"
+  image: "../../assets/monsters/nepenthes.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.144, max: 1.174 }
+    sta: { min: 95, max: 95 }
+    int: { min: 147, max: 147 }
+    str: { min: 19, max: 19 }
+    agi: { min: 100, max: 100 }
+  build:
+    sta: 2
+    int: 2
+    str: 1
+    agi: 3
+  skills: ["PoisonI", "FrailtyII", "PoisonIII", "FrailtyIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 6
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    deathResist: 7
+    chaosResist: 7
+    hypnotizeResist: 7
+
+oceanLoong:
+  name: "Ocean Loong"
+  image: "../../assets/monsters/ocean_loong.gif"
+  species: "Dragon"
+  statRates:
+    growthRate: { min: 1.8, max: 1.8 }
+    sta: { min: 108, max: 108 }
+    int: { min: 876, max: 876 }
+    str: { min: 26, max: 26 }
+    agi: { min: 31, max: 31 }
+  build:
+    sta: 5
+    int: 6
+    str: 3
+    agi: 4
+  skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    evilResist: 40
+    flashResist: 40
+    fireResist: 40
+    iceResist: 40
+
+orgewalker:
+  name: "Ogrewalker"
+  image: "../../assets/monsters/ogrewalker.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.164, max: 1.194 }
+    sta: { min: 123, max: 123 }
+    int: { min: 48, max: 48 }
+    str: { min: 42, max: 42 }
+    agi: { min: 60, max: 60 }
+  build:
+    sta: 3
+    int: 1
+    str: 5
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    poisonResist: 13
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+
+phoenix:
+  name: "Pheonix"
+  image: "../../assets/monsters/pheonix.gif"
+  species: "Dragon"
+  statRates:
+    growthRate: { min: 1.178, max: 1.201 }
+    sta: { min: 83, max: 83 }
+    int: { min: 456, max: 456 }
+    str: { min: 19, max: 19 }
+    agi: { min: 197, max: 197 }
+  build:
+    sta: 3
+    int: 5
+    str: 1
+    agi: 5
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 11
+    fireResist: 20
+    hypnotizeResist: 12
+
+pisces:
+  name: "Pisces"
+  image: "../../assets/monsters/pisces.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.25, max: 1.25 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 3
+    int: 5
+    str: 1
+    agi: 5
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 10
+    pierce: 5
+    pierceDamage: 5
+    criticalRate: 5
+    criticalDamage: 10
+    comboRate: 10
+    comboHit: 2
+    drainResist: 10
+    hypnotizeResist: 10
+    frailtyResist: 30
+
+riverBeast:
+  name: "River Beast"
+  image: "../../assets/monsters/river_beast.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 175, max: 175 }
+    int: { min: 287, max: 287 }
+    str: { min: 44, max: 44 }
+    agi: { min: 101, max: 101 }
+  build:
+    sta: 5
+    int: 3
+    str: 5
+    agi: 3
+  skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 45
+    evilResist: 4
+    flashResist: 4
+    iceResist: 4
+    fireResist: 4
+    deathResist: 4
+    poisonResist: 4
+    chaosResist: 4
+    stunResist: 4
+    hypnotizeResist: 4
+    frailtyResist: 4
+    drainResist: 4
+
+riverGuardian:
+  name: "River Guardian"
+  image: "../../assets/monsters/river_guardian.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.205, max: 1.225 }
+    sta: { min: 104, max: 104 }
+    int: { min: 177, max: 177 }
+    str: { min: 36, max: 36 }
+    agi: { min: 129, max: 129 }
+  build:
+    sta: 3
+    int: 3
+    str: 5
+    agi: 4
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 5
+    evilResist: 5
+    flashResist: 5
+    iceResist: 5
+    fireResist: 5
+    deathResist: 5
+    poisonResist: 5
+    chaosResist: 5
+    stunResist: 5
+    hypnotizeResist: 5
+    frailtyResist: 5
+    drainResist: 5
+
+sandGiant:
+  name: "Sand Giant"
+  image: "../../assets/monsters/sand_giant.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 288, max: 288 }
+    int: { min: 156, max: 156 }
+    str: { min: 39, max: 39 }
+    agi: { min: 1, max: 1 }
+  build:
+    sta: 3
+    int: 3
+    str: 2
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 60
+    deathResist: 25
+
+santaClaus:
+  name: "Santa Claus"
+  image: "../../assets/monsters/santa_claus.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.17, max: 1.3 }
+    sta: { min: 113, max: 113 }
+    int: { min: 167, max: 167 }
+    str: { min: 18, max: 18 }
+    agi: { min: 53, max: 53 }
+  build:
+    sta: 3
+    int: 3
+    str: 1
+    agi: 2
+  skills: ["HealOtherI", "HealOtherII", "HealOtherIII", "HealOtherIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 30
+
+santaPrincess:
+  name: "Santa Princess"
+  image: "../../assets/monsters/santa_princess.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.17, max: 1.3 }
+    sta: { min: 105, max: 105 }
+    int: { min: 90, max: 90 }
+    str: { min: 23, max: 23 }
+    agi: { min: 21, max: 21 }
+  build:
+    sta: 3
+    int: 2
+    str: 1
+    agi: 1
+  skills: ["UnStunI", "UnStunII", "UnStunIII", "UnStunIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    chaosResist: 10
+    stunResist: 30
+
+scarecrow:
+  name: "Scarecrow"
+  image: "../../assets/monsters/scarecrow.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.141, max: 1.172 }
+    sta: { min: 91, max: 91 }
+    int: { min: 59, max: 59 }
+    str: { min: 23, max: 23 }
+    agi: { min: 77, max: 77 }
+  build:
+    sta: 2
+    int: 1
+    str: 3
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 9
+    evilResist: 11
+    flashResist: 11
+    iceResist: 11
+    fireResist: 11
+    stunResist: 15
+
+skeletal:
+  name: "Skeletal"
+  image: "../../assets/monsters/skeletal.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.131, max: 1.16 }
+    sta: { min: 90, max: 90 }
+    int: { min: 59, max: 59 }
+    str: { min: 79, max: 79 }
+    agi: { min: 42, max: 42 }
+  build:
+    sta: 2
+    int: 1
+    str: 4
+    agi: 1
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 15
+    iceResist: 15
+    fireResist: 15
+    deathResist: 9
+
+snakeDemon:
+  name: "Snake Demon"
+  image: "../../assets/monsters/snake_demon.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.139, max: 1.169 }
+    sta: { min: 89, max: 89 }
+    int: { min: 683, max: 683 }
+    str: { min: 16, max: 16 }
+    agi: { min: 149, max: 149 }
+  build:
+    sta: 1
+    int: 5
+    str: 2
+    agi: 4
+  skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 9
+    evilResist: 14
+    iceResist: 14
+    deathResist: 15
+
+snowBear:
+  name: "Snow Bear"
+  image: "../../assets/monsters/snow_bear.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.17, max: 1.3 }
+    sta: { min: 126, max: 126 }
+    int: { min: 77, max: 77 }
+    str: { min: 27, max: 27 }
+    agi: { min: 21, max: 21 }
+  build:
+    sta: 4
+    int: 1
+    str: 2
+    agi: 1
+  skills: ["PurgeChaosI", "PurgeChaosII", "PurgeChaosIII", "PurgeChaosIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    chaosResist: 30
+    stunResist: 10
+
+snowWolf:
+  name: "Snow Wolf"
+  image: "../../assets/monsters/snow_wolf.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 286, max: 286 }
+    str: { min: 39, max: 39 }
+    agi: { min: 201, max: 201 }
+  build:
+    sta: 3
+    int: 3
+    str: 5
+    agi: 5
+  skills: ["BlizzardI", "BlizzardII", "BlizzardIII", "BlizzardIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    drainResist: 10
+    poisonResist: 10
+    chaosResist: 10
+    stunResist: 10
+    hypnotizeResist: 10
+    frailtyResist: 10
+
+snowie:
+  name: "Snowie"
+  image: "../../assets/monsters/snowie.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.17, max: 1.3 }
+    sta: { min: 101, max: 101 }
+    int: { min: 135, max: 135 }
+    str: { min: 23, max: 23 }
+    agi: { min: 112, max: 112 }
+  build:
+    sta: 2
+    int: 2
+    str: 1
+    agi: 3
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 20
+    poisonResist: 40
+    frailtyResist: 30
+
+spiritCat:
+  name: "Spirit Cat"
+  image: "../../assets/monsters/spirit_cat.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 1
+  skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 18
+    chaosResist: 35
+
+stoneGhost:
+  name: "Stone Ghost"
+  image: "../../assets/monsters/stone_ghost.gif"
+  species: "Flying"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 287, max: 287 }
+    str: { min: 36, max: 36 }
+    agi: { min: 301, max: 301 }
+  build:
+    sta: 3
+    int: 3
+    str: 5
+    agi: 5
+  skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    evilResist: 7
+    flashResist: 7
+    iceResist: 7
+    fireResist: 7
+    deathResist: 7
+    poisonResist: 7
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+    frailtyResist: 7
+    drainResist: 7
+
+stoneGiant:
+  name: "Stone Giant"
+  image: "../../assets/monsters/stone_giant.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.191, max: 1.221 }
+    sta: { min: 227, max: 227 }
+    int: { min: 43, max: 43 }
+    str: { min: 24, max: 24 }
+    agi: { min: 15, max: 15 }
+  build:
+    sta: 5
+    int: 1
+    str: 3
+    agi: 1
+  skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 30
+    drainResist: 15
+    deathResist: 14
+
+stoneTortoise:
+  name: "Stone Tortoise"
+  image: "../../assets/monsters/stone_tortoise.gif"
+  species: "Undead"
+  statRates:
+    growthRate: { min: 1.8, max: 1.8 }
+    sta: { min: 311, max: 311 }
+    int: { min: 73, max: 73 }
+    str: { min: 28, max: 28 }
+    agi: { min: 2, max: 2 }
+  build:
+    sta: 6
+    int: 4
+    str: 3
+    agi: 2
+  skills: ["IceI", "IceII", "IceIII", "IceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 30
+
+teethor:
+  name: "Teethor"
+  image: "../../assets/monsters/teethor.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.158, max: 1.182 }
+    sta: { min: 85, max: 85 }
+    int: { min: 324, max: 324 }
+    str: { min: 16, max: 16 }
+    agi: { min: 115, max: 115 }
+  build:
+    sta: 1
+    int: 3
+    str: 1
+    agi: 4
+  skills: ["IceI", "IceII", "IceIII", "IceIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 12
+    flashResist: 12
+    iceResist: 12
+    fireResist: 12
+
+thornSpider:
+  name: "Thorn Spider"
+  image: "../../assets/monsters/thorn_spider.gif"
+  species: "Special"
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: null, max: null }
+    int: { min: null, max: null }
+    str: { min: null, max: null }
+    agi: { min: null, max: null }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 1
+  skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 10
+    chaosResist: 30
+
+
+treeDemon:
+  name: "Tree Demon"
+  image: "../../assets/monsters/tree_demon.gif"
+  species: "Demon"
+  statRates:
+    growthRate: { min: 1.128, max: 1.158 }
+    sta: { min: 105, max: 105 }
+    int: { min: 359, max: 359 }
+    str: { min: 17, max: 17 }
+    agi: { min: 62, max: 62 }
+  build:
+    sta: 3
+    int: 4
+    str: 1
+    agi: 2
+  skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 14
+    evilResist: 20
+    iceResist: 20
+
+werewolf:
+  name: "Werewolf"
+  image: "../../assets/monsters/werewolf.gif"
+  species: "Human"
+  statRates:
+    growthRate: { min: 1.138, max: 1.169 }
+    sta: { min: 105, max: 105 }
+    int: { min: 54, max: 54 }
+    str: { min: 26, max: 26 }
+    agi: { min: 75, max: 75 }
+  build:
+    sta: 3
+    int: 1
+    str: 4
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 15
+    drainResist: 7
+    poisonResist: 7
+    chaosResist: 7
+    stunResist: 7
+    hypnotizeResist: 7
+    frailtyResist: 7
+
+wickedSpirit:
   name: "Wicked Spirit"
   image: "../../assets/monsters/wicked_spirit.gif"
   species: "Undead"
-  gr: "1.300"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 130
-    Int: 449
-    Str: 23
-    Agi: 41
-  source: "—"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 12
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 12
-    Flash: 12
-    Ice: 12
-    Fire: 12
-    Drain: 12
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 12
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 0
-    Frailty: 0
+  statRates:
+    growthRate: { min: 1.3, max: 1.3 }
+    sta: { min: 130, max: 130 }
+    int: { min: 649, max: 649 }
+    str: { min: 23, max: 23 }
+    agi: { min: 41, max: 41 }
+  build:
+    sta: 3
+    int: 5
+    str: 2
+    agi: 1
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 12
+    evilResist: 12
+    flashResist: 12
+    iceResist: 12
+    fireResist: 12
+    deathResist: 12
+    drainResist: 12
 
-- key: withered_guard
+witheredGuard:
   name: "Withered Guard"
   image: "../../assets/monsters/withered_guard.gif"
   species: "Undead"
-  gr: "1.122–1.152"
-  skills: ["Evil I", "Evil II", "Evil III", "Evil IV"]
-  stats:
-    Sta: 85
-    Int: 110
-    Str: 18
-    Agi: 54
-  source: "Spirits in Evil Lair 4, Demon Lair 4"
-  physical:
-    Hit: 100
-    Dodge: 5
-    Defense: 0
-    Melee: 8
-    Pierce: "0% (0)"
-    Berserk: "0% (0)"
-    Critical: "0% (0)"
-    Combo: "0% (0)"
-    Counter: "0% (0)"
-    "Melee reflect": "0% (0)"
-  magical:
-    Evil: 12
-    Flash: 12
-    Ice: 12
-    Fire: 0
-    Drain: 0
-    "Magic reflect": "0% (0)"
-  elemental:
-    Death: 0
-    Poison: 0
-    Chaos: 0
-    Stun: 0
-    Hypnotize: 15
-    Frailty: 0
+  statRates:
+    growthRate: { min: 1.122, max: 1.152 }
+    sta: { min: 85, max: 85 }
+    int: { min: 110, max: 110 }
+    str: { min: 18, max: 18 }
+    agi: { min: 54, max: 54 }
+  build:
+    sta: 1
+    int: 1
+    str: 1
+    agi: 2
+  skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
+  sources: []
+  resist:
+    dodgeRate: 5
+    meleeResist: 8
+    evilResist: 12
+    flashResist: 12
+    iceResist: 12
+    fireResist: 12
+    hypnotizeResist: 15
