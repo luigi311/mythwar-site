@@ -1,7 +1,5 @@
 # Bounty
 
-## Needs to be updated/validated against osmw
-
 
 ## Summary
 - **Task & Type:** Battle Quest — defeat monsters across 5 battles
@@ -16,13 +14,15 @@
 ---
 
 ## Rewards
-| Battle | Target        | EXP     | Skill Exp (lvl > 80) |
-|------: |-------------- |-------: |-----------------------:|
-| 1      | Bloodreaper   | 20,000  | 2 |
-| 2      | Firetroy      | 40,000  | 4 |
-| 3      | Bonepoker     | 50,000  | 5 |
-| 4      | Eyebasher     | 70,000  | 7 |
-| 5      | Fist Scarer   | 120,000 | 12 |
+|     Battle | Target      |   Level 60-80 |    Level 81+ |
+| ---------: | ----------- | ------------: | -----------: |
+|          1 | Bloodreaper |   150,000 Exp |  5 Skill Exp |
+|          2 | Firetroy    |   160,000 Exp |  7 Skill Exp |
+|          3 | Bonepoker   |   175,000 Exp | 10 Skill Exp |
+|          4 | Eyebasher   |   190,000 Exp | 12 Skill Exp |
+|          5 | Fist Scarer |   205,000 Exp | 15 Skill Exp |
+| Completion |             | 1,200,000 Exp | 10 Skill Exp |
+| Record Run |             |  500,000 Gold | 500,000 Gold |
 
 ---
 
@@ -31,15 +31,21 @@
 ### 1) Bloodreaper — Tree of Life 3 (**155,190**)
 ![][img-bloodreaper]
 
-- **Poison Teethor**
-    - Estimated HP: **2k**
-    - Spells used: **Ice I**
-    - Strong against: **Melee**
+- **Bloodreaper**
+    - Estimated HP: **87k**
+    - Spells used: **—**
+    - Strong against: **—**
     - Weak against: **—**
 
-- **Greater Wolf**
-    - Estimated HP: **3k**
+- **Spirit Wolf 3x** 
+    - Estimated HP: **47k**
     - Spells used: **—**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Poison Teethor 6x**
+    - Estimated HP: **20k**
+    - Spells used: **Ice I**
     - Strong against: **—**
     - Weak against: **—**
 
@@ -48,16 +54,22 @@
 ### 2) Firetroy (Fire Demon) — Flamingor (**75,360**)
 ![][img-firetroy]
 
-- **Spirit Wolf**
-    - Estimated HP: **5k**
+- **Firetroy**
+    - Estimated HP: **90k**
+    - Spells used: **—**
+    - Strong against: **—**
+    - Weak against: **—**
+  
+- **Blood Reaper 3x**
+    - Estimated HP: **87k**
     - Spells used: **—**
     - Strong against: **—**
     - Weak against: **—**
 
-- **Fallen Spirit**
-    - Estimated HP: **15k**
-    - Spells used: **Fire I, Hypno I**
-    - Strong against: **Flash, Fire, Drain**
+- **Spirit Wolf 6x**
+    - Estimated HP: **47k**
+    - Spells used: **—**
+    - Strong against: **—**
     - Weak against: **—**
 
 ---
@@ -66,8 +78,20 @@
 ![][img-bonepoker]
 
 - **Bonepoker**
-    - Estimated HP: **36k**
-    - Spells used: **Hypno IV, Stun IV**
+    - Estimated HP: **160k**
+    - Spells used: **Hypnotize IV, Stun IV**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Fire Troy 3x**
+    - Estimated HP: **90k**
+    - Spells used: **—**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Blood Reaper 6x**
+    - Estimated HP: **87k**
+    - Spells used: **—**
     - Strong against: **—**
     - Weak against: **—**
 
@@ -77,8 +101,20 @@
 ![][img-eyebasher]
 
 - **Eyebasher**
-    - Estimated HP: **290k**
+    - Estimated HP: **700k**
     - Spells used: **Fire III**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Bone Poker 3x**
+    - Estimated HP: **160k**
+    - Spells used: **Hypnotize IV, Stun IV**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Fire Troy 6x**
+    -  Estimated HP: **90k**
+    - Spells used: **—**
     - Strong against: **—**
     - Weak against: **—**
 
@@ -88,10 +124,22 @@
 ![][img-fist-scarer]
 
 - **Fist Scarer**
-    - Estimated HP: **785k**
-    - Spells used: **Multi Shot II, Death II, Drain II**
-    - Strong against: **Poison**
-    - Weak against: **Melee**
+    - Estimated HP: **1.2m**
+    - Spells used: **MultiShot II, Death II, Drain II**
+    - Strong against: **—**
+    - Weak against: **—**
+
+- **Eye Basher 3x**
+    - Estimated HP: **700k**
+    - Spells used: **Fire III**
+    - Strong against: **—**
+    - Weak against: **—**   
+
+- **Bone Poker 6x**
+    - Estimated HP: **160k**
+    - Spells used: **Hypnotize IV, Stun IV**
+    - Strong against: **—**
+    - Weak against: **—**
 
 ---
 
