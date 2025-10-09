@@ -22,13 +22,13 @@
 ## Rewards
 - 5,000 Experience
 - 70 Redeem Points
-- **1% chance per round** to obtain a **Ghost Warrior Egg**  
+- Chance for a **Ghost Warrior Egg**
 
-| Round | Encounter           | Redeem Points |
-|------:|---------------------|--------------:|
-| 1     | Thief               | 10 |
-| 2     | Thief Boss          | 20 |
-| 3     | Girl Thief          | 40 |
+| Round | Encounter  | Redeem Points | GW Egg Chance |
+| ----: | ---------- | ------------: | ------------: |
+|     1 | Thief      |            10 |            0% |
+|     2 | Thief Boss |            20 |            3% |
+|     3 | Girl Thief |            40 |            5% |
 
 
 ---
