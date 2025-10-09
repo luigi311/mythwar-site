@@ -35,6 +35,10 @@
   --md-typeset-a-color: var(--mw-link);
 }
 
+[data-md-color-scheme="thunderized"] .md-grid {
+  max-width: 65rem;
+}
+
 /* surfaces */
 [data-md-color-scheme="thunderized"] :is(.md-main, .md-content) { background: var(--mw-bg); }
 [data-md-color-scheme="thunderized"] .md-content__inner{
