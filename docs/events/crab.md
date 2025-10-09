@@ -10,14 +10,14 @@ Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged fo
 
 ## Schedule
 
-| Day       | Time (EST) |
-| --------- | ---------- |
-| Wednesday | 11:00 AM   |
-| Wednesday | 5:00 PM    |
-| Friday    | 8:00 AM    |
-| Friday    | 5:00 PM    |
-| Sunday    | 10:00 AM   |
-| Sunday    | 7:00 PM    |
+| Day       | Time (EST) | Server Time (UTC) |
+| --------- | ---------- | ----------------- |
+| Wednesday | 11:00 AM   | 15:00             |
+| Wednesday | 5:00 PM    | 21:00             |
+| Friday    | 8:00 AM    | 12:00             |
+| Friday    | 7:00 PM    | 23:00             |
+| Sunday    | 10:00 AM   | 14:00             |
+| Sunday    | 4:00 PM    | 20:00             |
 
 
 ## How It Works

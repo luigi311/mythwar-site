@@ -29,6 +29,17 @@ To play, you must buy a ticket (similar to a scratch card) and "open" it to reve
 
 ---
 
+## Schedule
+
+| Day       | Time (EST) | Server Time (UTC) |
+| --------- | ---------- | ----------------- |
+| Wednesday | 9:00 AM    | 13:00             |
+| Wednesday | 1:00 PM    | 17:00             |
+| Sunday    | 6:00 AM    | 10:00             |
+| Sunday    | 10:00 AM   | 14:00             |
+
+---
+
 ## How to Play
 
 1. Go to **Blyton** and buy a ticket from the **Awader NPC** at (51, 661).  
