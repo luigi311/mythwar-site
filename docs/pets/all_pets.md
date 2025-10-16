@@ -1,8 +1,5 @@
 # All Pets
 
-## Stats have been updated to reflect OSMW, still missing sources
-
-
 <div class="pet-wrap" markdown>
 
 | Name | Species | GR | Skills | Stats | Source | Physical | Magical | Elemental |

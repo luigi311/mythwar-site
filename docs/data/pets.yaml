@@ -21,7 +21,8 @@ antEater:
     str: 1
     agi: 2
   skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
-  sources: []
+  sources:
+    - "Yellow Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 30
@@ -73,7 +74,8 @@ auroraLion:
     agi: 3
   skills: ["MultiShotI", "MultiShotII", "MultiShotIII", "MultiShotIV"]
   sources:
-    - "Contribution Points"
+    - "Contribution Points (100,000)"
+    - "Yellow Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 32
@@ -95,7 +97,8 @@ axewalker:
     str: 2
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Green Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 18
@@ -128,8 +131,9 @@ bee:
     agi: 4
   skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
   sources:
-    - "Spirits in Demon Lair 1"
+    - "Demon Lair 1 Spirit"
     - "Mage Skills II Quest"
+    - "Red Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 21
@@ -178,6 +182,7 @@ bigCrab:
   skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
   sources:
     - "Whammy Egg (Common)"
+    - "Yellow Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 14
@@ -208,7 +213,7 @@ bigFoot:
     agi: 1
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
   sources:
-    - "Pink/Unique Whammy Egg (Rare)"
+    - "Pink Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 32
@@ -278,7 +283,9 @@ bogNightmare:
     str: 3
     agi: 3
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Yellow Whammy Egg (Rare)"
+    - "Int Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 6
@@ -310,7 +317,8 @@ capilla:
     str: 1
     agi: 1
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Int Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 9
@@ -364,7 +372,8 @@ centaurKing:
     str: 2
     agi: 4
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 15
@@ -524,7 +533,8 @@ crazyBandit:
     str: 1
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Evil Lair 2 Spirit"
   resist:
     dodgeRate: 5
     meleeResist: 17
@@ -548,7 +558,10 @@ cyclops:
     str: 4
     agi: 1
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Rare)"
+    - "Yellow Whammy Egg (Rare)"
+    - "Green Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 25
@@ -592,7 +605,8 @@ darkGiant:
     str: 4
     agi: 1
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Yellow Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 32
@@ -662,7 +676,12 @@ desertBandit:
     str: 1
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Demon Lair 4 Spirit"
+    - "Demon Lair 5 Spirit"
+    - "Evil Lair 4 Spirit"
+    - "Evil Lair 5 Spirit"
+    - "Yellow Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -736,7 +755,8 @@ earthWolf:
     str: 4
     agi: 4
   skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
-  sources: []
+  sources:
+    - "Green Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 20
@@ -759,7 +779,8 @@ evilFireDemon:
     str: 4
     agi: 2
   skills: ["FireI", "FireII", "FireIII", "FireIV"]
-  sources: []
+  sources:
+    - "Pink Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 10
@@ -808,7 +829,8 @@ evilSkeletal:
     str: 4
     agi: 1
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Pink Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -912,7 +934,9 @@ feralWolf:
     str: 4
     agi: 5
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Common)"
+    - "Green Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 28
@@ -936,7 +960,8 @@ fireDemon:
     str: 4
     agi: 2
   skills: ["FireI", "FireII", "FireIII", "FireIV"]
-  sources: []
+  sources:
+    - "Int Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 10
@@ -981,7 +1006,8 @@ flurryCrazyBandit:
     str: 1
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Gold Flurry Reward (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 17
@@ -1005,7 +1031,8 @@ flurryGhostWarrior:
     str: 5
     agi: 2
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Gold Flurry Reward (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 25
@@ -1029,7 +1056,8 @@ flurryGuard:
     str: 2
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Gold Flurry Reward (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 18
@@ -1061,7 +1089,8 @@ flurryFlyer:
     str: 1
     agi: 5
   skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
-  sources: []
+  sources:
+    - "Gold Flurry Reward (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -1085,7 +1114,8 @@ flurryWerewolf:
     str: 4
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Gold Flurry Reward (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 15
@@ -1112,7 +1142,9 @@ flyer:
     str: 1
     agi: 5
   skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
-  sources: []
+  sources:
+    - "Evil Lair 1 Spirit"
+    - "Red Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -1136,7 +1168,10 @@ fogSpirit:
     str: 1
     agi: 5
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Uncommon)"
+    - "Red Whammy Egg (Rare)"
+    - "Int Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 20
@@ -1186,7 +1221,10 @@ ghostWarrior:
     str: 5
     agi: 2
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Theif Boss fight (Thief Quest)"
+    - "Girl Theif fight (Thief Quest)"
+    - "Green Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 25
@@ -1210,7 +1248,8 @@ ghoul:
     str: 1
     agi: 4
   skills: ["FireI", "FireII", "FireIII", "FireIV"]
-  sources: []
+  sources:
+    - "Red Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 7
@@ -1259,7 +1298,8 @@ giantslicer:
     str: 2
     agi: 3
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -1290,7 +1330,9 @@ glimmerFish:
     str: 1
     agi: 3
   skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
-  sources: []
+  sources:
+    - "Centaur Skills II Quest"
+    - "Red Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 10
@@ -1369,7 +1411,9 @@ guard:
     str: 2
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Evil Lair 2 Spirit"
+    - "Yellow Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 18
@@ -1401,7 +1445,8 @@ hellCat:
     str: 4
     agi: 5
   skills: ["SpeedI", "SpeedII", "SpeedIII", "SpeedIV"]
-  sources: []
+  sources:
+    - "Red Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 18
@@ -1423,7 +1468,8 @@ hellGardener:
     str: 5
     agi: 5
   skills: ["SpeedI", "SpeedII", "EnhanceI", "EnhanceII"]
-  sources: []
+  sources:
+    - "Contribution Points (450,000)"
   resist:
     hitRate: 120
     dodgeRate: 10
@@ -1462,7 +1508,8 @@ hellPhoenix:
     str: 1
     agi: 5
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Pink Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -1581,7 +1628,8 @@ iceDemon:
     str: 1
     agi: 3
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     evilResist: 18
@@ -1651,7 +1699,8 @@ leopardWolf:
     str: 3
     agi: 3
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 19
@@ -1700,7 +1749,11 @@ lizardMan:
     str: 1
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Demon Lair 4 Spirit"
+    - "Demon Lair 5 Spirit"
+    - "Evil Lair 4 Spirit"
+    - "Evil Lair 5 Spirit"
   resist:
     dodgeRate: 5
     meleeResist: 7
@@ -1758,7 +1811,10 @@ lycosa:
     str: 1
     agi: 2
   skills: ["PoisonI", "PoisonII", "PoisonIII", "PoisonIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Uncommon)"
+    - "Red Whammy Egg (Rare)"
+    - "Int Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 8
@@ -1767,7 +1823,7 @@ lycosa:
     stunResist: 14
     hypnotizeResist: 14
 
-madOrgewalker:
+madOgrewalker:
   name: "Mad Ogrewalker"
   image: "../../assets/monsters/mad_ogrewalker.gif"
   species: "Human"
@@ -1832,7 +1888,10 @@ mudraper:
     str: 1
     agi: 1
   skills: ["IceI", "IceII", "IceIII", "IceIV"]
-  sources: []
+  sources:
+    - "Demon Lair 3 Spirit"
+    - "Pink Whammy Eggy (Rare)"
+    - "Int Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 10
@@ -1857,7 +1916,10 @@ mummy:
     str: 4
     agi: 1
   skills: ["ProtectI", "ProtectII", "ProtectIII", "ProtectIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Rare)"
+    - "Yellow Whammy Egg (Uncommon)"
+    - "Green Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 30
@@ -1879,7 +1941,10 @@ nepenthes:
     str: 1
     agi: 3
   skills: ["PoisonI", "FrailtyII", "PoisonIII", "FrailtyIV"]
-  sources: []
+  sources:
+    - "Demon Lair 2 Spirit"
+    - "Red Whammy Egg (Uncommon)"
+    - "Int Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 6
@@ -1916,7 +1981,7 @@ oceanLoong:
     fireResist: 40
     iceResist: 40
 
-orgewalker:
+ogrewalker:
   name: "Ogrewalker"
   image: "../../assets/monsters/ogrewalker.gif"
   species: "Human"
@@ -1932,7 +1997,11 @@ orgewalker:
     str: 5
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Uncommon)"
+    - "Pink Whammy Egg (Uncommon)"
+    - "Yellow Whammy Egg (Rare)"
+    - "Green Whammy Egg (Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 18
@@ -1957,7 +2026,8 @@ phoenix:
     str: 1
     agi: 5
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Red Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -2042,7 +2112,8 @@ riverGuardian:
     str: 5
     agi: 4
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Green Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 5
@@ -2074,7 +2145,8 @@ sandGiant:
     str: 2
     agi: 1
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Pink Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 60
@@ -2139,7 +2211,8 @@ scarecrow:
     str: 3
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Evil Lair 3 Spirit"
   resist:
     dodgeRate: 5
     meleeResist: 9
@@ -2165,7 +2238,10 @@ skeletal:
     str: 4
     agi: 1
   skills: ["EnhanceI", "EnhanceII", "EnhanceIII", "EnhanceIV"]
-  sources: []
+  sources:
+    - "Evil Lair 1 Spirit"
+    - "Human Skills II Quest"
+    - "Green Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -2190,7 +2266,9 @@ snakeDemon:
     str: 2
     agi: 4
   skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
-  sources: []
+  sources:
+    - "Whammy Egg (Super Rare)"
+    - "Int Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 9
@@ -2236,7 +2314,8 @@ snowWolf:
     str: 5
     agi: 5
   skills: ["BlizzardI", "BlizzardII", "BlizzardIII", "BlizzardIV"]
-  sources: []
+  sources:
+    - "Blue Whammy Egg (Super Rare)"
   resist:
     dodgeRate: 5
     meleeResist: 20
@@ -2383,7 +2462,11 @@ teethor:
     str: 1
     agi: 4
   skills: ["IceI", "IceII", "IceIII", "IceIV"]
-  sources: []
+  sources:
+    - "Borg Skills II Quest"
+    - "Whammy Egg (Common)"
+    - "Red Whammy Egg (Uncommon)"
+    - "Int Whammy Egg (Uncommon)"
   resist:
     dodgeRate: 5
     meleeResist: 12
@@ -2408,7 +2491,8 @@ thornSpider:
     str: 1
     agi: 1
   skills: ["FrailtyI", "FrailtyII", "FrailtyIII", "FrailtyIV"]
-  sources: []
+  sources:
+    - "Contribution Points (50,000)"
   resist:
     dodgeRate: 5
     meleeResist: 10
@@ -2430,7 +2514,9 @@ treeDemon:
     str: 1
     agi: 2
   skills: ["FlashI", "FlashII", "FlashIII", "FlashIV"]
-  sources: []
+  sources:
+    - "Demon Lair 1 Spirit"
+    - "Int Whammy Egg (Common)"
   resist:
     dodgeRate: 5
     meleeResist: 14
@@ -2453,7 +2539,8 @@ werewolf:
     str: 4
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Demon Lair 2 Spirit"
   resist:
     dodgeRate: 5
     meleeResist: 15
@@ -2507,7 +2594,11 @@ witheredGuard:
     str: 1
     agi: 2
   skills: ["EvilI", "EvilII", "EvilIII", "EvilIV"]
-  sources: []
+  sources:
+    - "Demon Lair 4 Spirit"
+    - "Demon Lair 5 Spirit"
+    - "Evil Lair 4 Spirit"
+    - "Evil Lair 5 Spirit"
   resist:
     dodgeRate: 5
     meleeResist: 8
