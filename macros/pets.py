@@ -114,7 +114,7 @@ def register(env, store):
             n = _val_or_zero((bld or {}).get(key))
             if n <= 0:
                 return "☆"  # show hollow star when 0/None
-            return "★" * min(int(n), 4)
+            return "★" * int(n)
 
         growth_txt, _, _ = _range_or_single(sr, "growthRate")
 
