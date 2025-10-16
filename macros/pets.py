@@ -59,7 +59,7 @@ def _fmt_list(val):
     if isinstance(val, str):
         return "**" + _esc(val) + "**"
     # be defensive: stringify and skip None items
-    return "<br>".join("**" + _esc(x) + "**" for x in (val or []) if x is not None)
+    return "<hr>".join("**" + _esc(x) + "**" for x in (val or []) if x is not None)
 
 def _kv_block(d):
     if not d: return "—"
@@ -121,9 +121,9 @@ def register(env, store):
         def _one_stat(label, key):
             txt, _, _ = _range_or_single(sr, key)
             stars = _stars_from_build(build, key)
-            return f"{label}: {stars} (**{_esc(txt)}**)"
+            return f"{label}: **{_esc(txt)}** <br>{stars}"
 
-        stats_block = "<br>".join([
+        stats_block = "<hr>".join([
             _one_stat("Sta", "sta"),
             _one_stat("Int", "int"),
             _one_stat("Str", "str"),
