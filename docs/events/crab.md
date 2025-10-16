@@ -1,10 +1,10 @@
-# Crab
+# Crab/Mimic
 
-Its time to catch some crabs to feast on! For helping catch the crabs, you will be rewarded with **Redeem Points (RP)**.
+Its time to catch some Mimics! For helping catch the mimcs, you will be rewarded with **Redeem Points (RP)**.
 
-Players can enter through the **Crab Pit (Woodlingor 455,554)** NPC to participate in the event. The event lasts for **1 hour**.
+Players can enter through the **Mimic Pit (Woodlingor 455,554)** NPC to participate in the event. The event lasts for **1 hour**.
 
-Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged for Experience, Gold, or Ores.
+This a fast way to earn **Redeem Points (RP)**, which can be exchanged for Experience, Gold, or Ores.
 
 ---
 
@@ -24,38 +24,39 @@ Crabbing is a fast way to earn **Redeem Points (RP)**, which can be exchanged fo
 
 ### Part A: Roll Dice
 
-- Each players will roll a dice that ranges from **1 to 99**.  
-- If you roll above the threshold of **60**, you get to catch crabs.
-- If you roll below the threshold, you will have to wait 30 seconds before you can roll again.
-- The system will announce: *“Go catch the crabs in the Crab Pit!”* when it’s your turn.
+- The NPC will metion a color that needs to be rolled.  
+- You will then need to roll the matching colored dice that ranges from **1 to 99**.  
+- If you roll above the threshold of **60**, you get to catch mimics.  
+- If you roll below the threshold, you will have to wait 30 seconds before you can roll again.  
+- The system will announce when you rolled above the threshold.  
 
 
 ---
-### Part B: Catching Crabs
+### Part B: Catching Mimics
 
-- crabs will continuously spawn around the Crab Pit.  
-- For 90 seconds **click the real crabs** to catch them.  
-- Note: **fake crabs** are planted to trick you and waste time, beware of the **crob** that lurk around.  
+- Mimics will continuously spawn around the Mimic Pit.  
+- For 60 seconds **click the mimics** to catch them.  
+- Each mimic has a **50% chance** to **not** reward points so catch as many as you can!
 
 ---
 
 ## Rewards
 
-| Number of Crabs Caught | Redeem Points Earned |
-| ---------------------- | -------------------- |
-| Crab × 1               | 100 RP               |
-| Crab × 2               | 100 RP               |
-| Crab × 3               | 100 RP               |
-| Crab × 4               | 100 RP               |
-| Crab × 5               | 100 RP               |
-| Crab × 6               | 300 RP               |
-| Crab × 7               | 300 RP               |
-| Crab × 8               | 300 RP               |
-| Crab × 9               | 300 RP               |
-| Crab × 10              | 300 RP               |
-| …                      | 300 RP               |
+| Number of Mimics Caught | Redeem Points Earned |
+| ----------------------- | -------------------- |
+| Mimic × 1               | 100 RP               |
+| Mimic × 2               | 100 RP               |
+| Mimic × 3               | 100 RP               |
+| Mimic × 4               | 100 RP               |
+| Mimic × 5               | 100 RP               |
+| Mimic × 6               | 200 RP               |
+| Mimic × 7               | 200 RP               |
+| Mimic × 8               | 200 RP               |
+| Mimic × 9               | 200 RP               |
+| Mimic × 10              | 200 RP               |
+| …                       | 200 RP               |
 
 
-> Catching 5 crabs gives you 500 RP total and 15 crabs gives you 3,500 RP total.
+> Catching 5 Mimics gives you 500 RP total and 10 mimics gives you 1,500 RP total.
 
 ---
