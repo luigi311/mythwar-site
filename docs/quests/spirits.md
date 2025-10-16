@@ -6,7 +6,7 @@
 ## Summary
 - **Task & Type:** Farming quest — pet resistance and crystal farming
 - **Description:** Defeat **Spirits** in Evil Lair and Demon Lair. Drops include resistance crystals and rare pet eggs. Spawns occur hourly.
-- **Locations:** Evil Lair 1–4 • Demon Lair 1–4
+- **Locations:** Evil Lair 1–5 • Demon Lair 1–5
 - **Activate from:** Any Spirit
 - **Difficulty:** Scaling by lair
 - **Recommended party:** Solo viable at lower lairs, party recommended later
@@ -88,7 +88,10 @@
 |          1 | Flyer, Skeletal                             | Bee, Tree Demon     |
 |          2 | Crazy Bandit, Guard                         | Werewolf, Nepenthes |
 |          3 | Scarecrow                                   | Mudraper            |
-|          4 | Lizard Miner, Withered Guard, Desert Bandit |                     |
+
+| Lair Level | Both Lairs Egg                                               |
+| ---------: | ------------------------------------------------------------ |
+|        4/5 | Lizard Miner, Withered Guard, Desert Bandit                  |
 
 ---
 
