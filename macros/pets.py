@@ -62,7 +62,8 @@ def _fmt_list(val):
     return "<hr>".join("**" + _esc(x) + "**" for x in (val or []) if x is not None)
 
 def _kv_block(d):
-    if not d: return "—"
+    if not d:
+        return "—"
     return "<br>".join(f"{_esc(k)} **{_esc(v)}**" for k, v in d.items())
 
 # ---------- register ----------
@@ -134,10 +135,13 @@ def register(env, store):
         def _physical(resist):
             r = resist or {}
             def v(x, d=0): 
-                try: return int(x)
+                try:
+                    return int(x)
                 except Exception:
-                    try: return int(float(x))
-                    except Exception: return d
+                    try:
+                        return int(float(x))
+                    except Exception:
+                        return d
             pierce_rate   = v(r.get("pierce"))
             pierce_dmg    = v(r.get("pierceDamage"))
             crit_rate     = v(r.get("criticalRate"))
@@ -167,10 +171,13 @@ def register(env, store):
         def _magical(resist):
             r = resist or {}
             def v(key): 
-                try: return int(r.get(key, 0))
+                try:
+                    return int(r.get(key, 0))
                 except Exception:
-                    try: return int(float(r.get(key, 0)))
-                    except Exception: return 0
+                    try:
+                        return int(float(r.get(key, 0)))
+                    except Exception:
+                        return 0
             rows = [
                 ("Evil",           f"{v('evilResist')}"),
                 ("Flash",          f"{v('flashResist')}"),
@@ -184,10 +191,13 @@ def register(env, store):
         def _elemental(resist):
             r = resist or {}
             def v(key): 
-                try: return int(r.get(key, 0))
+                try:
+                    return int(r.get(key, 0))
                 except Exception:
-                    try: return int(float(r.get(key, 0)))
-                    except Exception: return 0
+                    try:
+                        return int(float(r.get(key, 0)))
+                    except Exception:
+                        return 0
             rows = [
                 ("Death",      f"{v('deathResist')}"),
                 ("Poison",     f"{v('poisonResist')}"),

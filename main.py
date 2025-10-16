@@ -1,10 +1,11 @@
 from pathlib import Path
-import sys, os
+import sys
+import os
 
 # Ensure project root is on sys.path when run directly
 sys.path.append(os.path.dirname(__file__))
 
-from macros import data, stats, pets, consumables, equipment, shapeshift
+from macros import data, pets, consumables, equipment, shapeshift
 
 def define_env(env):
     docs_dir = Path(env.conf["docs_dir"])
@@ -14,7 +15,6 @@ def define_env(env):
     env.variables.update(store)  # pets, consumables, equipment, shapeshift, shapeshift_bonuses
 
     # Register feature areas (they add variables & macros to env)
-    stats.register(env, store)         # stat thresholds, starify, etc.
     pets.register(env, store)          # {{ pet_row(...) }}
     consumables.register(env, store)   # {{ consumables_table(...) }}
     equipment.register(env, store)     # {{ gear_index(...) }}, etc.

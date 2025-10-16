@@ -1,12 +1,16 @@
 from html import escape
 
 def _fmt_price(p):
-    if p in (None, ""): return "—"
-    try: return f"{int(p):,} gold"
-    except Exception: return escape(str(p))
+    if p in (None, ""):
+        return "—"
+    try:
+        return f"{int(p):,} gold"
+    except Exception:
+        return escape(str(p))
 
 def _fmt_source(src):
-    if not src: return "—"
+    if not src:
+        return "—"
     if isinstance(src, (list, tuple)):
         return "<br>".join(escape(str(s)) for s in src)
     return escape(str(src))

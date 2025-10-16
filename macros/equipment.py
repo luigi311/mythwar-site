@@ -1,4 +1,3 @@
-# macros/equipment.py
 import re
 from html import escape as _esc
 
@@ -9,7 +8,8 @@ def _slug(*parts):
     return s
 
 def _fmt_src(s):
-    if not s: return "—"
+    if not s:
+        return "—"
     if isinstance(s, (list, tuple)):
         from html import escape
         return "<br>".join(escape(str(x)) for x in s)
@@ -47,12 +47,14 @@ def register(env, store):
             (race   is None or str(e.get("race")).lower()==str(race).lower()) and
             (gender is None or str(e.get("gender")).lower()==str(gender).lower())
         )]
-        if not rows: return "_No equipment found_"
+        if not rows:
+            return "_No equipment found_"
         rows = sorted(rows, key=lambda e: (e.get("slot",""), e.get("race") or "", e.get("gender") or "", e.get("family","")))
         out = ["| Family | Slot | Race | Gender | Bonus Type |","|---|---|---|---|---|"]
         for e in rows:
             tiers = e.get("tiers") or []
-            if not tiers and not include_empty: continue
+            if not tiers and not include_empty:
+                continue
             first = tiers[0] if tiers else {}
             ex = ", ".join(first.get("bonus",{}).keys()) or label_empty
             anchor = gear_anchor_key(e)
@@ -64,9 +66,12 @@ def register(env, store):
     def gear_family_table_by_obj(e, slot=True, race=True, gender=True):
         anchor = gear_anchor_key(e)
         parts = []
-        if slot:   parts.append(e.get("slot") or "Any")
-        if race:   parts.append(e.get("race") or "Any")
-        if gender: parts.append(e.get("gender") or "Any")
+        if slot:
+            parts.append(e.get("slot") or "Any")
+        if race:
+            parts.append(e.get("race") or "Any")
+        if gender:
+            parts.append(e.get("gender") or "Any")
         if parts:
             header_meta = " ".join(str(p) for p in parts)
             header = f"<a id='{anchor}'></a>\n### {_esc(e.get('family',''))} <small>({_esc(header_meta)})</small>\n"
@@ -87,12 +92,14 @@ def register(env, store):
     def gear_index_by_set(set_name, slot=None, include_empty=False, label_empty="(TBD)"):
         eq = env.variables.get("equipment", [])
         rows = _gear_filter(eq, slot=slot, set_name=set_name)
-        if not rows: return "_No equipment found_"
+        if not rows:
+            return "_No equipment found_"
         rows = sorted(rows, key=lambda e: (e.get("slot",""), e.get("race") or "", e.get("gender") or "", e.get("family","")))
         out = ["| Family | Slot | Race | Gender | Example Bonus (Tier +1) |","|---|---|---|---|---|"]
         for e in rows:
             tiers = e.get("tiers") or []
-            if not tiers and not include_empty: continue
+            if not tiers and not include_empty:
+                continue
             first = tiers[0] if tiers else {}
             ex = ", ".join(first.get("bonus",{}).keys()) or label_empty
             anchor = gear_anchor_key(e)
@@ -104,7 +111,8 @@ def register(env, store):
     def gear_tables_by_set(set_name, slot=True, race=True, gender=True):
         eq = env.variables.get("equipment", [])
         rows = [e for e in eq if str(e.get("set","")).lower()==str(set_name).lower()]
-        if not rows: return "_No equipment found_"
+        if not rows:
+            return "_No equipment found_"
         rows = sorted(rows, key=lambda e: (e.get("slot",""), e.get("race") or "", e.get("gender") or "", e.get("family","")))
         parts = [gear_family_table_by_obj(e, slot=slot, race=race, gender=gender) for e in rows]
         return "\n\n".join(parts).strip()
